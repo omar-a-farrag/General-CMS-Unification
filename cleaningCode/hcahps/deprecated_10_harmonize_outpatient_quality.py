@@ -14,7 +14,7 @@ output_dir = os.path.join(hcahps_dir, "harmonized")
 
 if not os.path.exists(output_dir): os.makedirs(output_dir)
 
-print("=== STARTING OUTPATIENT QUALITY HARVESTER (V5: OAS CAHPS INTEGRATED) ===")
+print("=== STARTING OUTPATIENT QUALITY HARVESTER (V4: TOTAL HARVEST) ===")
 
 def clean_col(c): 
     return str(c).lower().replace(' ', '').replace('_', '').replace('-', '').replace('*', '')
@@ -68,7 +68,7 @@ for folder in folders:
                 df['ccn'] = clean_ccn(df[clean_col(id_col_raw)])
                 df['score'] = pd.to_numeric(df['score'], errors='coerce')
                 
-                # A. HOPD OP metrics
+                # A. HOPD OP metrics (ALL OF THEM)
                 op_df = df[df['measureid'].astype(str).str.upper().str.contains(r'OP[\-_]?\d+[A-Z]?', case=False, na=False)]
                 if not op_df.empty:
                     measures = op_df['measureid'].unique()
@@ -79,9 +79,12 @@ for folder in folders:
                             m_df = op_df[op_df['measureid'] == m]
                             if not m_df.empty:
                                 sub = m_df.groupby('ccn')['score'].mean().reset_index().rename(columns={'score': f'hopd_op_{m_num}'})
-                                if hopd_year_df.empty: hopd_year_df = sub
-                                elif f'hopd_op_{m_num}' not in hopd_year_df.columns: hopd_year_df = pd.merge(hopd_year_df, sub, on='ccn', how='outer')
-                                else: hopd_year_df = hopd_year_df.set_index('ccn').combine_first(sub.set_index('ccn')).reset_index()
+                                if hopd_year_df.empty:
+                                    hopd_year_df = sub
+                                elif f'hopd_op_{m_num}' not in hopd_year_df.columns:
+                                    hopd_year_df = pd.merge(hopd_year_df, sub, on='ccn', how='outer')
+                                else:
+                                    hopd_year_df = hopd_year_df.set_index('ccn').combine_first(sub.set_index('ccn')).reset_index()
                                 hopd_found = True
 
                 # B. ASC long metrics
@@ -89,6 +92,7 @@ for folder in folders:
                 if not asc_df.empty:
                     df['asc_id'] = df['ccn'].astype(str).str.strip().str.upper()
                     
+                    # Extract Metadata
                     meta_dict = {}
                     if 'npi' in cols: meta_dict['npi'] = 'first'
                     if 'facilityname' in cols or 'ascname' in cols: meta_dict[next(c for c in df.columns if 'name' in c)] = 'first'
@@ -109,8 +113,10 @@ for folder in folders:
                             m_df = asc_df[asc_df['measureid'] == m]
                             if not m_df.empty:
                                 sub = m_df.groupby('asc_id')['score'].mean().reset_index().rename(columns={'score': f'asc_rate_{m_num}'})
-                                if f'asc_rate_{m_num}' not in asc_year_df.columns: asc_year_df = pd.merge(asc_year_df, sub, on='asc_id', how='outer')
-                                else: asc_year_df = asc_year_df.set_index('asc_id').combine_first(sub.set_index('asc_id')).reset_index()
+                                if f'asc_rate_{m_num}' not in asc_year_df.columns:
+                                    asc_year_df = pd.merge(asc_year_df, sub, on='asc_id', how='outer')
+                                else:
+                                    asc_year_df = asc_year_df.set_index('asc_id').combine_first(sub.set_index('asc_id')).reset_index()
                                 asc_found = True
 
             # --- 2. WIDE FORMAT SNIFFER ---
@@ -118,13 +124,14 @@ for folder in folders:
             if asc_rate_cols:
                 try: df = pd.read_csv(os.path.join(folder_path, f), encoding='utf-8-sig')
                 except: df = pd.read_csv(os.path.join(folder_path, f), encoding='cp1252')
-                
-                id_col = next((c for c in df.columns if clean_col(c) in ['facilityid', 'providerid', 'providernumber', 'ccn', 'ascid', 'asc_id']), None)
+                id_cols_to_check = ['facilityid', 'providerid', 'providernumber', 'ccn', 'ascid', 'asc_id']
+                id_col = next((c for c in df.columns if clean_col(c) in id_cols_to_check), None)
                 
                 if id_col:
                     df.columns = [clean_col(c) for c in df.columns]
                     df['asc_id'] = df[clean_col(id_col)].astype(str).str.strip().str.upper()
                     
+                    # Extract Metadata
                     meta_dict = {}
                     if 'npi' in df.columns: meta_dict['npi'] = 'first'
                     if 'facilityname' in df.columns or 'ascname' in df.columns: meta_dict[next(c for c in df.columns if 'name' in c)] = 'first'
@@ -134,6 +141,7 @@ for folder in folders:
                     
                     asc_sub = df.groupby('asc_id').agg(meta_dict).reset_index() if meta_dict else pd.DataFrame({'asc_id': df['asc_id'].unique()})
                     
+                    # Extract Rates (Use combine_first strictly to prevent duplicates)
                     for c in asc_rate_cols:
                         match = re.search(r'asc\-?_?(\d+)', c)
                         if match:
@@ -141,45 +149,15 @@ for folder in folders:
                             col_name = f'asc_rate_{m_num}'
                             temp = df.groupby('asc_id')[c].apply(lambda x: pd.to_numeric(x, errors='coerce').mean()).reset_index(name=col_name)
                             
-                            if col_name in asc_sub.columns: asc_sub = asc_sub.set_index('asc_id').combine_first(temp.set_index('asc_id')).reset_index()
-                            else: asc_sub = pd.merge(asc_sub, temp, on='asc_id', how='outer')
+                            if col_name in asc_sub.columns:
+                                asc_sub = asc_sub.set_index('asc_id').combine_first(temp.set_index('asc_id')).reset_index()
+                            else:
+                                asc_sub = pd.merge(asc_sub, temp, on='asc_id', how='outer')
                             asc_found = True
                             
                     if not asc_sub.empty and len(asc_sub.columns) > 1:
                         if asc_year_df.empty: asc_year_df = asc_sub
                         else: asc_year_df = asc_year_df.set_index('asc_id').combine_first(asc_sub.set_index('asc_id')).reset_index()
-
-            # --- 3. OAS CAHPS SNIFFER (PATIENT SATISFACTION) ---
-            oas_mapping = {}
-            for c in raw_cols:
-                c_lower = str(c).lower().strip()
-                if "rating of 9 or 10" in c_lower: oas_mapping[c] = 'oas_rating_9_10'
-                elif "rating of 0 to 6" in c_lower: oas_mapping[c] = 'oas_rating_0_6'
-                elif "definitely recommend" in c_lower and "yes" in c_lower: oas_mapping[c] = 'oas_recmnd_dy'
-                elif "definitely gave care" in c_lower and "clean" in c_lower: oas_mapping[c] = 'oas_prof_care_clean'
-                elif "definitely communicated" in c_lower: oas_mapping[c] = 'oas_communic_expect'
-
-            if oas_mapping:
-                try: df = pd.read_csv(os.path.join(folder_path, f), encoding='utf-8-sig')
-                except: df = pd.read_csv(os.path.join(folder_path, f), encoding='cp1252')
-                
-                id_col = next((c for c in df.columns if str(c).lower().strip().replace(' ', '') in ['facilityid', 'providerid', 'providernumber', 'ccn', 'ascid', 'asc_id']), None)
-                
-                if id_col:
-                    df['asc_id'] = df[id_col].astype(str).str.strip().str.upper()
-                    df = df.rename(columns=oas_mapping)
-                    
-                    for col in oas_mapping.values():
-                        if col in df.columns:
-                            df[col] = pd.to_numeric(df[col], errors='coerce')
-                            
-                    oas_cols = ['asc_id'] + [col for col in oas_mapping.values() if col in df.columns]
-                    asc_sub = df[oas_cols].groupby('asc_id').mean().reset_index()
-                    
-                    if asc_year_df.empty: asc_year_df = asc_sub
-                    else: asc_year_df = asc_year_df.set_index('asc_id').combine_first(asc_sub.set_index('asc_id')).reset_index()
-                    
-                    asc_found = True
 
         except Exception as e: pass
 
@@ -195,7 +173,7 @@ for folder in folders:
         asc_year_df = asc_year_df.dropna(subset=['asc_id']).drop_duplicates(subset=['asc_id'])
         asc_year_df['year'] = exp_year
         master_asc.append(asc_year_df)
-        print("  [+] Harvested ASC Metrics & OAS CAHPS Satisfaction")
+        print("  [+] Harvested Freestanding ASC Metrics (+ Metadata)")
 
 # --- COMBINE AND SAVE HOPD ---
 if master_hopd:
@@ -215,6 +193,7 @@ if master_asc:
     cols.insert(0, cols.pop(cols.index('year')))
     cols.insert(0, cols.pop(cols.index('asc_id')))
     if 'zipcode' in asc_final.columns:
+        # Prevent NAs from turning into "nan"
         asc_final['zipcode'] = asc_final['zipcode'].astype(str).str.split('.').str[0].str.split('-').str[0].str.zfill(5)
         asc_final.loc[asc_final['zipcode'] == '00nan', 'zipcode'] = np.nan
     

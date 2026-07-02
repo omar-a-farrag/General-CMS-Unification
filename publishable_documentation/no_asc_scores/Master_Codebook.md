@@ -50,27 +50,12 @@ Derived from the Merit-based Incentive Payment System. Range: 0-100.
 | `mips_final_score` | The composite score dictating the clinician's Part B payment adjustment. |
 | `mips_quality_score` | Performance on clinical outcome and process measures. |
 | `mips_cost_score` | Risk-adjusted resource utilization. Often missing during 2020-2021 (EUC). |
-| `fac_mips_final_score` | The volume-weighted average MIPS score. For inpatient, this is the hospital staff's average. For outpatient, this represents the average score of all ASC providers operating in that localized ZIP-code market. |
+| `fac_mips_final_score` | The beneficiary-volume-weighted average MIPS score of the hospital's staff. |
 
-## 5. Ambulatory Surgical Center Quality (`asc_rate_` & `oas_` Namespaces)
-Derived from the ASCQR Program. Contains both hard clinical metrics and OAS CAHPS patient experience surveys. 
+## 5. Ambulatory Surgical Center Quality (`asc_rate_` Namespace)
+Outpatient ASC market-level metrics. Rates are per 1,000 admissions unless otherwise noted. ASC files begin in 2015 marking the inception of robust ASCQR reporting.
 
-### 5a. Hard Clinical Outcomes (Selected)
-*Note: For these rates, lower is generally better (indicating fewer adverse events).*
 | Variable | Description |
 | :--- | :--- |
-| `asc_rate_1` | Patient Burns. |
-| `asc_rate_2` | Patient Falls. |
-| `asc_rate_3` | Wrong Site, Wrong Side, Wrong Patient, Wrong Procedure, Wrong Implant. |
-| `asc_rate_4` | All-Cause Hospital Transfer/Admission. |
-
-### 5b. OAS CAHPS Patient Satisfaction
-*Note: Gathered via verbatim survey responses, harmonized into a 100-point composite equivalent to HCAHPS.*
-| Variable | Description |
-| :--- | :--- |
-| `oas_prof_care_clean` | % reporting staff definitely gave professional care and facility was clean. |
-| `oas_communic_expect` | % reporting staff definitely communicated what to expect. |
-| `oas_rating_9_10` | % rating the ASC a 9 or 10 overall. |
-| `oas_rating_0_6` | % rating the ASC a 0 to 6 overall. |
-| `oas_recmnd_dy` | % reporting they would definitely recommend the ASC. |
-| **`oas_100_score`** | **The standardized 100-point patient experience composite (Mean of Care, Communication, and Global Ratings).** |
+| `asc_rate_1` | Patient Burn rate per 1,000 admissions. |
+| `asc_rate_2` | Patient Fall rate per 1,000 admissions. |

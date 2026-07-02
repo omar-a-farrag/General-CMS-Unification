@@ -78,3 +78,31 @@ print("\nNote: 'MDB?' means the data is likely inside the raw Microsoft Access d
 # Save to CSV for easy viewing
 output_csv = os.path.join(project_root,"dictionaries_and_crosswalks", "cms_quality_inventory_map.csv")
 df_inventory.to_csv(output_csv, index=False)
+
+# ==============================================================================
+# ADDITION: EXPORT TO LATEX FOR APPENDIX
+# ==============================================================================
+# Ensure the tables directory exists
+tex_dir = os.path.join(project_root, "outputs_while_cleaning", "tables")
+if not os.path.exists(tex_dir): 
+    os.makedirs(tex_dir)
+
+tex_path = os.path.join(tex_dir, "appendix_quality_inventory_map.tex")
+caption = "CMS Quality Inventory Map. This table tracks the cross-year availability grid mapping the physical presence of HAI, Readmissions, Mortality, and Spending data lines."
+
+# Generate the LaTeX table string
+latex_str = df_inventory.to_latex(
+    index=False,
+    caption=caption,
+    label="tab:quality_inventory",
+    escape=True,
+    position="htbp"
+)
+
+# Optional: Add the same gray header styling used in your other scripts
+latex_str = latex_str.replace("\\toprule", "\\toprule\n\\rowcolor{gray!10}")
+
+with open(tex_path, 'w') as f:
+    f.write(latex_str)
+
+print(f"[+] Saved LaTeX table to: {tex_path}")

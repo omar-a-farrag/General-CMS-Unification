@@ -30,25 +30,12 @@ destring year, replace force
 replace ccn = subinstr(ccn, "'", "", .)
 replace ccn = strtrim(ccn)
 duplicates drop ccn year, force
-
-* ==============================================================================
-* ---> NEW: BAKE IN THE 100-POINT HCAHPS COMPOSITE <---
-* ==============================================================================
-display "Calculating 100-Point HCAHPS Composite..."
-egen hcahps_grp1 = rowmean(h_comp_1_a_p h_comp_2_a_p h_comp_6_y_p)
-egen hcahps_grp2 = rowmean(h_comp_3_a_p h_comp_4_a_p)
-egen hcahps_grp3 = rowmean(h_clean_hosp_a_p h_quiet_hosp_a_p)
-egen hcahps_grp4 = rowmean(h_hosp_rating_9_10 h_recmnd_dy)
-egen hcahps_100_score = rowmean(hcahps_grp1 hcahps_grp2 hcahps_grp3 hcahps_grp4)
-* ==============================================================================
-
 sort ccn year
 
 merge 1:1 ccn year using `structural_data'
 drop if _merge == 2 
 drop _merge
 save "$phase2/hcahps_final_panel.dta", replace
-
 
 *-------------------------------------------------------------------------------
 * STEP 2: MERGE TO FACILITY AGGREGATE PANEL

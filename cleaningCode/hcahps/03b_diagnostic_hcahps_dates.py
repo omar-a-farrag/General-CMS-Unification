@@ -105,3 +105,31 @@ print(df_results.to_string(index=False))
 output_csv = os.path.join(project_root,"dictionaries_and_crosswalks", "hcahps_survey_dates_summary.csv")
 df_results.to_csv(output_csv, index=False)
 print(f"\n[+] Saved summary table to: {output_csv}")
+
+# ==============================================================================
+# ADDITION: EXPORT TO LATEX FOR APPENDIX
+# ==============================================================================
+# Ensure the tables directory exists
+tex_dir = os.path.join(project_root, "outputs_while_cleaning", "tables")
+if not os.path.exists(tex_dir): 
+    os.makedirs(tex_dir)
+
+tex_path = os.path.join(tex_dir, "appendix_hcahps_survey_dates.tex")
+caption = "HCAHPS Survey Dates Summary. This table audits the exact data collection start and end dates extracted from files across all years to validate the accuracy of the Experience Year Shift."
+
+# Generate the LaTeX table string
+latex_str = df_results.to_latex(
+    index=False,
+    caption=caption,
+    label="tab:survey_dates",
+    escape=True,
+    position="htbp"
+)
+
+# Optional: Add the same gray header styling used in your other scripts
+latex_str = latex_str.replace("\\toprule", "\\toprule\n\\rowcolor{gray!10}")
+
+with open(tex_path, 'w') as f:
+    f.write(latex_str)
+
+print(f"[+] Saved LaTeX table to: {tex_path}")

@@ -12,11 +12,11 @@ To characterize provider behavior from raw claims without selection bias, we agg
     * *Generic Prescribing Rate:* Using our internal USAN crosswalk.
     * *Empirical High-Cost Rate:* The proportion of a physician's claims where the drug/service cost falls in the top 25th percentile *for its specific therapeutic class*.
 
-## 2. The Relational Architecture & Geographic Market Proxies
-Because Medicare data is siloed, linking a provider's billing actions to their facility's quality environment required two distinct merging strategies:
-* **The Inpatient Direct Link:** Using the *Physician Compare* structural datasets, we mapped individual NPIs directly to their affiliated hospital's CMS Certification Number (CCN). This allows a 1:1 attribution of hospital HCAHPS and clinical scores to the specific providers working there.
-* **The Outpatient Market Proxy:** Because independent Ambulatory Surgical Centers (ASCs) lack a unified direct-affiliation crosswalk, we utilize a geographic market proxy. We collapse ASC clinical metrics (`asc_rate_`), OAS CAHPS patient satisfaction scores (`oas_`), and volume-weighted ASC provider MIPS scores (`fac_mips_`) to the 5-digit ZIP code level. Outpatient providers inherit the prevailing quality and administrative standards of the localized outpatient market in which they operate.
+## 2. The Attribution Challenge (NPI to Facility)
+Linking independent physicians to hospitals requires navigating significant data drift.
 
+* **Inpatient Deterministic Linkage:** We utilized the CMS Facility Affiliation files. Because CMS did not publish CCN affiliations prior to 2018, we systematically backfilled 2013–2017 hospital affiliations assuming standard local stickiness. The resulting `fac_wgt_` variables represent the mathematically exact, volume-weighted averages of all doctors credentialed at a specific hospital, capturing the true "clinical culture" of the facility.
+* **Outpatient ASC Linkage:** Because ASCs do not report NPI-level credentialing to CMS, we constructed localized geographic market proxies using the provider's 5-digit ZIP code to assign the prevailing `asc_rate_` quality metrics.
 
 ## 3. Dealing with CMS Data Chaos
 Our extraction pipeline was built to handle extreme administrative volatility:

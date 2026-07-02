@@ -7,6 +7,7 @@ clear
 global component "general"
 global script_name "02_polish_and_publish"
 
+
 include "C:/Users/omarf/Dropbox/personal_files_omar_farrag/Research/general_cms_data/cleaningCode/00_initialize.do"
 
 capture mkdir "$projectRoot/publishable_data"
@@ -14,9 +15,9 @@ local outDir "$projectRoot/publishable_data"
 
 display as text "=== STARTING FINAL DATA POLISH & PUBLISH ==="
 
-* ---> ADDED 'state' AND 'zipcode' TO ENSURE ASC FILES ARE FORMATTED <---
-local encode_vars "cms_specialty affil_primary_spec credential cms_state state affil_state entity_type gender hosp_type ownership emergency_services accepts_assignment county secondary_specialty_1 secondary_specialty_2 secondary_specialty_3 secondary_specialty_4"
-local string_vars "city cms_zip zipcode affil_zip all_secondary_specialties"
+* Define the standard lists of variables to process
+local encode_vars "cms_specialty affil_primary_spec credential cms_state affil_state entity_type gender hosp_type ownership emergency_services accepts_assignment county secondary_specialty_1 secondary_specialty_2 secondary_specialty_3 secondary_specialty_4"
+local string_vars "city cms_zip affil_zip all_secondary_specialties"
 
 * Define the 4 Terminal Nodes and their new polished names
 local file1 "$phase4/cms_phase4_inpatient_provider$fileSuffix.dta"
@@ -28,8 +29,7 @@ local name2 "master_provider_outpatient_asc_2015_2023.dta"
 local file3 "$phase4/cms_phase4_inpatient_facility.dta"
 local name3 "master_facility_inpatient_2013_2023.dta"
 
-* ---> CRITICAL FIX: POINT TO PHASE 4 SO MIPS IS INCLUDED <---
-local file4 "$phase4/cms_phase4_outpatient_asc_facility.dta"
+local file4 "$phase3/cms_phase3_outpatient_asc_facility.dta"
 local name4 "master_facility_outpatient_asc_2015_2024.dta"
 
 * Loop through all 4 Terminal Nodes

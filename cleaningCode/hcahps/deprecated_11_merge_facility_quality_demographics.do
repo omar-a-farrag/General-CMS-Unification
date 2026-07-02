@@ -14,7 +14,6 @@ display as text "=== STARTING PHASE 3 QUALITY NETWORK ASSEMBLY ==="
 *-------------------------------------------------------------------------------
 * STEP 1: PREP THE NEW QUALITY PANELS
 *-------------------------------------------------------------------------------
-* --- INPATIENT (Clinical Outcomes) ---
 import delimited "$projectRoot/hcahps/harmonized/inpatient_quality_panel.csv", stringcols(1) clear
 destring year, replace force
 duplicates drop ccn year, force
@@ -22,7 +21,6 @@ sort ccn year
 tempfile inpatient_qual
 save `inpatient_qual', replace
 
-* --- HOPD ---
 import delimited "$projectRoot/hcahps/harmonized/outpatient_hopd_quality_panel.csv", stringcols(1) clear
 destring year, replace force
 duplicates drop ccn year, force
@@ -30,33 +28,21 @@ sort ccn year
 tempfile hopd_qual
 save `hopd_qual', replace
 
-* --- ASC (OAS CAHPS & Clinical) ---
 import delimited "$projectRoot/hcahps/harmonized/outpatient_asc_quality_panel.csv", stringcols(1) clear
 destring year, replace force
 tostring zipcode, replace force
-
-* Build the 100-Point Outpatient Composite permanently
-capture confirm variable oas_prof_care_clean
-if !_rc {
-    egen oas_grp1 = rowmean(oas_prof_care_clean)
-    egen oas_grp2 = rowmean(oas_communic_expect)
-    egen oas_grp3 = rowmean(oas_rating_9_10 oas_recmnd_dy)
-    egen oas_100_score = rowmean(oas_grp1 oas_grp2 oas_grp3)
-}
 duplicates drop asc_id year, force
 
-* ---> SAVE THE FACILITY ASC PANEL FIRST <---
+* Create ASC Market Level Data by ZIP
+preserve
+    drop if zipcode == "" | zipcode == "." | zipcode == "nan"
+    collapse (mean) asc_rate_*, by(zipcode year)
+    rename zipcode cms_zip
+    tempfile asc_market_data
+    save `asc_market_data', replace
+restore
+
 save "$phase3/cms_phase3_outpatient_asc_facility.dta", replace
-
-* ---> NOW COLLAPSE FOR THE PROVIDER MARKET PROXY <---
-collapse (mean) asc_rate_* oas_*, by(zipcode year)
-tempfile asc_market_data
-save `asc_market_data', replace
-
-* ---> RENAME TO MATCH PROVIDER PANEL <---
-rename zipcode cms_zip 
-tempfile asc_market_data
-save `asc_market_data', replace
 
 *-------------------------------------------------------------------------------
 * STEP 2: BUILD PHASE 3 INPATIENT/HOPD FACILITY NETWORK
