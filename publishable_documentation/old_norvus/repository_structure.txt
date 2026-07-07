@@ -1,0 +1,8 @@
+Repository Structure
+/publishable_data: The 4 compiled Stata datasets.
+
+/scripts: The Python/Stata pipeline used to harmonize the raw CMS data.
+
+/crosswalks: Highly valuable public-good mappings (RBCS taxonomies, Empirical Cost Thresholds, USAN classes).
+
+/docs: Detailed methodology and codebooks.

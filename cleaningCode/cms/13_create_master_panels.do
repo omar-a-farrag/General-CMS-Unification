@@ -236,6 +236,10 @@ gen wterm_em_upcode    = partb_em_upcode_rate * partb_srvc_em_total
 
 gen wterm_risk         = bene_avg_risk_scre * fac_tot_benes_base
 
+* Summing absolute RVU footprints to the Facility Level
+egen fac_total_work_rvu = sum(partb_rvu_work), by(ccn year)
+egen fac_total_rvu = sum(partb_rvu_fac_total), by(ccn year)
+
 * ---> COLLAPSE TO HOSPITAL LEVEL <---
 collapse (mean) fac_mean_generic_rate=partd_generic_rate ///
                 fac_mean_highcost_rate=partd_high_cost_rate ///
@@ -270,6 +274,9 @@ collapse (mean) fac_mean_generic_rate=partd_generic_rate ///
                 fac_partb_srvc_total=partb_srvc_total ///
                 fac_partb_srvc_rbcs_imaging=partb_srvc_rbcs_imaging ///
                 fac_partb_srvc_em_total=partb_srvc_em_total ///
+                fac_total_work_rvu=partb_rvu_work ///
+                fac_total_fac_rvu=partb_rvu_fac_total ///
+                fac_total_nonfac_rvu=partb_rvu_nonfac_total ///
                 wterm_*, ///
          by(ccn year)
 

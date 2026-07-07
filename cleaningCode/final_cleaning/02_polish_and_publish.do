@@ -14,43 +14,155 @@ local outDir "$projectRoot/publishable_data"
 
 display as text "=== STARTING FINAL DATA POLISH & PUBLISH ==="
 
-* ---> ADDED 'state' AND 'zipcode' TO ENSURE ASC FILES ARE FORMATTED <---
-local encode_vars "cms_specialty affil_primary_spec credential cms_state state affil_state entity_type gender hosp_type ownership emergency_services accepts_assignment county secondary_specialty_1 secondary_specialty_2 secondary_specialty_3 secondary_specialty_4"
-local string_vars "city cms_zip zipcode affil_zip all_secondary_specialties"
+* ==============================================================================
+* STEP 0: ASSEMBLE HSA/HRR GEOGRAPHIC CROSSWALK PANEL
+* ==============================================================================
+display "Building HSA/HRR Master Crosswalk (Dual CSV/XLS Loader)..."
+tempfile hsa_master
+save `hsa_master', emptyok
 
-* Define the 4 Terminal Nodes and their new polished names
+forval y = 2013/2023 {
+    local loaded = 0
+    
+    * 1. Try to find and load a CSV first
+    local files_csv : dir "$projectRoot/hsa" files "*`y'*.csv"
+    foreach f in `files_csv' {
+        if `loaded' == 0 {
+            capture import delimited "$projectRoot/hsa/`f'", clear
+            if _rc == 0 {
+                local loaded = 1
+                display "  > Successfully loaded CSV for `y'"
+            }
+        }
+    }
+    
+    * 2. If no CSV, try to find and load a legacy Excel file (.xls or .xlsx)
+    if `loaded' == 0 {
+        local files_xls : dir "$projectRoot/hsa" files "*`y'*.xls*"
+        foreach f in `files_xls' {
+            if `loaded' == 0 {
+                * case(lower) ensures column names match the CSV standard
+                capture import excel "$projectRoot/hsa/`f'", clear firstrow case(lower)
+                if _rc == 0 {
+                    local loaded = 1
+                    display "  > Successfully loaded Excel (.xls) for `y'"
+                }
+            }
+        }
+    }
+    
+    * 3. Process the successfully loaded data
+    if `loaded' == 1 {
+        * Dynamically handle varying zipcodeYY names
+        capture rename zipcode* zipcode
+        
+        keep zipcode hsanum hrrnum
+        
+        * Strip decimals and pad to 5-digit strings (e.g., 501.0 -> "00501")
+        capture destring zipcode, replace force
+        tostring zipcode, format("%05.0f") replace
+        replace zipcode = strtrim(zipcode)
+        
+        gen year = `y'
+        append using `hsa_master'
+        save `hsa_master', replace
+    }
+    else {
+        display as error "  > WARNING: Could not find or load HSA crosswalk for `y'"
+    }
+}
+
+* Fill 2023 mappings forward to cover 2024 observations
+use `hsa_master', clear
+preserve
+    keep if year == 2023
+    replace year = 2024
+    tempfile hsa_2024
+    save `hsa_2024'
+restore
+append using `hsa_2024'
+
+* Drop any duplicates and create a SAFE, collision-proof merge key
+duplicates drop zipcode year, force
+rename zipcode merge_zip
+tempfile hsa_crosswalk_panel
+save `hsa_crosswalk_panel', replace
+
+
+* ==============================================================================
+* STEP 1: DEFINE TARGET PANELS & VARIABLES
+* ==============================================================================
+local encode_vars "cms_specialty affil_primary_spec credential cms_state state affil_state entity_type gender hosp_type ownership emergency_services accepts_assignment county secondary_specialty_1 secondary_specialty_2 secondary_specialty_3 secondary_specialty_4"
+local string_vars "ccn asc_id city cms_zip zipcode affil_zip all_secondary_specialties"
+
+* Define the 4 Terminal Nodes targeting the MIPS Phase 4 data
 local file1 "$phase4/cms_phase4_inpatient_provider$fileSuffix.dta"
-local name1 "master_provider_inpatient_2013_2023.dta"
+local name1 "master_provider_inpatient_2013_2024.dta"
 
 local file2 "$phase4/cms_phase4_outpatient_asc_provider.dta"
-local name2 "master_provider_outpatient_asc_2015_2023.dta"
+local name2 "master_provider_outpatient_asc_2013_2024.dta"
 
 local file3 "$phase4/cms_phase4_inpatient_facility.dta"
-local name3 "master_facility_inpatient_2013_2023.dta"
+local name3 "master_facility_inpatient_2013_2024.dta"
 
-* ---> CRITICAL FIX: POINT TO PHASE 4 SO MIPS IS INCLUDED <---
 local file4 "$phase4/cms_phase4_outpatient_asc_facility.dta"
-local name4 "master_facility_outpatient_asc_2015_2024.dta"
+local name4 "master_facility_outpatient_asc_2013_2024.dta"
 
-* Loop through all 4 Terminal Nodes
-local i = 1
-foreach f in "`file1'" "`file2'" "`file3'" "`file4'" {
-    
-    capture confirm file "`f'"
+
+* ==============================================================================
+* STEP 2: LOOP THROUGH PANELS FOR POLISHING AND MERGING
+* ==============================================================================
+forval i = 1/4 {
+    local f "file`i'"
+    capture confirm file "``f''"
     if _rc == 0 {
-        display "Processing: `f'..."
-        use "`f'", clear
+        display ""
+        display "=== Processing ``f'' ==="
+        use "``f''", clear
         
-        * 1. Drop lingering merge artifacts
-        capture drop _merge
+        * 1. HSA / HRR INJECTION (Bifurcated Provider vs Facility Logic)
+        gen merge_zip = ""
         
-        * 2. Fix the num_group_members variable
-        capture confirm variable num_group_members
+        * Check if this is a Provider Panel (has cms_zip)
+        capture confirm variable cms_zip
         if _rc == 0 {
-            destring num_group_members, replace force
+            replace merge_zip = cms_zip if cms_zip != "" & cms_zip != "."
+        }
+        else {
+            * Check if this is a Facility Panel (uses zipcode or zip_code)
+            capture confirm variable zipcode
+            if _rc == 0 {
+                replace merge_zip = zipcode if zipcode != "" & zipcode != "."
+            }
+            capture confirm variable zip_code
+            if _rc == 0 {
+                replace merge_zip = zip_code if merge_zip == "" & zip_code != "" & zip_code != "."
+            }
         }
         
-        * 3. Clean and standardize all geographic and free-text strings
+        * Standardize the merge key (Clean 5-digit extraction)
+        replace merge_zip = strtrim(merge_zip)
+        replace merge_zip = substr(merge_zip, 1, 5) 
+        capture destring merge_zip, replace force
+        tostring merge_zip, format("%05.0f") replace
+        replace merge_zip = strtrim(merge_zip)
+        
+        * Merge HSA data and instantly drop the temporary key
+        merge m:1 merge_zip year using `hsa_crosswalk_panel', keep(master match) nogenerate
+        drop merge_zip
+        
+        * 2. Drop Empty Variables (All Missing) using BASE STATA
+        foreach v of varlist * {
+            capture assert missing(`v')
+            if _rc == 0 {
+                drop `v'
+            }
+        }
+        
+        * 3. Optimize Numeric Storage (Double -> Float/Int where possible)
+        compress
+        
+        * 4. Clean and standardize all geographic and free-text strings
         foreach v of local string_vars {
             capture confirm variable `v'
             if _rc == 0 {
@@ -59,7 +171,7 @@ foreach f in "`file1'" "`file2'" "`file3'" "`file4'" {
             }
         }
         
-        * 4. Clean, standardize, and ENCODE all categorical variables
+        * 5. Clean, standardize, and ENCODE all categorical variables
         foreach v of local encode_vars {
             capture confirm variable `v'
             if _rc == 0 {
@@ -78,18 +190,17 @@ foreach f in "`file1'" "`file2'" "`file3'" "`file4'" {
             }
         }
         
-        * 5. Final Compression to minimize file size
+        * 6. Final Compression to minimize file size
         compress
         
-        * 6. Save to the Publishable Directory
+        * 7. Save to the Publishable Directory
         local current_name "name`i'"
         save "`outDir'/``current_name''", replace
         display "  > Saved as: ``current_name''"
     }
     else {
-        display as error "  > FILE NOT FOUND: `f'"
+        display as error "  > FILE NOT FOUND: ``f''"
     }
-    local i = `i' + 1
 }
 
-display "=== POLISHING COMPLETE. DATASETS ARE READY FOR ANALYSIS! ==="
+display "=== PUBLISHING COMPLETE ==="

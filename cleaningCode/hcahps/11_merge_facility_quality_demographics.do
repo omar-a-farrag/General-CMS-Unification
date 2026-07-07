@@ -14,26 +14,72 @@ display as text "=== STARTING PHASE 3 QUALITY NETWORK ASSEMBLY ==="
 *-------------------------------------------------------------------------------
 * STEP 1: PREP THE NEW QUALITY PANELS
 *-------------------------------------------------------------------------------
-* --- INPATIENT (Clinical Outcomes) ---
+* --- INPATIENT (Clinical Outcomes & HVBP) ---
 import delimited "$projectRoot/hcahps/harmonized/inpatient_quality_panel.csv", stringcols(1) clear
 destring year, replace force
+tostring zipcode, replace force
 duplicates drop ccn year, force
 sort ccn year
 tempfile inpatient_qual
+
+* Apply Inpatient Labels
+capture label variable totalperformance_score "HVBP: Total Performance Score"
+capture label variable mspb_score "Medicare Spending Per Beneficiary (MSPB) Score"
+capture label variable mortality_rate_ami "30-Day Mortality Rate (AMI)"
+capture label variable mortality_rate_hf "30-Day Mortality Rate (HF)"
+capture label variable mortality_rate_pn "30-Day Mortality Rate (PN)"
+capture label variable rrp_excess_ratio_ami "Readmission: Excess Ratio (AMI)"
+capture label variable rrp_excess_ratio_hf "Readmission: Excess Ratio (HF)"
+capture label variable rrp_excess_ratio_pn "Readmission: Excess Ratio (PN)"
+capture label variable haiconditionprocedure_score "HVBP: HAI Condition Total Score"
+capture label variable amiconditionprocedure_score "HVBP: AMI Condition Total Score"
+capture label variable hfconditionprocedure_score "HVBP: HF Condition Total Score"
+capture label variable pnconditionprocedure_score "HVBP: PN Condition Total Score"
+capture label variable hac_total_score "Hospital-Acquired Condition (HAC) Score"
+capture label variable paym_30_ami "Payment Category: 30-Day AMI Episode"
+capture label variable paym_30_hf "Payment Category: 30-Day Heart Failure Episode"
+capture label variable paym_30_pn "Payment Category: 30-Day Pneumonia Episode"
 save `inpatient_qual', replace
 
-* --- HOPD ---
+
+* --- HOPD (ED Wait Times & Volume) ---
 import delimited "$projectRoot/hcahps/harmonized/outpatient_hopd_quality_panel.csv", stringcols(1) clear
 destring year, replace force
+tostring zipcode, replace force
 duplicates drop ccn year, force
 sort ccn year
 tempfile hopd_qual
+
+* Apply HOPD Labels
+capture label variable op_8 "HOPD (OP-8): MRI Lumbar Spine for Low Back Pain (Overuse)"
+capture label variable op_22 "HOPD (OP-22): Patient Left ED Without Being Seen (%)"
+capture label variable op_26 "HOPD (OP-26): Total Outpatient Surgical Procedure Volume"
+capture label variable op_40 "HOPD (OP-40): STEMI Clinical Quality Measure"
+capture label variable oas_rating_linear "HOPD OAS CAHPS: Linear Mean Rating"
+capture label variable oas_recmnd_linear "HOPD OAS CAHPS: Linear Mean Recommend"
+capture label variable oas_rating_9_10 "HOPD OAS CAHPS: Rating 9 or 10 (%)"
+capture label variable oas_recmnd_dy "HOPD OAS CAHPS: Definitely Recommend (%)"
 save `hopd_qual', replace
+
 
 * --- ASC (OAS CAHPS & Clinical) ---
 import delimited "$projectRoot/hcahps/harmonized/outpatient_asc_quality_panel.csv", stringcols(1) clear
 destring year, replace force
 tostring zipcode, replace force
+
+* Ensure metrics are numeric
+capture destring asc_* oas_*, replace force
+
+* Apply ASC Labels
+capture label variable asc_1 "ASC-1: Patient Burn Rate"
+capture label variable asc_2 "ASC-2: Patient Fall Rate"
+capture label variable asc_3 "ASC-3: Wrong Site/Side/Patient/Procedure/Implant Rate"
+capture label variable asc_4 "ASC-4: All-Cause Hospital Transfer or Admission Rate"
+capture label variable asc_8 "ASC-8: Influenza Vaccination Coverage"
+capture label variable oas_rating_linear "ASC OAS CAHPS: Linear Mean Rating"
+capture label variable oas_recmnd_linear "ASC OAS CAHPS: Linear Mean Recommend"
+capture label variable oas_rating_9_10 "ASC OAS CAHPS: Rating 9 or 10 (%)"
+capture label variable oas_recmnd_dy "ASC OAS CAHPS: Definitely Recommend (%)"
 
 * Build the 100-Point Outpatient Composite permanently
 capture confirm variable oas_prof_care_clean
@@ -49,14 +95,21 @@ duplicates drop asc_id year, force
 save "$phase3/cms_phase3_outpatient_asc_facility.dta", replace
 
 * ---> NOW COLLAPSE FOR THE PROVIDER MARKET PROXY <---
-collapse (mean) asc_rate_* oas_*, by(zipcode year)
-tempfile asc_market_data
-save `asc_market_data', replace
+* We use 'ds' to select ONLY the numeric variables, protecting text columns like asc_id and city.
+ds asc_* oas_*, has(type numeric)
+local num_vars = r(varlist)
+
+collapse (mean) `num_vars', by(zipcode year)
+
+* Rename them to avoid overwriting identical metrics inside the provider panel
+rename asc_* zip_asc_*
+rename oas_* zip_oas_*
 
 * ---> RENAME TO MATCH PROVIDER PANEL <---
 rename zipcode cms_zip 
 tempfile asc_market_data
 save `asc_market_data', replace
+
 
 *-------------------------------------------------------------------------------
 * STEP 2: BUILD PHASE 3 INPATIENT/HOPD FACILITY NETWORK

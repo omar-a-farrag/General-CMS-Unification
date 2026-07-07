@@ -11,6 +11,7 @@ project_root = os.path.abspath(os.path.join(script_dir, "..",".."))
 partd_dir = os.path.join(project_root, "cms", "partD", "dta", "harmonized")
 service_dir = os.path.join(project_root, "cms", "by_provider_service", "dta", "harmonized")
 dict_dir = os.path.join(project_root, "dictionaries_and_crosswalks")
+crosswalk_dir = os.path.join(project_root, "crosswalks") # Path to your new RVU crosswalk
 output_dir = os.path.join(project_root, "outputs_while_cleaning", "cleaned_data")
 
 if not os.path.exists(output_dir): os.makedirs(output_dir)
@@ -76,7 +77,7 @@ def process_partd_file(f, map_partd, empirical_lookup):
         print(f"  [Part D] ERROR in {fname}: {e}")
         return None
 
-def process_service_file(f, service_lookup, partb_lookup, rbcs_cat_dict, rbcs_subcat_dict):
+def process_service_file(f, df_rvu, partb_lookup, rbcs_cat_dict, rbcs_subcat_dict):
     fname = os.path.basename(f)
     print(f"  [Service] Starting {fname}...")
     start = time.time()
@@ -96,12 +97,29 @@ def process_service_file(f, service_lookup, partb_lookup, rbcs_cat_dict, rbcs_su
         year_match = re.search(r'(20\d{2})', fname)
         df['year'] = int(year_match.group(1)) if year_match else 9999
 
+        # ---> RVU INJECTION <---
+        # Merge RVUs on HCPCS and Year
+        df = pd.merge(df, df_rvu, on=['hcpcs', 'year'], how='left')
+        
+        # Fill missing RVU values with 0 so math doesn't break
+        for col in ['work_rvu', 'fac_pe_rvu', 'non_fac_pe_rvu', 'mp_rvu']:
+            df[col] = df[col].fillna(0)
+
+        # Calculate line-item totals (Volume * RVU Weight)
+        df['total_work_rvu'] = df['tot_srvcs'] * df['work_rvu']
+        df['total_fac_rvu'] = df['tot_srvcs'] * (df['work_rvu'] + df['fac_pe_rvu'] + df['mp_rvu'])
+        df['total_nonfac_rvu'] = df['tot_srvcs'] * (df['work_rvu'] + df['non_fac_pe_rvu'] + df['mp_rvu'])
+
         # ---> THE GOLDEN SCHEMA: STRICT PART B PREFIXES <---
         agg_dict = {
             'npi': df['npi'],
             'year': df['year'],
             'partb_srvc_total': df['tot_srvcs'],
-            'partb_cst_total': df['tot_partb_cst']
+            'partb_cst_total': df['tot_partb_cst'],
+            # New RVU metrics mapping cleanly into the namespace
+            'partb_rvu_work': df['total_work_rvu'],
+            'partb_rvu_fac_total': df['total_fac_rvu'], 
+            'partb_rvu_nonfac_total': df['total_nonfac_rvu']
         }
         
         # --- LENS 1: MICROSCOPE (Specific HCPCS Definitions) ---
@@ -114,7 +132,7 @@ def process_service_file(f, service_lookup, partb_lookup, rbcs_cat_dict, rbcs_su
                 agg_dict[f'partb_srvc_hv_{key}'] = df['tot_srvcs'] * is_target
             elif details['category'] == 'Low-Value':
                 agg_dict[f'partb_srvc_lv_{key}'] = df['tot_srvcs'] * is_target
-            elif details['category'] == 'E&M': # ---> RESTORED E&M LOGIC
+            elif details['category'] == 'E&M': 
                 agg_dict[f'partb_srvc_em_{key}'] = df['tot_srvcs'] * is_target
 
         # --- LENS 2: TELESCOPE (RBCS Taxonomy) ---
@@ -151,6 +169,11 @@ if __name__ == '__main__':
         rbcs_cat_dict = df_rbcs.set_index('hcpcs')['rbcs_cat'].to_dict()
         rbcs_subcat_dict = df_rbcs.set_index('hcpcs')['rbcs_subcat'].to_dict()
         
+        # ---> LOAD THE NEW RVU CROSSWALK <---
+        # We drop the modifier column and keep only the global/standard codes (where mod is NaN)
+        df_rvu = pd.read_csv(os.path.join(crosswalk_dir, "cms_pfs_rvu_crosswalk.csv"))
+        df_rvu = df_rvu[df_rvu['mod'].isna()].drop(columns=['mod'])
+        
     except Exception as e:
         print(f"Dictionary Error: {e}")
         exit()
@@ -171,7 +194,7 @@ if __name__ == '__main__':
     print("\n--- Processing Services (Sequential) ---")
     service_dfs = []
     for f in service_files:
-        result = process_service_file(f, None, partb_lookup, rbcs_cat_dict, rbcs_subcat_dict)
+        result = process_service_file(f, df_rvu, partb_lookup, rbcs_cat_dict, rbcs_subcat_dict)
         if result is not None:
             service_dfs.append(result)
 

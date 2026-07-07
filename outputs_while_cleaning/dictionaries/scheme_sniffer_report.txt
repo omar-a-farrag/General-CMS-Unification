@@ -1,0 +1,783 @@
+
+================================================================================
+SCANNING FOLDER: hcahps2008
+================================================================================
+
+================================================================================
+SCANNING FOLDER: hcahps2009
+================================================================================
+
+================================================================================
+SCANNING FOLDER: hcahps2010
+================================================================================
+
+================================================================================
+SCANNING FOLDER: hcahps2011
+================================================================================
+
+================================================================================
+SCANNING FOLDER: hcahps2012
+================================================================================
+
+FILE: Medicare Payment and Volume Measures - National.csv
+COLUMNS: ['Diagnosis Related Group', 'Medicare Average Payment Minimum', 'Medicare Average Payment Maximum', 'Number Of Cases']
+
+FILE: Medicare Payment and Volume Measures - State.csv
+COLUMNS: ['State', 'Diagnosis Related Group', 'Medicare Average Payment Minimum', 'Medicare Average Payment Maximum', 'Number Of Cases', 'Footnote']
+
+FILE: Medicare Payment and Volume Measures.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address 1', 'Address 2', 'Address 3', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Diagnosis Related Group', 'Medicare Average Payment', 'Number Of Cases', 'Footnote']
+
+FILE: Outpatient Imaging Efficiency Measures - National.csv
+COLUMNS: ['Measure Name', 'Score']
+
+FILE: Outpatient Imaging Efficiency Measures - State.csv
+COLUMNS: ['State', 'Outpatients with low back pain who had an MRI without trying recommended treatments first such as physical therapy', 'Outpatients who had a follow-up mammogram or ultrasound within 45 days after a screening mammogram', 'Outpatient CT scans of the abdomen that were “combination” (double) scans', 'Outpatient CT scans of the chest that were “combination” (double) scans', 'Outpatients who got cardiac imaging stress tests before low-risk outpatient surgery', 'Outpatients with brain CT scans who got a sinus CT scan at the same time']
+
+FILE: Outpatient Imaging Efficiency Measures.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address 1', 'Address 2', 'Address 3', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Outpatients with low back pain who had an MRI without trying recommended treatments first such as physical therapy', 'Number of Patients 1', 'Footnote 1', 'Outpatients who had a follow-up mammogram or ultrasound within 45 days after a screening mammogram', 'Number of Patients 2', 'Footnote 2', 'Outpatient CT scans of the abdomen that were “combination” (double) scans', 'Number of Patients 3', 'Footnote 3', 'Outpatient CT scans of the chest that were “combination” (double) scans', 'Number of Patients 4', 'Footnote 4', 'Outpatients who got cardiac imaging stress tests before low-risk outpatient surgery', 'Number of Patients 5', 'Footnote 5', 'Outpatients with brain CT scans who got a sinus CT scan at the same time', 'Number of Patients 6', 'Footnote 6']
+
+FILE: Structural Measures.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address 1', 'Address 2', 'Address 3', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure Name', 'Measure Response']
+
+================================================================================
+SCANNING FOLDER: hcahps2013
+================================================================================
+
+FILE: Hospital Structural Measures.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address 1', 'Address 2', 'Address 3', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure Name', 'Measure Response']
+
+FILE: hvbp_ami_08_16_2013.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'AMI-7a Performance Rate', 'AMI-7a Achievement Points', 'AMI-7a Improvement Points', 'AMI-7a Measure Score', ' AMI-8a Performance Rate', 'AMI-8a Achievement Points', 'AMI-8a Improvement Points', 'AMI-8a Measure Score', 'AMI Condition/Procedure Score']
+
+FILE: hvbp_hai_08_16_2013.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'SCIP-Inf-1 Performance Rate', 'SCIP-Inf-1 Achievement Points', 'SCIP-Inf-1 Improvement Points', 'SCIP-Inf-1 Measure Score', 'SCIP-Inf-2 Performance Rate', 'SCIP-Inf-2 Achievement Points', 'SCIP-Inf-2 Improvement Points', 'SCIP-Inf-2 Measure Score', 'SCIP-Inf-3 Performance Rate', 'SCIP-Inf-3 Achievement Points', 'SCIP-Inf-3 Improvement Points', 'SCIP-Inf-3 Measure Score', 'SCIP-Inf-4 Performance Rate', 'SCIP-Inf-4 Achievement Points', 'SCIP-Inf-4 Improvement Points', 'SCIP-Inf-4 Measure Score', 'HAI Condition/Procedure Score']
+
+FILE: hvbp_hcahps_02_07_2013.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Pain Management Achievement Points', 'Pain Management Improvement Points', 'Pain Management Dimension Score', 'Communication about Medicines Achievement Points', 'Communication about Medicines Improvement Points', 'Communication about Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_hcahps_05_28_2013.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Pain Management Achievement Points', 'Pain Management Improvement Points', 'Pain Management Dimension Score', 'Communication about Medicines Achievement Points', 'Communication about Medicines Improvement Points', 'Communication about Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_hcahps_08_16_2013.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Pain Management Achievement Points', 'Pain Management Improvement Points', 'Pain Management Dimension Score', 'Communication about Medicines Achievement Points', 'Communication about Medicines Improvement Points', 'Communication about Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_hf_08_16_2013.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'HF-1 Performance Rate', 'HF-1 Achievement Points', 'HF-1 Improvement Points', 'HF-1 Measure Score', 'HF Condition/Procedure Score']
+
+FILE: hvbp_pn_08_16_2013.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'PN-3b Performance Rate', 'PN-3b Achievement Points', 'PN-3b Improvement Points', 'PN-3b Measure Score', 'PN-6 Performance Rate', 'PN-6 Achievement Points', 'PN-6 Improvement Points', 'PN-6 Measure Score', 'PN Condition/Procedure Score']
+
+FILE: hvbp_scip_08_16_2013.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'SCIP-Card-2 Performance Rate', 'SCIP-Card-2 Achievement Points', 'SCIP-Card-2 Improvement Points', 'SCIP-Card-2 Measure Score', 'SCIP-VTE-1 Performance Rate', 'SCIP-VTE-1 Achievement Points', 'SCIP-VTE-1 Improvement Points', 'SCIP-VTE-1 Measure Score', 'SCIP-VTE-2 Performance Rate', 'SCIP-VTE-2 Achievement Points', 'SCIP-VTE-2 Improvement Points', 'SCIP-VTE-2 Measure Score', 'SCIP Condition/Procedure Score']
+
+FILE: hvbp_tps_08_16_2013.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'Unweighted Normalized Clinical Process of Care Domain Score', 'Weighted Clinical Process of Care Domain Score', 'Unweighted Patient Experience of Care Domain Score', 'Weighted Patient Experience of Care Domain Score', 'Total Performance Score']
+
+FILE: Outpatient Imaging Efficiency Measures - National.csv
+COLUMNS: ['Measure Name', 'Score']
+
+FILE: Outpatient Imaging Efficiency Measures - State.csv
+COLUMNS: ['State', 'Outpatients with low back pain who had an MRI without trying recommended treatments first such as physical therapy', 'Outpatients who had a follow-up mammogram or ultrasound within 45 days after a screening mammogram', 'Outpatient CT scans of the abdomen that were “combination” (double) scans', 'Outpatient CT scans of the chest that were “combination” (double) scans', 'Outpatients who got cardiac imaging stress tests before low-risk outpatient surgery', 'Outpatients with brain CT scans who got a sinus CT scan at the same time']
+
+FILE: Outpatient Imaging Efficiency Measures.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address 1', 'Address 2', 'Address 3', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Outpatients with low back pain who had an MRI without trying recommended treatments first such as physical therapy', 'Number of Patients 1', 'Footnote 1', 'Outpatients who had a follow-up mammogram or ultrasound within 45 days after a screening mammogram', 'Number of Patients 2', 'Footnote 2', 'Outpatient CT scans of the abdomen that were “combination” (double) scans', 'Number of Patients 3', 'Footnote 3', 'Outpatient CT scans of the chest that were “combination” (double) scans', 'Number of Patients 4', 'Footnote 4', 'Outpatients who got cardiac imaging stress tests before low-risk outpatient surgery', 'Number of Patients 5', 'Footnote 5', 'Outpatients with brain CT scans who got a sinus CT scan at the same time', 'Number of Patients 6', 'Footnote 6']
+
+================================================================================
+SCANNING FOLDER: hcahps2014
+================================================================================
+
+FILE: FY2013_Distribution_of_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Percentile', 'Net Change in Base Operating DRG Payment Amount']
+
+FILE: FY2013_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Net Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this Range']
+
+FILE: FY2013_Percent_Change_in_Medicare_Payments.csv
+COLUMNS: ['% Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this  %Change']
+
+FILE: FY2013_Value_Based_Incentive_Payment_Amount.csv
+COLUMNS: ['Incentive Payment Range', 'Number of Hospitals Receiving this Range']
+
+FILE: Heart Attack Payment - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure Name', 'Measure ID', 'Compared to National', 'Denominator', 'Payment', 'Lower Estimate', 'Higher Estimate', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Heart Attack Payment - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'National Payment', 'Number of Hospitals Less than', 'Number of Hospitals Same', 'Number of Hospitals Greater than', 'Number of Hospitals Too Few', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Heart Attack Payment - State.csv
+COLUMNS: ['State', 'Measure Name', 'Measure ID', 'Number of Hospitals Less than', 'Number of Hospitals Same', 'Number of Hospitals Greater than', 'Number of Hospitals Too Few', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: hvbp_ami_10_28_2014.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'AMI-7a Performance Rate', 'AMI-7a Achievement Points', 'AMI-7a Improvement Points', 'AMI-7a Measure Score', 'AMI-8a Performance Rate', 'AMI-8a Achievement Points', 'AMI-8a Improvement Points', 'AMI-8a Measure Score', 'AMI Condition/Procedure Score']
+
+FILE: hvbp_efficiency_10_28_2014.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'MSPB-1 Performance Rate', 'MSPB-1 Achievement Points', 'MSPB-1 Improvement Points', 'MSPB-1 Measure Score']
+
+FILE: hvbp_hai_10_28_2014.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'state', 'Zip Code', 'County Name', 'SCIP-Inf-1_Performance Rate', 'SCIP-Inf-1_Achievement Points', 'SCIP-Inf-1_Improvement Points', 'SCIP-Inf-1_Measure Score', 'SCIP-Inf-2_Performance Rate', 'SCIP-Inf-2_Achievement Points', 'SCIP-Inf-2_Improvement Points', 'SCIP-Inf-2_Measure Score', 'SCIP-Inf-3_Performance Rate', 'SCIP-Inf-3_Achievement Points', 'SCIP-Inf-3_Improvement Points', 'SCIP-Inf-3_Measure Score', 'SCIP-Inf-4_Performance Rate', 'SCIP-Inf-4_Achievement Points', 'SCIP-Inf-4_Improvement Points', 'SCIP-Inf-4_Measure Score', 'SCIP-Inf-9_Performance Rate', 'SCIP-Inf-9_Achievement Points', 'SCIP-Inf-9_Improvement Points', 'Scip_Inf_9_Measure Score', 'HAI Condition/Procedure Score']
+
+FILE: hvbp_hcahps_02_25_2014.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Pain Management Achievement Points', 'Pain Management Improvement Points', 'Pain Management Dimension Score', 'Communication about Medicines Achievement Points', 'Communication about Medicines Improvement Points', 'Communication about Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_hcahps_10_28_2013.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Pain Management Achievement Points', 'Pain Management Improvement Points', 'Pain Management Dimension Score', 'Communication about Medicines Achievement Points', 'Communication about Medicines Improvement Points', 'Communication about Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_hcahps_10_28_2014.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Pain Management Achievement Points', 'Pain Management Improvement Points', 'Pain Management Dimension Score', 'Communication about Medicines Achievement Points', 'Communication about Medicines Improvement Points', 'Communication about Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_hf_10_28_2014.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'HF-1 Performance Rate', 'HF-1 Achievement Points', 'HF-1 Improvement Points', 'HF-1 Measure Score', 'HF Condition/Procedure Score']
+
+FILE: hvbp_outcome_10_28_2014.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'MORT-30-AMI Performance Rate', 'MORT-30-AMI Achievement Points', 'MORT-30-AMI Improvement Points', 'MORT-30-AMI Measure Score', 'MORT-30-HF Performance Rate', 'MORT-30-HF Achievement Points', 'MORT-30-HF Improvement Points', 'MORT-30-HF Measure Score', 'MORT-30-PN Performance Rate', 'MORT-30-PN Achievement Points', 'MORT-30-PN Improvement Points', 'MORT-30-PN Measure Score', 'PSI-90 Performance Rate', 'PSI-90 Achievement Points', 'PSI-90 Improvement Points', 'PSI-90 Measure Score', 'HAI-1 Performance Rate', 'HAI-1 Achievement Points', 'HAI-1 Improvement Points', 'HAI-1 Measure Score']
+
+FILE: hvbp_pn_10_28_2014.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'PN-3b Performance Rate', 'PN-3b Achievement Points', 'PN-3b Improvement Points', 'PN-3b Measure Score', 'PN-6 Performance Rate', 'PN-6 Achievement Points', 'PN-6 Improvement Points', 'PN-6 Measure Score', 'PN Condition/Procedure Score']
+
+FILE: hvbp_quarters.csv
+COLUMNS: ['Measure ID', 'Measure Description', 'Performance  Period', 'Baseline Period']
+
+FILE: hvbp_scip_10_28_2014.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'SCIP-Card-2 Performance Rate', 'SCIP-Card-2 Achievement Points', 'SCIP-Card-2 Improvement Points', 'SCIP-Card-2 Measure Score', 'SCIP-VTE-2 Performance Rate', 'SCIP-VTE-2 Achievement Points', 'SCIP-VTE-2 Improvement Points', 'SCIP-VTE-2 Measure Score', 'SCIP Condition/Procedure Score']
+
+FILE: HVBP_TPS_10_28_2014.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'Zip Code', 'County Name', 'Unweighted Normalized Clinical Process of Care Domain Score', 'Weighted Clinical Process of Care Domain Score', 'Unweighted Patient Experience of Care Domain Score', 'Weighted Patient Experience of Care Domain Score', 'Unweighted Normalized Outcome Domain Score', 'Weighted Outcome Domain Score', 'Unweighted Normalized Efficiency Domain Score', 'Weighted Efficiency Domain Score', 'Total Performance Score']
+
+FILE: Medicare Hospital Spending by Claim.csv
+COLUMNS: ['Hospital Name', 'Provider Number', 'State', 'Period', 'Claim Type', 'Avg Spending Per Episode (Hospital)', 'Avg Spending Per Episode (State)', 'Avg Spending Per Episode (Nation)', 'Percent of Spending (Hospital)', 'Percent of Spending (State)', 'Percent of Spending (Nation)', 'Measure Start Date', 'Measure End Date']
+
+FILE: Medicare Hospital Spending per Patient - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Medicare Hospital Spending per Patient - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'Score', 'National Median', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Medicare Hospital Spending per Patient - State.csv
+COLUMNS: ['State', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - National.csv
+COLUMNS: ['Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - State.csv
+COLUMNS: ['State', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Structural Measures - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure Name', 'Measure ID', 'Measure Response', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Condition', 'Measure ID', 'Measure Name', 'Score', 'Sample', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'Condition', 'Category', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - State.csv
+COLUMNS: ['State', 'Condition', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+================================================================================
+SCANNING FOLDER: hcahps2015
+================================================================================
+
+FILE: FY2013_Distribution_of_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Percentile', 'Net Change in Base Operating DRG Payment Amount']
+
+FILE: FY2013_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Net Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this Range']
+
+FILE: FY2013_Percent_Change_in_Medicare_Payments.csv
+COLUMNS: ['% Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this  %Change']
+
+FILE: FY2013_Value_Based_Incentive_Payment_Amount.csv
+COLUMNS: ['Incentive Payment Range', 'Number of Hospitals Receiving this Range']
+
+FILE: hvbp_ami_08_06_2015.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'AMI-7a Performance Rate', 'AMI-7a Achievement Points', 'AMI-7a Improvement Points', 'AMI-7a Measure Score', 'AMI-8a Performance Rate', 'AMI-8a Achievement Points', 'AMI-8a Improvement Points', 'AMI-8a Measure Score', 'AMI Condition/Procedure Score']
+
+FILE: hvbp_Efficiency_08_06_2015.csv
+COLUMNS: ['Provider_Number', 'Hospital_Name', 'Address', 'City', 'State', 'ZIP_Code', 'County_Name', 'MSPB-1 Performance Rate', 'MSPB-1 Achievement Points', 'MSPB-1 Improvement Points', 'MSPB-1 Measure Score']
+
+FILE: hvbp_hai_08_06_2015.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'Zip Code', 'County Name', 'SCIP-Inf-1 Performance Rate', 'SCIP-Inf-1 Achievement Points', 'SCIP-Inf-1 Improvement Points', 'SCIP-Inf-1 Measure Score', 'SCIP-Inf-2 Performance Rate', 'SCIP-Inf-2 Achievement Points', 'SCIP-Inf-2 Improvement Points', 'SCIP-Inf-2 Measure Score', 'SCIP-Inf-3 Performance Rate', 'SCIP-Inf-3 Achievement Points', 'SCIP-Inf-3 Improvement Points', 'SCIP-Inf-3 Measure Score', 'SCIP-Inf-4 Performance Rate', 'SCIP-Inf-4 Achievement Points', 'SCIP-Inf-4 Improvement Points', 'SCIP-Inf-4 Measure Score', 'SCIP-Inf-9 Performance Rate', 'SCIP-Inf-9 Achievement Points', 'SCIP-Inf-9 Improvement Points', 'SCIP-Inf-9 Measure Score', 'HAI Condition/Procedure Score']
+
+FILE: hvbp_hcahps_02_18_2015.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Pain Management Achievement Points', 'Pain Management Improvement Points', 'Pain Management Dimension Score', 'Communication about Medicines Achievement Points', 'Communication about Medicines Improvement Points', 'Communication about Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_hcahps_05_28_2015.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Pain Management Achievement Points', 'Pain Management Improvement Points', 'Pain Management Dimension Score', 'Communication about Medicines Achievement Points', 'Communication about Medicines Improvement Points', 'Communication about Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_hcahps_08_06_2015.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Pain Management Achievement Points', 'Pain Management Improvement Points', 'Pain Management Dimension Score', 'Communication about Medicines Achievement Points', 'Communication about Medicines Improvement Points', 'Communication about Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_hcahps_10_28_2014.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', ' ZIP Code', 'County Name', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Pain Management Achievement Points', 'Pain Management Improvement Points', 'Pain Management Dimension Score', 'Communication about Medicines Achievement Points', 'Communication about Medicines Improvement Points', 'Communication about Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_hf_08_06_2015.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'HF-1 Performance Rate', 'HF-1 Achievement Points', 'HF-1 Improvement Points', 'HF-1 Measure Score', 'HF Condition/Procedure Score']
+
+FILE: hvbp_outcome_08_06_2015.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'MORT-30-AMI Performance Rate', 'MORT-30-AMI Achievement Points', 'MORT-30-AMI Improvement Points', 'MORT-30-AMI Measure Score', 'MORT-30-HF Performance Rate', 'MORT-30-HF Achievement Points', 'MORT-30-HF Improvement Points', 'MORT-30-HF Measure Score', 'MORT-30-PN Performance Rate', 'MORT-30-PN Achievement Points', 'MORT-30-PN Improvement Points', 'MORT-30-PN Measure Score', 'PSI-90 Performance Rate', 'PSI-90 Achievement Points', 'PSI-90 Improvement Points', 'PSI-90 Measure Score', 'HAI-1_Performance_Rate', 'HAI-1 Achievement Points', 'HAI-1 Improvement Points', 'HAI-1 Measure Score']
+
+FILE: hvbp_pn_08_06_2015.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'PN-3b Performance Rate', 'PN-3b Achievement Points', 'PN-3b Improvement Points', 'PN-3b Measure Score', 'PN-6 Performance Rate', 'PN-6 Achievement Points', 'PN-6 Improvement Points', 'PN-6 Measure Score', 'PN Condition/Procedure Score']
+
+FILE: hvbp_quarters.csv
+COLUMNS: ['Measure ID', 'Measure Description', 'Performance Period', 'Baseline Period']
+
+FILE: hvbp_scip_08_06_2015.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'SCIP-Card-2 Performance Rate', 'SCIP-Card-2 Achievement Points', 'SCIP-Card-2 Improvement Points', 'SCIP-Card-2 Measure Score', 'SCIP-VTE-2 Performance Rate', 'SCIP-VTE-2 Achievement Points', 'SCIP-VTE-2 Improvement Points', 'SCIP-VTE-2 Measure Score', 'SCIP Condition/Procedure Score']
+
+FILE: hvbp_tps_08_06_2015.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'Zip Code', 'County Name', 'Unweighted Normalized Clinical Process of Care Domain Score', 'Weighted Clinical Process of Care Domain Score', 'Unweighted Patient Experience of Care Domain Score', 'Weighted Patient Experience of Care Domain Score', 'Unweighted Normalized Outcome Domain Score', 'Weighted Outcome Domain Score', 'Unweighted Normalized Efficiency Domain Score', 'Weighted Efficiency Domain Score', 'Total Performance Score']
+
+FILE: Medicare Hospital Spending by Claim.csv
+COLUMNS: ['Hospital Name', 'Provider Number', 'State', 'Period', 'Claim Type', 'Avg Spendin Per Episode (Hospital)', 'Avg Spending Per Episode (State)', 'Avg Spending Per Episode (Nation)', 'Percent of Spending (Hospital)', 'Percent of Spending (State)', 'Percent of Spending (Nation)', 'Measure Start Date', 'Measure End Date']
+
+FILE: Medicare Hospital Spending per Patient - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Medicare Hospital Spending per Patient - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'Score', 'Footnote - Score', 'National Median', 'Footnote - National Median', 'Measure Start Date', 'Measure End Date']
+
+FILE: Medicare Hospital Spending per Patient - State.csv
+COLUMNS: ['State', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - National.csv
+COLUMNS: ['Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - State.csv
+COLUMNS: ['State', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Payment - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'National payment', 'Number less than national payment', 'Number same as national payment', 'Number greater than national payment', 'Number of hospitals too few', 'Footnote', 'Measure start date', 'Measure end date']
+
+FILE: Payment - State.csv
+COLUMNS: ['State', 'Measure Name', 'Measure ID', 'Number less than national payment', 'Number same as national payment', 'Number greater than national payment', 'Number of hospitals too few', 'Footnote', 'Measure start date', 'Measure end date']
+
+FILE: Payment and Value of Care - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital name', 'Address', 'City', 'State', 'ZIP Code', 'County name', 'Phone number', 'Payment measure name', 'Payment measure ID', 'Payment category', 'Denominator', 'Payment', 'Lower estimate', 'Higher estimate', 'Payment footnote', 'Value of care display name', 'Value of care display ID', 'Value of care category', 'Value of care footnote', 'Measure start date', 'Measure end date']
+
+FILE: Structural Measures - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure Name', 'Measure ID', 'Measure Response', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Condition', 'Measure ID', 'Measure Name', 'Score', 'Sample', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'Condition', 'Category', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - State.csv
+COLUMNS: ['State', 'Condition', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+================================================================================
+SCANNING FOLDER: hcahps2016
+================================================================================
+
+FILE: FY2014_Distribution_of_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Percentile', 'Net Change in Base Operating DRG Payment Amount', 'Unnamed: 2']
+
+FILE: FY2014_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Net Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this Range', 'Unnamed: 2']
+
+FILE: FY2014_Percent_Change_in_Medicare_Payments.csv
+COLUMNS: ['% Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this  %Change']
+
+FILE: FY2014_Value_Based_Incentive_Payment_Amount.csv
+COLUMNS: ['Incentive Payment Range', 'Number of Hospitals Receiving this Range']
+
+FILE: hvbp_ami_08_26_2016.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'AMI-7a Performance Rate', 'AMI-7a Achievement Points', 'AMI-7a Improvement Points', 'AMI-7a Measure Score', 'AMI Condition/Procedure Score']
+
+FILE: hvbp_Efficiency_08_26_2016.csv
+COLUMNS: ['Provider_Number', 'Hospital_Name', 'Address', 'City', 'State', 'ZIP_Code', 'County_Name', 'MSPB-1 Performance Rate', 'MSPB-1 Achievement Points', 'MSPB-1 Improvement Points', 'MSPB-1 Measure Score']
+
+FILE: hvbp_hai_08_26_2016.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'Zip Code', 'County Name', 'SCIP-Inf-2 Performance Rate', 'SCIP-Inf-2 Achievement Points', 'SCIP-Inf-2 Improvement Points', 'SCIP-Inf-2 Measure Score', 'SCIP-Inf-3 Performance Rate', 'SCIP-Inf-3 Achievement Points', 'SCIP-Inf-3 Improvement Points', 'SCIP-Inf-3 Measure Score', 'SCIP-Inf-9 Performance Rate', 'SCIP-Inf-9 Achievement Points', 'SCIP-Inf-9 Improvement Points', 'SCIP-Inf-9 Measure Score', 'HAI Condition/Procedure Score']
+
+FILE: hvbp_hcahps_08_26_2016.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Pain Management Achievement Points', 'Pain Management Improvement Points', 'Pain Management Dimension Score', 'Communication about Medicines Achievement Points', 'Communication about Medicines Improvement Points', 'Communication about Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_imm2_08_26_2016.csv
+COLUMNS: ['Provider_Number', 'Hospital_Name', 'Address', 'City', 'State', 'ZIP_Code', 'County_Name', 'IMM-2 Performance Rate', 'IMM-2 Achievement Points', 'IMM-2 Improvement Points', 'IMM-2 Measure Score', 'Preventive Condition/Procedure Score']
+
+FILE: hvbp_outcome_08_26_2016.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'MORT-30-AMI Performance Rate', 'MORT-30-AMI Achievement Points', 'MORT-30-AMI Improvement Points', 'MORT-30-AMI Measure Score', 'MORT-30-HF Performance Rate', 'MORT-30-HF Achievement Points', 'MORT-30-HF Improvement Points', 'MORT-30-HF Measure Score', 'MORT-30-PN Performance Rate', 'MORT-30-PN Achievement Points', 'MORT-30-PN Improvement Points', 'MORT-30-PN Measure Score', 'PSI-90 Performance Rate', 'PSI-90 Achievement Points', 'PSI-90 Improvement Points', 'PSI-90 Measure Score', 'HAI-1_Performance_Rate', 'HAI-1 Achievement Points', 'HAI-1 Improvement Points', 'HAI-1 Measure Score', 'HAI-2 Performance Rate', 'HAI-2 Achievement Points', 'HAI-2 Improvement Points', 'HAI-2 Measure Score', 'Combined SSI Measure Score', 'HAI-3 Performance Rate', 'HAI-3 Achievement Points', 'HAI-3 Improvement Points', 'HAI-3 Measure Score', 'HAI-4 Performance Rate', 'HAI-4 Achievement Points', 'HAI-4 Improvement Points', 'HAI-4 Measure Score']
+
+FILE: hvbp_pn_08_26_2016.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'PN-6 Performance Rate', 'PN-6 Achievement Points', 'PN-6 Improvement Points', 'PN-6 Measure Score', 'PN Condition/Procedure Score']
+
+FILE: hvbp_scip_08_26_2016.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'SCIP-Card-2 Performance Rate', 'SCIP-Card-2 Achievement Points', 'SCIP-Card-2 Improvement Points', 'SCIP-Card-2 Measure Score', 'SCIP-VTE-2 Performance Rate', 'SCIP-VTE-2 Achievement Points', 'SCIP-VTE-2 Improvement Points', 'SCIP-VTE-2 Measure Score', 'SCIP Condition/Procedure Score']
+
+FILE: hvbp_tps_08_26_2016.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'Zip Code', 'County Name', 'Unweighted Normalized Clinical Process of Care Domain Score', 'Weighted Clinical Process of Care Domain Score', 'Unweighted Patient Experience of Care Domain Score', 'Weighted Patient Experience of Care Domain Score', 'Unweighted Normalized Outcome Domain Score', 'Weighted Outcome Domain Score', 'Unweighted Normalized Efficiency Domain Score', 'Weighted Efficiency Domain Score', 'Total Performance Score']
+
+FILE: Medicare Hospital Spending by Claim.csv
+COLUMNS: ['Hospital_Name', 'Provider_ID', 'State', 'Period', 'Claim_Type', 'Avg_Spending_Per_Episode_Hospital', 'Avg_Spending_Per_Episode_State', 'Avg_Spending_Per_Episode_Nation', 'Percent_of_Spending_Hospital', 'Percent_of_Spending_State', 'Percent_of_Spending_Nation', 'Start_Date', 'End_Date']
+
+FILE: Medicare Hospital Spending per Patient - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Medicare Hospital Spending per Patient - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'Score', 'Footnote - Score', 'National Median', 'Footnote - National Median', 'Measure Start Date', 'Measure End Date']
+
+FILE: Medicare Hospital Spending per Patient - State.csv
+COLUMNS: ['State', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - National.csv
+COLUMNS: ['Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - State.csv
+COLUMNS: ['State', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Payment - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'National payment', 'Number less than national payment', 'Number same as national payment', 'Number greater than national payment', 'Number of hospitals too few', 'Footnote', 'Measure start date', 'Measure end date']
+
+FILE: Payment - State.csv
+COLUMNS: ['State', 'Measure Name', 'Measure ID', 'Number less than national payment', 'Number same as national payment', 'Number greater than national payment', 'Number of hospitals too few', 'Footnote', 'Measure start date', 'Measure end date']
+
+FILE: Payment and Value of Care - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital name', 'Address', 'City', 'State', 'ZIP Code', 'County name', 'Phone number', 'Payment measure name', 'Payment measure ID', 'Payment category', 'Denominator', 'Payment', 'Lower estimate', 'Higher estimate', 'Payment footnote', 'Value of care display name', 'Value of care display ID', 'Value of care category', 'Value of care footnote', 'Measure start date', 'Measure end date']
+
+FILE: Structural Measures - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure Name', 'Measure ID', 'Measure Response', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Condition', 'Measure ID', 'Measure Name', 'Score', 'Sample', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'Condition', 'Category', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - State.csv
+COLUMNS: ['State', 'Condition', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+================================================================================
+SCANNING FOLDER: hcahps2017
+================================================================================
+
+FILE: FY2015_Distribution_of_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Percentile', 'Net Change in Base Operating DRG Payment Amount']
+
+FILE: FY2015_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Net Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this Range']
+
+FILE: FY2015_Percent_Change_in_Medicare_Payments.csv
+COLUMNS: ['ÿþ%']
+
+FILE: FY2015_Value_Based_Incentive_Payment_Amount.csv
+COLUMNS: ['Incentive Payment Range', 'Number of Hospitals Receiving this Range']
+
+FILE: hvbp_ami_11_14_2016.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'AMI-7a Achievement Threshold', 'AMI-7a Benchmark', 'AMI-7a Baseline Rate', 'AMI-7a Performance Rate', 'AMI-7a Achievement Points', 'AMI-7a Improvement Points', 'AMI-7a Measure Score', 'AMI Condition/Procedure Score']
+
+FILE: hvbp_clinical_care_outcomes_11_10_2016.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'MORT-30-AMI Achievement Threshold', 'MORT-30-AMI Benchmark', 'MORT-30-AMI Baseline Rate', 'MORT-30-AMI Performance Rate', 'MORT-30-AMI Achievement Points', 'MORT-30-AMI Improvement Points', 'MORT-30-AMI Measure Score', 'MORT-30-HF Achievement Threshold', 'MORT-30-HF Benchmark', 'MORT-30-HF Baseline Rate', 'MORT-30-HF Performance Rate', 'MORT-30-HF Achievement Points', 'MORT-30-HF Improvement Points', 'MORT-30-HF Measure Score', 'MORT-30-PN Achievement Threshold', 'MORT-30-PN Benchmark', 'MORT-30-PN Baseline Rate', 'MORT-30-PN Performance Rate', 'MORT-30-PN Achievement Points', 'MORT-30-PN Improvement Points', 'MORT-30-PN Measure Score']
+
+FILE: hvbp_efficiency_11_10_2016.csv
+COLUMNS: ['Provider_Number', 'Hospital_Name', 'Address', 'City', 'State', 'ZIP_Code', 'County_Name', 'MSPB-1 Achievement Threshold', 'MSPB-1 Benchmark', 'MSPB-1 Baseline Rate', 'MSPB-1 Performance Rate', 'MSPB-1 Achievement Points', 'MSPB-1 Improvement Points', 'MSPB-1 Measure Score']
+
+FILE: hvbp_hcahps_11_10_2016.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Communication with Nurses Floor', 'Communication with Nurses Achievement Threshold', 'Communication with Nurses Benchmark', 'Communication with Nurses Baseline Rate', 'Communication with Nurses Performance Rate', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Floor', 'Communication with Doctors Achievement Threshold', 'Communication with Doctors Benchmark', 'Communication with Doctors Baseline Rate', 'Communication with Doctors Performance Rate', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Floor', 'Responsiveness of Hospital Staff Achievement Threshold', 'Responsiveness of Hospital Staff Benchmark', 'Responsiveness of Hospital Staff Baseline Rate', 'Responsiveness of Hospital Staff Performance Rate', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Pain Management Floor', 'Pain Management Achievement Threshold', 'Pain Management Benchmark', 'Pain Management Baseline Rate', 'Pain Management Performance Rate', 'Pain Management Achievement Points', 'Pain Management Improvement Points', 'Pain Management Dimension Score', 'Communication about Medicines Floor', 'Communication about Medicines Achievement Threshold', 'Communication about Medicines Benchmark', 'Communication about Medicines Baseline Rate', 'Communication about Medicines Performance Rate', 'Communication about Medicines Achievement Points', 'Communication about Medicines Improvement Points', 'Communication about Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Floor', 'Cleanliness and Quietness of Hospital Environment Achievement Threshold', 'Cleanliness and Quietness of Hospital Environment Benchmark', 'Cleanliness and Quietness of Hospital Environment Baseline Rate', 'Cleanliness and Quietness of Hospital Environment Performance Rate', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Floor', 'Discharge Information Achievement Threshold', 'Discharge Information Benchmark', 'Discharge Information Baseline Rate', 'Discharge Information Performance Rate', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Floor', 'Overall Rating of Hospital Achievement Threshold', 'Overall Rating of Hospital Benchmark', 'Overall Rating of Hospital Baseline Rate', 'Overall Rating of Hospital Performance Rate', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_imm2_11_10_2016.csv
+COLUMNS: ['Provider_Number', 'Hospital_Name', 'Address', 'City', 'State', 'ZIP_Code', 'County_Name', 'IMM-2 Achievement Threshold', 'IMM-2 Benchmark', 'IMM-2 Baseline Rate', 'IMM-2 Performance Rate', 'IMM-2 Achievement Points', 'IMM-2 Improvement Points', 'IMM-2 Measure Score', 'IMM-2 Preventive Condition/Procedure Score']
+
+FILE: hvbp_pc_11_10_2016.csv
+COLUMNS: ['Provider_Number', 'Hospital_Name', 'Address', 'City', 'State', 'Zip_Code', 'County_Name', 'PC-01 Achievement Threshold', 'PC-01 Benchmark', 'PC-01 Baseline Rate', 'PC-01 Performance Rate', 'PC-01 Achievement Points', 'PC-01 Improvement Points', 'PC-01 Measure Score', 'PC-01 Preventive Condition/Procedure Score']
+
+FILE: hvbp_safety_11_10_2016.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'PSI-90 Achievement Threshold', 'PSI-90 Benchmark', 'PSI-90 Baseline Rate', 'PSI-90 Performance Rate', 'PSI-90 Achievement Points', 'PSI-90 Improvement Points', 'PSI-90 Measure Score', 'HAI-1 Achievement Threshold', 'HAI-1 Benchmark', 'HAI-1 Baseline Rate', 'HAI-1 Performance Rate', 'HAI-1 Achievement Points', 'HAI-1 Improvement Points', 'HAI-1 Measure Score', 'HAI-2 Achievement Threshold', 'HAI-2 Benchmark', 'HAI-2 Baseline Rate', 'HAI-2 Performance Rate', 'HAI-2 Achievement Points', 'HAI-2 Improvement Points', 'HAI-2 Measure Score', 'Combined SSI Measure Score', 'HAI-3 Achievement Threshold', 'HAI-3 Benchmark', 'HAI-3 Baseline Rate', 'HAI-3 Performance Rate', 'HAI-3 Achievement Points', 'HAI-3 Improvement Points', 'HAI-3 Measure Score', 'HAI-4 Achievement Threshold', 'HAI-4 Benchmark', 'HAI-4 Baseline Rate', 'HAI-4 Performance Rate', 'HAI-4 Achievement Points', 'HAI-4 Improvement Points', 'HAI-4 Measure Score', 'HAI-5 Achievement Threshold', 'HAI-5 Benchmark', 'HAI-5 Baseline Rate', 'HAI-5 Performance Rate', 'HAI-5 Achievement Points', 'HAI-5 Improvement Points', 'HAI-5 Measure Score', 'HAI-6 Achievement Threshold', 'HAI-6 Benchmark', 'HAI-6 Baseline Rate', 'HAI-6 Performance Rate', 'HAI-6 Achievement Points', 'HAI-6 Improvement Points', 'HAI-6 Measure Score']
+
+FILE: hvbp_tps_11_10_2016.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'Zip Code', 'County Name', 'Unweighted Normalized Clinical Care - Process Domain Score', 'Weighted Clinical Care - Process Domain Score', 'Unweighted Normalized Clinical Care - Outcomes Domain Score', 'Weighted Normalized Clinical Care - Outcomes Domain Score', 'Unweighted Patient and Caregiver Centered Experience of Care/Care Coordination Domain Score', 'Weighted Patient and Caregiver Centered Experience of Care/Care Coordination Domain Score', 'Unweighted Normalized Safety Domain Score', 'Weighted Safety Domain Score', 'Unweighted Normalized Efficiency and Cost Reduction Domain Score', 'Weighted Efficiency and Cost Reduction Domain Score', 'Total Performance Score']
+
+FILE: Medicare Hospital Spending by Claim.csv
+COLUMNS: ['Hospital_Name', 'Provider_ID', 'State', 'Period', 'Claim_Type', 'Avg_Spending_Per_Episode_Hospital', 'Avg_Spending_Per_Episode_State', 'Avg_Spending_Per_Episode_Nation', 'Percent_of_Spending_Hospital', 'Percent_of_Spending_State', 'Percent_of_Spending_Nation', 'Start_Date', 'End_Date']
+
+FILE: Medicare Hospital Spending per Patient - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Medicare Hospital Spending per Patient - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'Score', 'Footnote - Score', 'National Median', 'Footnote - National Median', 'Measure Start Date', 'Measure End Date']
+
+FILE: Medicare Hospital Spending per Patient - State.csv
+COLUMNS: ['State', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - National.csv
+COLUMNS: ['Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - State.csv
+COLUMNS: ['State', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Payment - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'National payment', 'Number less than national payment', 'Number same as national payment', 'Number greater than national payment', 'Number of hospitals too few', 'Footnote', 'Measure start date', 'Measure end date']
+
+FILE: Payment - State.csv
+COLUMNS: ['State', 'Measure Name', 'Measure ID', 'Number less than national payment', 'Number same as national payment', 'Number greater than national payment', 'Number of hospitals too few', 'Footnote', 'Measure start date', 'Measure end date']
+
+FILE: Payment and Value of Care - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital name', 'Address', 'City', 'State', 'ZIP Code', 'County name', 'Phone number', 'Payment measure name', 'Payment measure ID', 'Payment category', 'Denominator', 'Payment', 'Lower estimate', 'Higher estimate', 'Payment footnote', 'Value of care display name', 'Value of care display ID', 'Value of care category', 'Value of care footnote', 'Measure start date', 'Measure end date']
+
+FILE: Structural Measures - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure Name', 'Measure ID', 'Measure Response', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Condition', 'Measure ID', 'Measure Name', 'Score', 'Sample', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'Condition', 'Category', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - State.csv
+COLUMNS: ['State', 'Condition', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+================================================================================
+SCANNING FOLDER: hcahps2018
+================================================================================
+
+FILE: FY2016_Distribution_of_Net_Change_in_Base_Op_DRG_Payment_ Amt.csv
+COLUMNS: ['Percentile', 'Net Change in Base Operating DRG Payment Amount']
+
+FILE: FY2016_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Net Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this Range']
+
+FILE: FY2016_Percent_Change_in_Medicare_Payments.csv
+COLUMNS: ['ÿþ%', 'Unnamed: 1']
+
+FILE: FY2016_Value_Based_Incentive_Payment_Amount.csv
+COLUMNS: ['Incentive Payment Range', 'Number of Hospitals Receiving this Range']
+
+FILE: hvbp_clinical_care_11_07_2017.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'MORT-30-AMI Achievement Threshold', 'MORT-30-AMI Benchmark', 'MORT-30-AMI Baseline Rate', 'MORT-30-AMI Performance Rate', 'MORT-30-AMI Achievement Points', 'MORT-30-AMI Improvement Points', 'MORT-30-AMI Measure Score', 'MORT-30-HF Achievement Threshold', 'MORT-30-HF Benchmark', 'MORT-30-HF Baseline Rate', 'MORT-30-HF Performance Rate', 'MORT-30-HF Achievement Points', 'MORT-30-HF Improvement Points', 'MORT-30-HF Measure Score', 'MORT-30-PN Achievement Threshold', 'MORT-30-PN Benchmark', 'MORT-30-PN Baseline Rate', 'MORT-30-PN Performance Rate', 'MORT-30-PN Achievement Points', 'MORT-30-PN Improvement Points', 'MORT-30-PN Measure Score']
+
+FILE: hvbp_efficiency_11_07_2017.csv
+COLUMNS: ['Provider_Number', 'Hospital_Name', 'Address', 'City', 'State', 'ZIP_Code', 'County_Name', 'MSPB-1 Achievement Threshold', 'MSPB-1 Benchmark', 'MSPB-1 Baseline Rate', 'MSPB-1 Performance Rate', 'MSPB-1 Achievement Points', 'MSPB-1 Improvement Points', 'MSPB-1 Measure Score']
+
+FILE: hvbp_hcahps_11_07_2017.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Communication with Nurses Floor', 'Communication with Nurses Achievement Threshold', 'Communication with Nurses Benchmark', 'Communication with Nurses Baseline Rate', 'Communication with Nurses Performance Rate', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Floor', 'Communication with Doctors Achievement Threshold', 'Communication with Doctors Benchmark', 'Communication with Doctors Baseline Rate', 'Communication with Doctors Performance Rate', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Floor', 'Responsiveness of Hospital Staff Achievement Threshold', 'Responsiveness of Hospital Staff Benchmark', 'Responsiveness of Hospital Staff Baseline Rate', 'Responsiveness of Hospital Staff Performance Rate', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Care Transition Floor', 'Care Transition Achievement Threshold', 'Care Transition Benchmark', 'Care Transition Baseline Rate', 'Care Transition Performance Rate', 'Care Transition Achievement Points', 'Care Transition Improvement Points', 'Care Transition Dimension Score', 'Communication about Medicines Floor', 'Communication about Medicines Achievement Threshold', 'Communication about Medicines Benchmark', 'Communication about Medicines Baseline Rate', 'Communication about Medicines Performance Rate', 'Communication about Medicines Achievement Points', 'Communication about Medicines Improvement Points', 'Communication about Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Floor', 'Cleanliness and Quietness of Hospital Environment Achievement Threshold', 'Cleanliness and Quietness of Hospital Environment Benchmark', 'Cleanliness and Quietness of Hospital Environment Baseline Rate', 'Cleanliness and Quietness of Hospital Environment Performance Rate', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Floor', 'Discharge Information Achievement Threshold', 'Discharge Information Benchmark', 'Discharge Information Baseline Rate', 'Discharge Information Performance Rate', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Floor', 'Overall Rating of Hospital Achievement Threshold', 'Overall Rating of Hospital Benchmark', 'Overall Rating of Hospital Baseline Rate', 'Overall Rating of Hospital Performance Rate', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_safety_11_07_2017.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'PSI-90 Achievement Threshold', 'PSI-90 Benchmark', 'PSI-90 Baseline Rate', 'PSI-90 Performance Rate', 'PSI-90 Achievement Points', 'PSI-90 Improvement Points', 'PSI-90 Measure Score', 'HAI-1 Achievement Threshold', 'HAI-1 Benchmark', 'HAI-1 Baseline Rate', 'HAI-1 Performance Rate', 'HAI-1 Achievement Points', 'HAI-1 Improvement Points', 'HAI-1 Measure Score', 'HAI-2 Achievement Threshold', 'HAI-2 Benchmark', 'HAI-2 Baseline Rate', 'HAI-2 Performance Rate', 'HAI-2 Achievement Points', 'HAI-2 Improvement Points', 'HAI-2 Measure Score', 'Combined SSI Measure Score', 'HAI-3 Achievement Threshold', 'HAI-3 Benchmark', 'HAI-3 Baseline Rate', 'HAI-3 Performance Rate', 'HAI-3 Achievement Points', 'HAI-3 Improvement Points', 'HAI-3 Measure Score', 'HAI-4 Achievement Threshold', 'HAI-4 Benchmark', 'HAI-4 Baseline Rate', 'HAI-4 Performance Rate', 'HAI-4 Achievement Points', 'HAI-4 Improvement Points', 'HAI-4 Measure Score', 'HAI-5 Achievement Threshold', 'HAI-5 Benchmark', 'HAI-5 Baseline Rate', 'HAI-5 Performance Rate', 'HAI-5 Achievement Points', 'HAI-5 Improvement Points', 'HAI-5 Measure Score', 'HAI-6 Achievement Threshold', 'HAI-6 Benchmark', 'HAI-6 Baseline Rate', 'HAI-6 Performance Rate', 'HAI-6 Achievement Points', 'HAI-6 Improvement Points', 'HAI-6 Measure Score', 'PC-01 Achievement Threshold', 'PC-01 Benchmark', 'PC-01 Baseline Rate', 'PC-01 Performance Rate', 'PC-01 Achievement Points', 'PC-01 Improvement Points', 'PC-01 Measure Score']
+
+FILE: hvbp_tps_11_07_2017.csv
+COLUMNS: ['Provider Number', 'Hospital Name', 'Address', 'City', 'State', 'Zip Code', 'County Name', 'Unweighted Normalized Clinical Care Domain Score', 'Weighted Normalized Clinical Care Domain Score', 'Unweighted Patient and Caregiver Centered Experience of Care/Care Coordination Domain Score', 'Weighted Patient and Caregiver Centered Experience of Care/Care Coordination Domain Score', 'Unweighted Normalized Safety Domain Score', 'Weighted Safety Domain Score', 'Unweighted Normalized Efficiency and Cost Reduction Domain Score', 'Weighted Efficiency and Cost Reduction Domain Score', 'Total Performance Score']
+
+FILE: Medicare Hospital Spending by Claim.csv
+COLUMNS: ['Hospital_Name', 'Provider_ID', 'State', 'Period', 'Claim_Type', 'Avg_Spending_Per_Episode_Hospital', 'Avg_Spending_Per_Episode_State', 'Avg_Spending_Per_Episode_Nation', 'Percent_of_Spending_Hospital', 'Percent_of_Spending_State', 'Percent_of_Spending_Nation', 'Start_Date', 'End_Date']
+
+FILE: Medicare Hospital Spending per Patient - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Medicare Hospital Spending per Patient - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'Score', 'Footnote - Score', 'National Median', 'Footnote - National Median', 'Measure Start Date', 'Measure End Date']
+
+FILE: Medicare Hospital Spending per Patient - State.csv
+COLUMNS: ['State', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - National.csv
+COLUMNS: ['Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Outpatient Imaging Efficiency - State.csv
+COLUMNS: ['State', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Payment - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'National payment', 'Number less than national payment', 'Number same as national payment', 'Number greater than national payment', 'Number of hospitals too few', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Payment - State.csv
+COLUMNS: ['State', 'Measure Name', 'Measure ID', 'Number less than national payment', 'Number same as national payment', 'Number greater than national payment', 'Number of hospitals too few', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Payment and Value of Care - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital name', 'Address', 'City', 'State', 'ZIP Code', 'County name', 'Phone number', 'Payment measure name', 'Payment measure ID', 'Payment category', 'Denominator', 'Payment', 'Lower estimate', 'Higher estimate', 'Payment footnote', 'Value of care display name', 'Value of care display ID', 'Value of care category', 'Value of care footnote', 'Measure start date', 'Measure end date']
+
+FILE: Structural Measures - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure Name', 'Measure ID', 'Measure Response', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - Hospital.csv
+COLUMNS: ['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Condition', 'Measure ID', 'Measure Name', 'Score', 'Sample', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - National.csv
+COLUMNS: ['Measure Name', 'Measure ID', 'Condition', 'Category', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+FILE: Timely and Effective Care - State.csv
+COLUMNS: ['State', 'Condition', 'Measure Name', 'Measure ID', 'Score', 'Footnote', 'Measure Start Date', 'Measure End Date']
+
+================================================================================
+SCANNING FOLDER: hcahps2019
+================================================================================
+
+FILE: FY2017_Distribution_of_Net_Change_in_Base_Op_DRG_Payment_Amt_2018-11-30.csv
+COLUMNS: ['Percentile', 'Net Change in Base Operating DRG Payment Amount']
+
+FILE: FY2017_Net_Change_in_Base_Op_DRG_Payment_Amt_2018-11-30.csv
+COLUMNS: ['Net Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this Range']
+
+FILE: FY2017_Percent_Change_in_Medicare_Payments_2018-12-03.csv
+COLUMNS: ['ÿþ%', 'Unnamed: 1']
+
+FILE: FY2017_Value_Based_Incentive_Payment_Amount_2018-11-30.csv
+COLUMNS: ['Incentive Payment Range', 'Number of Hospitals Receiving this Range']
+
+FILE: hvbp_clinical_care_11_09_2018.csv
+COLUMNS: ['Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'MORT-30-AMI Achievement Threshold', 'MORT-30-AMI Benchmark', 'MORT-30-AMI Baseline Rate', 'MORT-30-AMI Performance Rate', 'MORT-30-AMI Achievement Points', 'MORT-30-AMI Improvement Points', 'MORT-30-AMI Measure Score', 'MORT-30-HF Achievement Threshold', 'MORT-30-HF Benchmark', 'MORT-30-HF Baseline Rate', 'MORT-30-HF Performance Rate', 'MORT-30-HF Achievement Points', 'MORT-30-HF Improvement Points', 'MORT-30-HF Measure Score', 'MORT-30-PN Achievement Threshold', 'MORT-30-PN Benchmark', 'MORT-30-PN Baseline Rate', 'MORT-30-PN Performance Rate', 'MORT-30-PN Achievement Points', 'MORT-30-PN Improvement Points', 'MORT-30-PN Measure Score', 'COMP-HIP-KNEE Achievement Threshold', 'COMP-HIP-KNEE Benchmark', 'COMP-HIP-KNEE Baseline Rate', 'COMP-HIP-KNEE Performance Rate', 'COMP-HIP-KNEE Achievement Points', 'COMP-HIP-KNEE Improvement Points', 'COMP-HIP-KNEE Measure Score']
+
+FILE: hvbp_efficiency_11_09_2018.csv
+COLUMNS: ['Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'MSPB-1 Achievement Threshold', 'MSPB-1 Benchmark', 'MSPB-1 Baseline Rate', 'MSPB-1 Performance Rate', 'MSPB-1 Achievement Points', 'MSPB-1 Improvement Points', 'MSPB-1 Measure Score']
+
+FILE: hvbp_hcahps_11_09_2018.csv
+COLUMNS: ['Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Communication with Nurses Floor', 'Communication with Nurses Achievement Threshold', 'Communication with Nurses Benchmark', 'Communication with Nurses Baseline Rate', 'Communication with Nurses Performance Rate', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Floor', 'Communication with Doctors Achievement Threshold', 'Communication with Doctors Benchmark', 'Communication with Doctors Baseline Rate', 'Communication with Doctors Performance Rate', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Floor', 'Responsiveness of Hospital Staff Achievement Threshold', 'Responsiveness of Hospital Staff Benchmark', 'Responsiveness of Hospital Staff Baseline Rate', 'Responsiveness of Hospital Staff Performance Rate', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Care Transition Floor', 'Care Transition Achievement Threshold', 'Care Transition Benchmark', 'Care Transition Baseline Rate', 'Care Transition Performance Rate', 'Care Transition Achievement Points', 'Care Transition Improvement Points', 'Care Transition Dimension Score', 'Communication about Medicines Floor', 'Communication about Medicines Achievement Threshold', 'Communication about Medicines Benchmark', 'Communication about Medicines Baseline Rate', 'Communication about Medicines Performance Rate', 'Communication about Medicines Achievement Points', 'Communication about Medicines Improvement Points', 'Communication about Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Floor', 'Cleanliness and Quietness of Hospital Environment Achievement Threshold', 'Cleanliness and Quietness of Hospital Environment Benchmark', 'Cleanliness and Quietness of Hospital Environment Baseline Rate', 'Cleanliness and Quietness of Hospital Environment Performance Rate', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Floor', 'Discharge Information Achievement Threshold', 'Discharge Information Benchmark', 'Discharge Information Baseline Rate', 'Discharge Information Performance Rate', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Floor', 'Overall Rating of Hospital Achievement Threshold', 'Overall Rating of Hospital Benchmark', 'Overall Rating of Hospital Baseline Rate', 'Overall Rating of Hospital Performance Rate', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_safety_11_09_2018.csv
+COLUMNS: ['Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'HAI-1 Achievement Threshold', 'HAI-1 Benchmark', 'HAI-1 Baseline Rate', 'HAI-1 Performance Rate', 'HAI-1 Achievement Points', 'HAI-1 Improvement Points', 'HAI-1 Measure Score', 'HAI-2 Achievement Threshold', 'HAI-2 Benchmark', 'HAI-2 Baseline Rate', 'HAI-2 Performance Rate', 'HAI-2 Achievement Points', 'HAI-2 Improvement Points', 'HAI-2 Measure Score', 'Combined SSI Measure Score', 'HAI-3 Achievement Threshold', 'HAI-3 Benchmark', 'HAI-3 Baseline Rate', 'HAI-3 Performance Rate', 'HAI-3 Achievement Points', 'HAI-3 Improvement Points', 'HAI-3 Measure Score', 'HAI-4 Achievement Threshold', 'HAI-4 Benchmark', 'HAI-4 Baseline Rate', 'HAI-4 Performance Rate', 'HAI-4 Achievement Points', 'HAI-4 Improvement Points', 'HAI-4 Measure Score', 'HAI-5 Achievement Threshold', 'HAI-5 Benchmark', 'HAI-5 Baseline Rate', 'HAI-5 Performance Rate', 'HAI-5 Achievement Points', 'HAI-5 Improvement Points', 'HAI-5 Measure Score', 'HAI-6 Achievement Threshold', 'HAI-6 Benchmark', 'HAI-6 Baseline Rate', 'HAI-6 Performance Rate', 'HAI-6 Achievement Points', 'HAI-6 Improvement Points', 'HAI-6 Measure Score', 'PC-01 Achievement Threshold', 'PC-01 Benchmark', 'PC-01 Baseline Rate', 'PC-01 Performance Rate', 'PC-01 Achievement Points', 'PC-01 Improvement Points', 'PC-01 Measure Score']
+
+FILE: hvbp_tps_11_09_2018.csv
+COLUMNS: ['Facility ID', 'Facility Name', 'Address', 'City', 'State', 'Zip Code', 'County Name', 'Unweighted Normalized Clinical Care Domain Score', 'Weighted Normalized Clinical Care Domain Score', 'Unweighted Person and Community Engagement Domain Score', 'Weighted Person and Community Engagement Domain Score', 'Unweighted Normalized Safety Domain Score', 'Weighted Safety Domain Score', 'Unweighted Normalized Efficiency and Cost Reduction Domain Score', 'Weighted Efficiency and Cost Reduction Domain Score', 'Total Performance Score']
+
+FILE: Medicare Hospital Spending by Claim.csv
+COLUMNS: ['Facility Name', 'Facility ID', 'State', 'Period', 'Claim Type', 'Avg Spndg Per EP Hospital', 'Avg Spndg Per EP State', 'Avg Spndg Per EP National', 'Percent of Spndg Hospital', 'Percent of Spndg State', 'Percent of Spndg National', 'Start Date', 'End Date']
+
+FILE: Medicare Hospital Spending Per Patient - Hospital.csv
+COLUMNS: ['Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Medicare Hospital Spending Per Patient - National.csv
+COLUMNS: ['Measure ID', 'Measure Name', 'Score', 'Footnote - Score', 'National Median', 'Footnote - National Median', 'Start Date', 'End Date']
+
+FILE: Medicare Hospital Spending Per Patient - State.csv
+COLUMNS: ['State', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Outpatient Imaging Efficiency - Hospital.csv
+COLUMNS: ['Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Outpatient Imaging Efficiency - National.csv
+COLUMNS: ['Measure ID', 'Measure Name', 'Score', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Outpatient Imaging Efficiency - State.csv
+COLUMNS: ['State', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Payment - National.csv
+COLUMNS: ['Measure ID', 'Measure Name', 'National Payment', 'Number Less Than National Payment', 'Number Same as National Payment', 'Number Greater Than National Payment', 'Number of Hospitals Too Few', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Payment - State.csv
+COLUMNS: ['State', 'Measure ID', 'Measure Name', 'Number Less Than National Payment', 'Number Same as National Payment', 'Number Greater Than National Payment', 'Number of Hospitals Too Few', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Payment and Value of Care - Hospital.csv
+COLUMNS: ['Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Payment Measure ID', 'Payment Measure Name', 'Payment Category', 'Denominator', 'Payment', 'Lower Estimate', 'Higher Estimate', 'Payment Footnote', 'Value of Care Display ID', 'Value of Care Display Name', 'Value of Care Category', 'Value of Care Footnote', 'Start Date', 'End Date']
+
+FILE: Structural Measures - Hospital.csv
+COLUMNS: ['Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Measure ID', 'Measure Name', 'Measure Response', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Timely and Effective Care - Hospital.csv
+COLUMNS: ['Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Condition', 'Measure ID', 'Measure Name', 'Score', 'Sample', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Timely and Effective Care - National.csv
+COLUMNS: ['Measure ID', 'Measure Name', 'Condition', 'Category', 'Score', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Timely and Effective Care - State.csv
+COLUMNS: ['State', 'Condition', 'Measure ID', 'Measure Name', 'Score', 'Footnote', 'Start Date', 'End Date']
+
+================================================================================
+SCANNING FOLDER: hcahps2020
+================================================================================
+
+================================================================================
+SCANNING FOLDER: hcahps2021
+================================================================================
+
+FILE: FY2019_Distribution_of_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Percentile', 'Net Change in Base Operating DRG Payment Amount']
+
+FILE: FY2019_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Net Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this Range']
+
+FILE: FY2019_Percent_Change_in_Medicare_Payments.csv
+COLUMNS: ['% Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this % Change']
+
+FILE: FY2019_Value_Based_Incentive_Payment_Amount.csv
+COLUMNS: ['Incentive Payment Range', 'Number of Hospitals Receiving this Range']
+
+FILE: hvbp_clinical_outcomes.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'MORT-30-AMI Achievement Threshold', 'MORT-30-AMI Benchmark', 'MORT-30-AMI Baseline Rate', 'MORT-30-AMI Performance Rate', 'MORT-30-AMI Achievement Points', 'MORT-30-AMI Improvement Points', 'MORT-30-AMI Measure Score', 'MORT-30-COPD Achievement Threshold', 'MORT-30-COPD Benchmark', 'MORT-30-COPD Baseline Rate', 'MORT-30-COPD Performance Rate', 'MORT-30-COPD Achievement Points', 'MORT-30-COPD Improvement Points', 'MORT-30-COPD Measure Score', 'MORT-30-HF Achievement Threshold', 'MORT-30-HF Benchmark', 'MORT-30-HF Baseline Rate', 'MORT-30-HF Performance Rate', 'MORT-30-HF Achievement Points', 'MORT-30-HF Improvement Points', 'MORT-30-HF Measure Score', 'MORT-30-PN Achievement Threshold', 'MORT-30-PN Benchmark', 'MORT-30-PN Baseline Rate', 'MORT-30-PN Performance Rate', 'MORT-30-PN Achievement Points', 'MORT-30-PN Improvement Points', 'MORT-30-PN Measure Score', 'COMP-HIP-KNEE Achievement Threshold', 'COMP-HIP-KNEE Benchmark', 'COMP-HIP-KNEE Baseline Rate', 'COMP-HIP-KNEE Performance Rate', 'COMP-HIP-KNEE Achievement Points', 'COMP-HIP-KNEE Improvement Points', 'COMP-HIP-KNEE Measure Score']
+
+FILE: hvbp_efficiency_and_cost_reduction.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'MSPB-1 Achievement Threshold', 'MSPB-1 Benchmark', 'MSPB-1 Baseline Rate', 'MSPB-1 Performance Rate', 'MSPB-1 Achievement Points', 'MSPB-1 Improvement Points', 'MSPB-1 Measure Score']
+
+FILE: hvbp_person_and_community_engagement.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Communication with Nurses Floor', 'Communication with Nurses Achievement Threshold', 'Communication with Nurses Benchmark', 'Communication with Nurses Baseline Rate', 'Communication with Nurses Performance Rate', 'Communication with Nurses Achievement Points', 'Communication with Nurses Improvement Points', 'Communication with Nurses Dimension Score', 'Communication with Doctors Floor', 'Communication with Doctors Achievement Threshold', 'Communication with Doctors Benchmark', 'Communication with Doctors Baseline Rate', 'Communication with Doctors Performance Rate', 'Communication with Doctors Achievement Points', 'Communication with Doctors Improvement Points', 'Communication with Doctors Dimension Score', 'Responsiveness of Hospital Staff Floor', 'Responsiveness of Hospital Staff Achievement Threshold', 'Responsiveness of Hospital Staff Benchmark', 'Responsiveness of Hospital Staff Baseline Rate', 'Responsiveness of Hospital Staff Performance Rate', 'Responsiveness of Hospital Staff Achievement Points', 'Responsiveness of Hospital Staff Improvement Points', 'Responsiveness of Hospital Staff Dimension Score', 'Care Transition Floor', 'Care Transition Achievement Threshold', 'Care Transition Benchmark', 'Care Transition Baseline Rate', 'Care Transition Performance Rate', 'Care Transition Achievement Points', 'Care Transition Improvement Points', 'Care Transition Dimension Score', 'Communication About Medicines Floor', 'Communication About Medicines Achievement Threshold', 'Communication About Medicines Benchmark', 'Communication About Medicines Baseline Rate', 'Communication About Medicines Performance Rate', 'Communication About Medicines Achievement Points', 'Communication About Medicines Improvement Points', 'Communication About Medicines Dimension Score', 'Cleanliness and Quietness of Hospital Environment Floor', 'Cleanliness and Quietness of Hospital Environment Achievement Threshold', 'Cleanliness and Quietness of Hospital Environment Benchmark', 'Cleanliness and Quietness of Hospital Environment Baseline Rate', 'Cleanliness and Quietness of Hospital Environment Performance Rate', 'Cleanliness and Quietness of Hospital Environment Achievement Points', 'Cleanliness and Quietness of Hospital Environment Improvement Points', 'Cleanliness and Quietness of Hospital Environment Dimension Score', 'Discharge Information Floor', 'Discharge Information Achievement Threshold', 'Discharge Information Benchmark', 'Discharge Information Baseline Rate', 'Discharge Information Performance Rate', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating of Hospital Floor', 'Overall Rating of Hospital Achievement Threshold', 'Overall Rating of Hospital Benchmark', 'Overall Rating of Hospital Baseline Rate', 'Overall Rating of Hospital Performance Rate', 'Overall Rating of Hospital Achievement Points', 'Overall Rating of Hospital Improvement Points', 'Overall Rating of Hospital Dimension Score', 'HCAHPS Base Score', 'HCAHPS Consistency Score']
+
+FILE: hvbp_safety.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'HAI-1 Achievement Threshold', 'HAI-1 Benchmark', 'HAI-1 Baseline Rate', 'HAI-1 Performance Rate', 'HAI-1 Achievement Points', 'HAI-1 Improvement Points', 'HAI-1 Measure Score', 'HAI-2 Achievement Threshold', 'HAI-2 Benchmark', 'HAI-2 Baseline Rate', 'HAI-2 Performance Rate', 'HAI-2 Achievement Points', 'HAI-2 Improvement Points', 'HAI-2 Measure Score', 'Combined SSI Measure Score', 'HAI-3 Achievement Threshold', 'HAI-3 Benchmark', 'HAI-3 Baseline Rate', 'HAI-3 Performance Rate', 'HAI-3 Achievement Points', 'HAI-3 Improvement Points', 'HAI-3 Measure Score', 'HAI-4 Achievement Threshold', 'HAI-4 Benchmark', 'HAI-4 Baseline Rate', 'HAI-4 Performance Rate', 'HAI-4 Achievement Points', 'HAI-4 Improvement Points', 'HAI-4 Measure Score', 'HAI-5 Achievement Threshold', 'HAI-5 Benchmark', 'HAI-5 Baseline Rate', 'HAI-5 Performance Rate', 'HAI-5 Achievement Points', 'HAI-5 Improvement Points', 'HAI-5 Measure Score', 'HAI-6 Achievement Threshold', 'HAI-6 Benchmark', 'HAI-6 Baseline Rate', 'HAI-6 Performance Rate', 'HAI-6 Achievement Points', 'HAI-6 Improvement Points', 'HAI-6 Measure Score']
+
+FILE: hvbp_tps.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Unweighted Normalized Clinical Outcomes Domain Score', 'Weighted Normalized Clinical Outcomes Domain Score', 'Unweighted Person and Community Engagement Domain Score', 'Weighted Person and Community Engagement Domain Score', 'Unweighted Normalized Safety Domain Score', 'Weighted Safety Domain Score', 'Unweighted Normalized Efficiency and Cost Reduction Domain Score', 'Weighted Efficiency and Cost Reduction Domain Score', 'Total Performance Score']
+
+FILE: Payment-National.csv
+COLUMNS: ['Measure ID', 'Measure Name', 'National Payment', 'Number Less Than National Payment', 'Number Same as National Payment', 'Number Greater Than National Payment', 'Number of Hospitals Too Few', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Payment-State.csv
+COLUMNS: ['State', 'Measure ID', 'Measure Name', 'Number Less Than National Payment', 'Number Same as National Payment', 'Number Greater Than National Payment', 'Number of Hospitals Too Few', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Payment_and_Value_of_Care-Hospital.csv
+COLUMNS: ['Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Payment Measure ID', 'Payment Measure Name', 'Payment Category', 'Denominator', 'Payment', 'Lower Estimate', 'Higher Estimate', 'Payment Footnote', 'Value of Care Display ID', 'Value of Care Display Name', 'Value of Care Category', 'Value of Care Footnote', 'Start Date', 'End Date']
+
+================================================================================
+SCANNING FOLDER: hcahps2022
+================================================================================
+
+FILE: FY2020_Distribution_of_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Percentile', 'Net Change in Base Operating DRG Payment Amount']
+
+FILE: FY2020_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Net Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this Range']
+
+FILE: FY2020_Percent_Change_in_Medicare_Payments.csv
+COLUMNS: ['% Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this % Change']
+
+FILE: FY2020_Value_Based_Incentive_Payment_Amount.csv
+COLUMNS: ['Incentive Payment Range', 'Number of Hospitals Receiving this Range']
+
+FILE: hvbp_clinical_outcomes.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'MORT-30-AMI Achievement Threshold', 'MORT-30-AMI Benchmark', 'MORT-30-AMI Baseline Rate', 'MORT-30-AMI Performance Rate', 'MORT-30-AMI Achievement Points', 'MORT-30-AMI Improvement Points', 'MORT-30-AMI Measure Score', 'MORT-30-HF Achievement Threshold', 'MORT-30-HF Benchmark', 'MORT-30-HF Baseline Rate', 'MORT-30-HF Performance Rate', 'MORT-30-HF Achievement Points', 'MORT-30-HF Improvement Points', 'MORT-30-HF Measure Score', 'MORT-30-PN Achievement Threshold', 'MORT-30-PN Benchmark', 'MORT-30-PN Baseline Rate', 'MORT-30-PN Performance Rate', 'MORT-30-PN Achievement Points', 'MORT-30-PN Improvement Points', 'MORT-30-PN Measure Score', 'MORT-30-COPD Achievement Threshold', 'MORT-30-COPD Benchmark', 'MORT-30-COPD Baseline Rate', 'MORT-30-COPD Performance Rate', 'MORT-30-COPD Achievement Points', 'MORT-30-COPD Improvement Points', 'MORT-30-COPD Measure Score', 'MORT-30-CABG Achievement Threshold', 'MORT-30-CABG Benchmark', 'MORT-30-CABG Baseline Rate', 'MORT-30-CABG Performance Rate', 'MORT-30-CABG Achievement Points', 'MORT-30-CABG Improvement Points', 'MORT-30-CABG Measure Score', 'COMP-HIP-KNEE Achievement Threshold', 'COMP-HIP-KNEE Benchmark', 'COMP-HIP-KNEE Baseline Rate', 'COMP-HIP-KNEE Performance Rate', 'COMP-HIP-KNEE Achievement Points', 'COMP-HIP-KNEE Improvement Points', 'COMP-HIP-KNEE Measure Score']
+
+FILE: hvbp_efficiency_and_cost_reduction.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'MSPB-1 Achievement Threshold', 'MSPB-1 Benchmark', 'MSPB-1 Baseline Rate', 'MSPB-1 Performance Rate', 'MSPB-1 Achievement Points', 'MSPB-1 Improvement Points', 'MSPB-1 Measure Score']
+
+FILE: hvbp_person_and_community_engagement.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Communication With Nurses Floor', 'Communication With Nurses Achievement Threshold', 'Communication With Nurses Benchmark', 'Communication With Nurses Baseline Rate', 'Communication With Nurses Performance Rate', 'Communication With Nurses Achievement Points', 'Communication With Nurses Improvement Points', 'Communication With Nurses Dimension Score', 'Communication With Doctors Floor', 'Communication With Doctors Achievement Threshold', 'Communication With Doctors Benchmark', 'Communication With Doctors Baseline Rate', 'Communication With Doctors Performance Rate', 'Communication With Doctors Achievement Points', 'Communication With Doctors Improvement Points', 'Communication With Doctors Dimension Score', 'Responsiveness Of Hospital Staff Floor', 'Responsiveness Of Hospital Staff Achievement Threshold', 'Responsiveness Of Hospital Staff Benchmark', 'Responsiveness Of Hospital Staff Baseline Rate', 'Responsiveness Of Hospital Staff Performance Rate', 'Responsiveness Of Hospital Staff Achievement Points', 'Responsiveness Of Hospital Staff Improvement Points', 'Responsiveness Of Hospital Staff Dimension Score', 'Care Transition Floor', 'Care Transition Achievement Threshold', 'Care Transition Benchmark', 'Care Transition Baseline Rate', 'Care Transition Performance Rate', 'Care Transition Achievement Points', 'Care Transition Improvement Points', 'Care Transition Dimension Score', 'Communication About Medicines Floor', 'Communication About Medicines Achievement Threshold', 'Communication About Medicines Benchmark', 'Communication About Medicines Baseline Rate', 'Communication About Medicines Performance Rate', 'Communication About Medicines Achievement Points', 'Communication About Medicines Improvement Points', 'Communication About Medicines Dimension Score', 'Cleanliness And Quietness Of Hospital Environment Floor', 'Cleanliness And Quietness Of Hospital Environment Achievement Threshold', 'Cleanliness And Quietness Of Hospital Environment Benchmark', 'Cleanliness And Quietness Of Hospital Environment Baseline Rate', 'Cleanliness And Quietness Of Hospital Environment Performance Rate', 'Cleanliness And Quietness Of Hospital Environment Achievement Points', 'Cleanliness And Quietness Of Hospital Environment Improvement Points', 'Cleanliness And Quietness Of Hospital Environment Dimension Score', 'Discharge Information Floor', 'Discharge Information Achievement Threshold', 'Discharge Information Benchmark', 'Discharge Information Baseline Rate', 'Discharge Information Performance Rate', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating Of Hospital Floor', 'Overall Rating Of Hospital Achievement Threshold', 'Overall Rating Of Hospital Benchmark', 'Overall Rating Of Hospital Baseline Rate', 'Overall Rating Of Hospital Performance Rate', 'Overall Rating Of Hospital Achievement Points', 'Overall Rating Of Hospital Improvement Points', 'Overall Rating Of Hospital Dimension Score', 'Hcahps Base Score', 'Hcahps Consistency Score']
+
+FILE: hvbp_safety.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'HAI-1 Achievement Threshold', 'HAI-1 Benchmark', 'HAI-1 Baseline Rate', 'HAI-1 Performance Rate', 'HAI-1 Achievement Points', 'HAI-1 Improvement Points', 'HAI-1 Measure Score', 'HAI-2 Achievement Threshold', 'HAI-2 Benchmark', 'HAI-2 Baseline Rate', 'HAI-2 Performance Rate', 'HAI-2 Achievement Points', 'HAI-2 Improvement Points', 'HAI-2 Measure Score', 'Combined SSI Measure Score', 'HAI-3 Achievement Threshold', 'HAI-3 Benchmark', 'HAI-3 Baseline Rate', 'HAI-3 Performance Rate', 'HAI-3 Achievement Points', 'HAI-3 Improvement Points', 'HAI-3 Measure Score', 'HAI-4 Achievement Threshold', 'HAI-4 Benchmark', 'HAI-4 Baseline Rate', 'HAI-4 Performance Rate', 'HAI-4 Achievement Points', 'HAI-4 Improvement Points', 'HAI-4 Measure Score', 'HAI-5 Achievement Threshold', 'HAI-5 Benchmark', 'HAI-5 Baseline Rate', 'HAI-5 Performance Rate', 'HAI-5 Achievement Points', 'HAI-5 Improvement Points', 'HAI-5 Measure Score', 'HAI-6 Achievement Threshold', 'HAI-6 Benchmark', 'HAI-6 Baseline Rate', 'HAI-6 Performance Rate', 'HAI-6 Achievement Points', 'HAI-6 Improvement Points', 'HAI-6 Measure Score']
+
+FILE: hvbp_tps.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Unweighted Normalized Clinical Outcomes Domain Score', 'Weighted Normalized Clinical Outcomes Domain Score', 'Unweighted Person And Community Engagement Domain Score', 'Weighted Person And Community Engagement Domain Score', 'Unweighted Normalized Safety Domain Score', 'Weighted Safety Domain Score', 'Unweighted Normalized Efficiency And Cost Reduction Domain Score', 'Weighted Efficiency And Cost Reduction Domain Score', 'Total Performance Score']
+
+FILE: Payment-National.csv
+COLUMNS: ['Measure ID', 'Measure Name', 'National Payment', 'Number Less Than National Payment', 'Number Same as National Payment', 'Number Greater Than National Payment', 'Number of Hospitals Too Few', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Payment-State.csv
+COLUMNS: ['State', 'Measure ID', 'Measure Name', 'Number Less Than National Payment', 'Number Same as National Payment', 'Number Greater Than National Payment', 'Number of Hospitals Too Few', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Payment_and_Value_of_Care-Hospital.csv
+COLUMNS: ['Facility ID', 'Facility Name', 'Address', 'City', 'State', 'ZIP Code', 'County Name', 'Phone Number', 'Payment Measure ID', 'Payment Measure Name', 'Payment Category', 'Denominator', 'Payment', 'Lower Estimate', 'Higher Estimate', 'Payment Footnote', 'Value of Care Display ID', 'Value of Care Display Name', 'Value of Care Category', 'Value of Care Footnote', 'Start Date', 'End Date']
+
+================================================================================
+SCANNING FOLDER: hcahps2023
+================================================================================
+
+FILE: FY2021_Distribution_of_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Percentile', 'Net Change in Base Operating DRG Payment Amount']
+
+FILE: FY2021_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Net Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this Range']
+
+FILE: FY2021_Percent_Change_in_Medicare_Payments.csv
+COLUMNS: ['% Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this % Change']
+
+FILE: FY2021_Value_Based_Incentive_Payment_Amount.csv
+COLUMNS: ['Incentive Payment Range', 'Number of Hospitals Receiving this Range']
+
+FILE: hvbp_clinical_outcomes.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'MORT-30-AMI Achievement Threshold', 'MORT-30-AMI Benchmark', 'MORT-30-AMI Baseline Rate', 'MORT-30-AMI Performance Rate', 'MORT-30-AMI Achievement Points', 'MORT-30-AMI Improvement Points', 'MORT-30-AMI Measure Score', 'MORT-30-HF Achievement Threshold', 'MORT-30-HF Benchmark', 'MORT-30-HF Baseline Rate', 'MORT-30-HF Performance Rate', 'MORT-30-HF Achievement Points', 'MORT-30-HF Improvement Points', 'MORT-30-HF Measure Score', 'MORT-30-PN Achievement Threshold', 'MORT-30-PN Benchmark', 'MORT-30-PN Baseline Rate', 'MORT-30-PN Performance Rate', 'MORT-30-PN Achievement Points', 'MORT-30-PN Improvement Points', 'MORT-30-PN Measure Score', 'MORT-30-COPD Achievement Threshold', 'MORT-30-COPD Benchmark', 'MORT-30-COPD Baseline Rate', 'MORT-30-COPD Performance Rate', 'MORT-30-COPD Achievement Points', 'MORT-30-COPD Improvement Points', 'MORT-30-COPD Measure Score', 'MORT-30-CABG Achievement Threshold', 'MORT-30-CABG Benchmark', 'MORT-30-CABG Baseline Rate', 'MORT-30-CABG Performance Rate', 'MORT-30-CABG Achievement Points', 'MORT-30-CABG Improvement Points', 'MORT-30-CABG Measure Score', 'COMP-HIP-KNEE Achievement Threshold', 'COMP-HIP-KNEE Benchmark', 'COMP-HIP-KNEE Baseline Rate', 'COMP-HIP-KNEE Performance Rate', 'COMP-HIP-KNEE Achievement Points', 'COMP-HIP-KNEE Improvement Points', 'COMP-HIP-KNEE Measure Score']
+
+FILE: hvbp_efficiency_and_cost_reduction.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'MSPB-1 Achievement Threshold', 'MSPB-1 Benchmark', 'MSPB-1 Baseline Rate', 'MSPB-1 Performance Rate', 'MSPB-1 Achievement Points', 'MSPB-1 Improvement Points', 'MSPB-1 Measure Score']
+
+FILE: hvbp_person_and_community_engagement.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'Communication With Nurses Floor', 'Communication With Nurses Achievement Threshold', 'Communication With Nurses Benchmark', 'Communication With Nurses Baseline Rate', 'Communication With Nurses Performance Rate', 'Communication With Nurses Achievement Points', 'Communication With Nurses Improvement Points', 'Communication With Nurses Dimension Score', 'Communication With Doctors Floor', 'Communication With Doctors Achievement Threshold', 'Communication With Doctors Benchmark', 'Communication With Doctors Baseline Rate', 'Communication With Doctors Performance Rate', 'Communication With Doctors Achievement Points', 'Communication With Doctors Improvement Points', 'Communication With Doctors Dimension Score', 'Responsiveness Of Hospital Staff Floor', 'Responsiveness Of Hospital Staff Achievement Threshold', 'Responsiveness Of Hospital Staff Benchmark', 'Responsiveness Of Hospital Staff Baseline Rate', 'Responsiveness Of Hospital Staff Performance Rate', 'Responsiveness Of Hospital Staff Achievement Points', 'Responsiveness Of Hospital Staff Improvement Points', 'Responsiveness Of Hospital Staff Dimension Score', 'Care Transition Floor', 'Care Transition Achievement Threshold', 'Care Transition Benchmark', 'Care Transition Baseline Rate', 'Care Transition Performance Rate', 'Care Transition Achievement Points', 'Care Transition Improvement Points', 'Care Transition Dimension Score', 'Communication About Medicines Floor', 'Communication About Medicines Achievement Threshold', 'Communication About Medicines Benchmark', 'Communication About Medicines Baseline Rate', 'Communication About Medicines Performance Rate', 'Communication About Medicines Achievement Points', 'Communication About Medicines Improvement Points', 'Communication About Medicines Dimension Score', 'Cleanliness And Quietness Of Hospital Environment Floor', 'Cleanliness And Quietness Of Hospital Environment Achievement Threshold', 'Cleanliness And Quietness Of Hospital Environment Benchmark', 'Cleanliness And Quietness Of Hospital Environment Baseline Rate', 'Cleanliness And Quietness Of Hospital Environment Performance Rate', 'Cleanliness And Quietness Of Hospital Environment Achievement Points', 'Cleanliness And Quietness Of Hospital Environment Improvement Points', 'Cleanliness And Quietness Of Hospital Environment Dimension Score', 'Discharge Information Floor', 'Discharge Information Achievement Threshold', 'Discharge Information Benchmark', 'Discharge Information Baseline Rate', 'Discharge Information Performance Rate', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating Of Hospital Floor', 'Overall Rating Of Hospital Achievement Threshold', 'Overall Rating Of Hospital Benchmark', 'Overall Rating Of Hospital Baseline Rate', 'Overall Rating Of Hospital Performance Rate', 'Overall Rating Of Hospital Achievement Points', 'Overall Rating Of Hospital Improvement Points', 'Overall Rating Of Hospital Dimension Score', 'Hcahps Base Score', 'Hcahps Consistency Score']
+
+FILE: hvbp_safety.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'HAI-1 Achievement Threshold', 'HAI-1 Benchmark', 'HAI-1 Baseline Rate', 'HAI-1 Performance Rate', 'HAI-1 Achievement Points', 'HAI-1 Improvement Points', 'HAI-1 Measure Score', 'HAI-2 Achievement Threshold', 'HAI-2 Benchmark', 'HAI-2 Baseline Rate', 'HAI-2 Performance Rate', 'HAI-2 Achievement Points', 'HAI-2 Improvement Points', 'HAI-2 Measure Score', 'Combined SSI Measure Score', 'HAI-3 Achievement Threshold', 'HAI-3 Benchmark', 'HAI-3 Baseline Rate', 'HAI-3 Performance Rate', 'HAI-3 Achievement Points', 'HAI-3 Improvement Points', 'HAI-3 Measure Score', 'HAI-4 Achievement Threshold', 'HAI-4 Benchmark', 'HAI-4 Baseline Rate', 'HAI-4 Performance Rate', 'HAI-4 Achievement Points', 'HAI-4 Improvement Points', 'HAI-4 Measure Score', 'HAI-5 Achievement Threshold', 'HAI-5 Benchmark', 'HAI-5 Baseline Rate', 'HAI-5 Performance Rate', 'HAI-5 Achievement Points', 'HAI-5 Improvement Points', 'HAI-5 Measure Score', 'HAI-6 Achievement Threshold', 'HAI-6 Benchmark', 'HAI-6 Baseline Rate', 'HAI-6 Performance Rate', 'HAI-6 Achievement Points', 'HAI-6 Improvement Points', 'HAI-6 Measure Score']
+
+FILE: hvbp_tps.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'Unweighted Normalized Clinical Outcomes Domain Score', 'Weighted Normalized Clinical Outcomes Domain Score', 'Unweighted Person And Community Engagement Domain Score', 'Weighted Person And Community Engagement Domain Score', 'Unweighted Normalized Safety Domain Score', 'Weighted Safety Domain Score', 'Unweighted Normalized Efficiency And Cost Reduction Domain Score', 'Weighted Efficiency And Cost Reduction Domain Score', 'Total Performance Score']
+
+FILE: Payment-National.csv
+COLUMNS: ['Measure ID', 'Measure Name', 'National Payment', 'Number Less Than National Payment', 'Number Same as National Payment', 'Number Greater Than National Payment', 'Number of Hospitals Too Few', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Payment-State.csv
+COLUMNS: ['State', 'Measure ID', 'Measure Name', 'Number Less Than National Payment', 'Number Same as National Payment', 'Number Greater Than National Payment', 'Number of Hospitals Too Few', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Payment_and_Value_of_Care-Hospital.csv
+COLUMNS: ['Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'Telephone Number', 'Payment Measure ID', 'Payment Measure Name', 'Payment Category', 'Denominator', 'Payment', 'Lower Estimate', 'Higher Estimate', 'Payment Footnote', 'Value of Care Display ID', 'Value of Care Display Name', 'Value of Care Category', 'Value of Care Footnote', 'Start Date', 'End Date']
+
+================================================================================
+SCANNING FOLDER: hcahps2024
+================================================================================
+
+FILE: FY2021_Distribution_of_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Percentile', 'Net Change in Base Operating DRG Payment Amount']
+
+FILE: FY2021_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Net Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this Range']
+
+FILE: FY2021_Percent_Change_in_Medicare_Payments.csv
+COLUMNS: ['% Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this % Change']
+
+FILE: FY2021_Value_Based_Incentive_Payment_Amount.csv
+COLUMNS: ['Incentive Payment Range', 'Number of Hospitals Receiving this Range']
+
+FILE: hvbp_clinical_outcomes.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'MORT-30-AMI Achievement Threshold', 'MORT-30-AMI Benchmark', 'MORT-30-AMI Baseline Rate', 'MORT-30-AMI Performance Rate', 'MORT-30-AMI Achievement Points', 'MORT-30-AMI Improvement Points', 'MORT-30-AMI Measure Score', 'MORT-30-HF Achievement Threshold', 'MORT-30-HF Benchmark', 'MORT-30-HF Baseline Rate', 'MORT-30-HF Performance Rate', 'MORT-30-HF Achievement Points', 'MORT-30-HF Improvement Points', 'MORT-30-HF Measure Score', 'MORT-30-PN Achievement Threshold', 'MORT-30-PN Benchmark', 'MORT-30-PN Baseline Rate', 'MORT-30-PN Performance Rate', 'MORT-30-PN Achievement Points', 'MORT-30-PN Improvement Points', 'MORT-30-PN Measure Score', 'MORT-30-COPD Achievement Threshold', 'MORT-30-COPD Benchmark', 'MORT-30-COPD Baseline Rate', 'MORT-30-COPD Performance Rate', 'MORT-30-COPD Achievement Points', 'MORT-30-COPD Improvement Points', 'MORT-30-COPD Measure Score', 'MORT-30-CABG Achievement Threshold', 'MORT-30-CABG Benchmark', 'MORT-30-CABG Baseline Rate', 'MORT-30-CABG Performance Rate', 'MORT-30-CABG Achievement Points', 'MORT-30-CABG Improvement Points', 'MORT-30-CABG Measure Score', 'COMP-HIP-KNEE Achievement Threshold', 'COMP-HIP-KNEE Benchmark', 'COMP-HIP-KNEE Baseline Rate', 'COMP-HIP-KNEE Performance Rate', 'COMP-HIP-KNEE Achievement Points', 'COMP-HIP-KNEE Improvement Points', 'COMP-HIP-KNEE Measure Score']
+
+FILE: hvbp_efficiency_and_cost_reduction.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'MSPB-1 Achievement Threshold', 'MSPB-1 Benchmark', 'MSPB-1 Baseline Rate', 'MSPB-1 Performance Rate', 'MSPB-1 Achievement Points', 'MSPB-1 Improvement Points', 'MSPB-1 Measure Score']
+
+FILE: hvbp_person_and_community_engagement.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'Communication With Nurses Floor', 'Communication With Nurses Achievement Threshold', 'Communication With Nurses Benchmark', 'Communication With Nurses Baseline Rate', 'Communication With Nurses Performance Rate', 'Communication With Nurses Achievement Points', 'Communication With Nurses Improvement Points', 'Communication With Nurses Dimension Score', 'Communication With Doctors Floor', 'Communication With Doctors Achievement Threshold', 'Communication With Doctors Benchmark', 'Communication With Doctors Baseline Rate', 'Communication With Doctors Performance Rate', 'Communication With Doctors Achievement Points', 'Communication With Doctors Improvement Points', 'Communication With Doctors Dimension Score', 'Responsiveness Of Hospital Staff Floor', 'Responsiveness Of Hospital Staff Achievement Threshold', 'Responsiveness Of Hospital Staff Benchmark', 'Responsiveness Of Hospital Staff Baseline Rate', 'Responsiveness Of Hospital Staff Performance Rate', 'Responsiveness Of Hospital Staff Achievement Points', 'Responsiveness Of Hospital Staff Improvement Points', 'Responsiveness Of Hospital Staff Dimension Score', 'Care Transition Floor', 'Care Transition Achievement Threshold', 'Care Transition Benchmark', 'Care Transition Baseline Rate', 'Care Transition Performance Rate', 'Care Transition Achievement Points', 'Care Transition Improvement Points', 'Care Transition Dimension Score', 'Communication About Medicines Floor', 'Communication About Medicines Achievement Threshold', 'Communication About Medicines Benchmark', 'Communication About Medicines Baseline Rate', 'Communication About Medicines Performance Rate', 'Communication About Medicines Achievement Points', 'Communication About Medicines Improvement Points', 'Communication About Medicines Dimension Score', 'Cleanliness And Quietness Of Hospital Environment Floor', 'Cleanliness And Quietness Of Hospital Environment Achievement Threshold', 'Cleanliness And Quietness Of Hospital Environment Benchmark', 'Cleanliness And Quietness Of Hospital Environment Baseline Rate', 'Cleanliness And Quietness Of Hospital Environment Performance Rate', 'Cleanliness And Quietness Of Hospital Environment Achievement Points', 'Cleanliness And Quietness Of Hospital Environment Improvement Points', 'Cleanliness And Quietness Of Hospital Environment Dimension Score', 'Discharge Information Floor', 'Discharge Information Achievement Threshold', 'Discharge Information Benchmark', 'Discharge Information Baseline Rate', 'Discharge Information Performance Rate', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating Of Hospital Floor', 'Overall Rating Of Hospital Achievement Threshold', 'Overall Rating Of Hospital Benchmark', 'Overall Rating Of Hospital Baseline Rate', 'Overall Rating Of Hospital Performance Rate', 'Overall Rating Of Hospital Achievement Points', 'Overall Rating Of Hospital Improvement Points', 'Overall Rating Of Hospital Dimension Score', 'Hcahps Base Score', 'Hcahps Consistency Score']
+
+FILE: hvbp_safety.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'HAI-1 Achievement Threshold', 'HAI-1 Benchmark', 'HAI-1 Baseline Rate', 'HAI-1 Performance Rate', 'HAI-1 Achievement Points', 'HAI-1 Improvement Points', 'HAI-1 Measure Score', 'HAI-2 Achievement Threshold', 'HAI-2 Benchmark', 'HAI-2 Baseline Rate', 'HAI-2 Performance Rate', 'HAI-2 Achievement Points', 'HAI-2 Improvement Points', 'HAI-2 Measure Score', 'Combined SSI Measure Score', 'HAI-3 Achievement Threshold', 'HAI-3 Benchmark', 'HAI-3 Baseline Rate', 'HAI-3 Performance Rate', 'HAI-3 Achievement Points', 'HAI-3 Improvement Points', 'HAI-3 Measure Score', 'HAI-4 Achievement Threshold', 'HAI-4 Benchmark', 'HAI-4 Baseline Rate', 'HAI-4 Performance Rate', 'HAI-4 Achievement Points', 'HAI-4 Improvement Points', 'HAI-4 Measure Score', 'HAI-5 Achievement Threshold', 'HAI-5 Benchmark', 'HAI-5 Baseline Rate', 'HAI-5 Performance Rate', 'HAI-5 Achievement Points', 'HAI-5 Improvement Points', 'HAI-5 Measure Score', 'HAI-6 Achievement Threshold', 'HAI-6 Benchmark', 'HAI-6 Baseline Rate', 'HAI-6 Performance Rate', 'HAI-6 Achievement Points', 'HAI-6 Improvement Points', 'HAI-6 Measure Score']
+
+FILE: hvbp_tps.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'Unweighted Normalized Clinical Outcomes Domain Score', 'Weighted Normalized Clinical Outcomes Domain Score', 'Unweighted Person And Community Engagement Domain Score', 'Weighted Person And Community Engagement Domain Score', 'Unweighted Normalized Safety Domain Score', 'Weighted Safety Domain Score', 'Unweighted Normalized Efficiency And Cost Reduction Domain Score', 'Weighted Efficiency And Cost Reduction Domain Score', 'Total Performance Score']
+
+FILE: Payment-National.csv
+COLUMNS: ['Measure ID', 'Measure Name', 'National Payment', 'Number Less Than National Payment', 'Number Same as National Payment', 'Number Greater Than National Payment', 'Number of Hospitals Too Few', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Payment-State.csv
+COLUMNS: ['State', 'Measure ID', 'Measure Name', 'Number Less Than National Payment', 'Number Same as National Payment', 'Number Greater Than National Payment', 'Number of Hospitals Too Few', 'Footnote', 'Start Date', 'End Date']
+
+FILE: Payment_and_Value_of_Care-Hospital.csv
+COLUMNS: ['Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'Telephone Number', 'Payment Measure ID', 'Payment Measure Name', 'Payment Category', 'Denominator', 'Payment', 'Lower Estimate', 'Higher Estimate', 'Payment Footnote', 'Value of Care Display ID', 'Value of Care Display Name', 'Value of Care Category', 'Value of Care Footnote', 'Start Date', 'End Date']
+
+================================================================================
+SCANNING FOLDER: hcahps2025
+================================================================================
+
+FILE: FY2021_Distribution_of_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Percentile', 'Net Change in Base Operating DRG Payment Amount']
+
+FILE: FY2021_Net_Change_in_Base_Op_DRG_Payment_Amt.csv
+COLUMNS: ['Net Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this Range']
+
+FILE: FY2021_Percent_Change_in_Medicare_Payments.csv
+COLUMNS: ['% Change in Base Operating DRG Payment Amount', 'Number of Hospitals Receiving this % Change']
+
+FILE: FY2021_Value_Based_Incentive_Payment_Amount.csv
+COLUMNS: ['Incentive Payment Range', 'Number of Hospitals Receiving this Range']
+
+FILE: hvbp_clinical_outcomes.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'MORT-30-AMI Achievement Threshold', 'MORT-30-AMI Benchmark', 'MORT-30-AMI Baseline Rate', 'MORT-30-AMI Performance Rate', 'MORT-30-AMI Achievement Points', 'MORT-30-AMI Improvement Points', 'MORT-30-AMI Measure Score', 'MORT-30-HF Achievement Threshold', 'MORT-30-HF Benchmark', 'MORT-30-HF Baseline Rate', 'MORT-30-HF Performance Rate', 'MORT-30-HF Achievement Points', 'MORT-30-HF Improvement Points', 'MORT-30-HF Measure Score', 'MORT-30-PN Achievement Threshold', 'MORT-30-PN Benchmark', 'MORT-30-PN Baseline Rate', 'MORT-30-PN Performance Rate', 'MORT-30-PN Achievement Points', 'MORT-30-PN Improvement Points', 'MORT-30-PN Measure Score', 'MORT-30-COPD Achievement Threshold', 'MORT-30-COPD Benchmark', 'MORT-30-COPD Baseline Rate', 'MORT-30-COPD Performance Rate', 'MORT-30-COPD Achievement Points', 'MORT-30-COPD Improvement Points', 'MORT-30-COPD Measure Score', 'MORT-30-CABG Achievement Threshold', 'MORT-30-CABG Benchmark', 'MORT-30-CABG Baseline Rate', 'MORT-30-CABG Performance Rate', 'MORT-30-CABG Achievement Points', 'MORT-30-CABG Improvement Points', 'MORT-30-CABG Measure Score', 'COMP-HIP-KNEE Achievement Threshold', 'COMP-HIP-KNEE Benchmark', 'COMP-HIP-KNEE Baseline Rate', 'COMP-HIP-KNEE Performance Rate', 'COMP-HIP-KNEE Achievement Points', 'COMP-HIP-KNEE Improvement Points', 'COMP-HIP-KNEE Measure Score']
+
+FILE: hvbp_efficiency_and_cost_reduction.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'MSPB-1 Achievement Threshold', 'MSPB-1 Benchmark', 'MSPB-1 Baseline Rate', 'MSPB-1 Performance Rate', 'MSPB-1 Achievement Points', 'MSPB-1 Improvement Points', 'MSPB-1 Measure Score']
+
+FILE: hvbp_person_and_community_engagement.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'Communication With Nurses Floor', 'Communication With Nurses Achievement Threshold', 'Communication With Nurses Benchmark', 'Communication With Nurses Baseline Rate', 'Communication With Nurses Performance Rate', 'Communication With Nurses Achievement Points', 'Communication With Nurses Improvement Points', 'Communication With Nurses Dimension Score', 'Communication With Doctors Floor', 'Communication With Doctors Achievement Threshold', 'Communication With Doctors Benchmark', 'Communication With Doctors Baseline Rate', 'Communication With Doctors Performance Rate', 'Communication With Doctors Achievement Points', 'Communication With Doctors Improvement Points', 'Communication With Doctors Dimension Score', 'Responsiveness Of Hospital Staff Floor', 'Responsiveness Of Hospital Staff Achievement Threshold', 'Responsiveness Of Hospital Staff Benchmark', 'Responsiveness Of Hospital Staff Baseline Rate', 'Responsiveness Of Hospital Staff Performance Rate', 'Responsiveness Of Hospital Staff Achievement Points', 'Responsiveness Of Hospital Staff Improvement Points', 'Responsiveness Of Hospital Staff Dimension Score', 'Care Transition Floor', 'Care Transition Achievement Threshold', 'Care Transition Benchmark', 'Care Transition Baseline Rate', 'Care Transition Performance Rate', 'Care Transition Achievement Points', 'Care Transition Improvement Points', 'Care Transition Dimension Score', 'Communication About Medicines Floor', 'Communication About Medicines Achievement Threshold', 'Communication About Medicines Benchmark', 'Communication About Medicines Baseline Rate', 'Communication About Medicines Performance Rate', 'Communication About Medicines Achievement Points', 'Communication About Medicines Improvement Points', 'Communication About Medicines Dimension Score', 'Cleanliness And Quietness Of Hospital Environment Floor', 'Cleanliness And Quietness Of Hospital Environment Achievement Threshold', 'Cleanliness And Quietness Of Hospital Environment Benchmark', 'Cleanliness And Quietness Of Hospital Environment Baseline Rate', 'Cleanliness And Quietness Of Hospital Environment Performance Rate', 'Cleanliness And Quietness Of Hospital Environment Achievement Points', 'Cleanliness And Quietness Of Hospital Environment Improvement Points', 'Cleanliness And Quietness Of Hospital Environment Dimension Score', 'Discharge Information Floor', 'Discharge Information Achievement Threshold', 'Discharge Information Benchmark', 'Discharge Information Baseline Rate', 'Discharge Information Performance Rate', 'Discharge Information Achievement Points', 'Discharge Information Improvement Points', 'Discharge Information Dimension Score', 'Overall Rating Of Hospital Floor', 'Overall Rating Of Hospital Achievement Threshold', 'Overall Rating Of Hospital Benchmark', 'Overall Rating Of Hospital Baseline Rate', 'Overall Rating Of Hospital Performance Rate', 'Overall Rating Of Hospital Achievement Points', 'Overall Rating Of Hospital Improvement Points', 'Overall Rating Of Hospital Dimension Score', 'Hcahps Base Score', 'Hcahps Consistency Score']
+
+FILE: hvbp_safety.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'HAI-1 Achievement Threshold', 'HAI-1 Benchmark', 'HAI-1 Baseline Rate', 'HAI-1 Performance Rate', 'HAI-1 Achievement Points', 'HAI-1 Improvement Points', 'HAI-1 Measure Score', 'HAI-2 Achievement Threshold', 'HAI-2 Benchmark', 'HAI-2 Baseline Rate', 'HAI-2 Performance Rate', 'HAI-2 Achievement Points', 'HAI-2 Improvement Points', 'HAI-2 Measure Score', 'Combined SSI Measure Score', 'HAI-3 Achievement Threshold', 'HAI-3 Benchmark', 'HAI-3 Baseline Rate', 'HAI-3 Performance Rate', 'HAI-3 Achievement Points', 'HAI-3 Improvement Points', 'HAI-3 Measure Score', 'HAI-4 Achievement Threshold', 'HAI-4 Benchmark', 'HAI-4 Baseline Rate', 'HAI-4 Performance Rate', 'HAI-4 Achievement Points', 'HAI-4 Improvement Points', 'HAI-4 Measure Score', 'HAI-5 Achievement Threshold', 'HAI-5 Benchmark', 'HAI-5 Baseline Rate', 'HAI-5 Performance Rate', 'HAI-5 Achievement Points', 'HAI-5 Improvement Points', 'HAI-5 Measure Score', 'HAI-6 Achievement Threshold', 'HAI-6 Benchmark', 'HAI-6 Baseline Rate', 'HAI-6 Performance Rate', 'HAI-6 Achievement Points', 'HAI-6 Improvement Points', 'HAI-6 Measure Score']
+
+FILE: hvbp_tps.csv
+COLUMNS: ['Fiscal Year', 'Facility ID', 'Facility Name', 'Address', 'City/Town', 'State', 'ZIP Code', 'County/Parish', 'Unweighted Normalized Clinical Outcomes Domain Score', 'Weighted Normalized Clinical Outcomes Domain Score', 'Unweighted Person And Community Engagement Domain Score', 'Weighted Person And Community Engagement Domain Score', 'Unweighted Normalized Safety Domain Score', 'Weighted Safety Domain Score', 'Unweighted Normalized Efficiency And Cost Reduction Domain Score', 'Weighted Efficiency And Cost Reduction Domain Score', 'Total Performance Score']

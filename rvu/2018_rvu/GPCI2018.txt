@@ -1,0 +1,114 @@
+10102  00 ALABAMA                             0.979   0.890   0.492
+02102  01 ALASKA**                            1.500   1.117   0.708
+03102  00 ARIZONA                             0.980   0.971   0.834
+07102  13 ARKANSAS                            0.971   0.872   0.576
+01112  54 BAKERSFIELD, CA                     1.020   1.074   0.599
+01112  55 CHICO, CA                           1.020   1.074   0.562
+01182  71 EL CENTRO, CA                       1.020   1.074   0.567
+01112  56 FRESNO, CA                          1.020   1.074   0.562
+01112  57 HANFORD-CORCORAN, CA                1.020   1.074   0.562
+01182  18 LOS ANGELES-LONG BEACH-ANAHEIM (LO  1.046   1.177   0.694
+01182  26 LOS ANGELES-LONG BEACH-ANAHEIM (OR  1.046   1.177   0.694
+01112  58 MADERA, CA                          1.020   1.074   0.562
+01112  59 MERCED, CA                          1.020   1.074   0.562
+01112  60 MODESTO, CA                         1.020   1.074   0.562
+01112  51 NAPA, CA                            1.055   1.256   0.458
+01182  17 OXNARD-THOUSAND OAKS-VENTURA, CA    1.024   1.176   0.673
+01112  61 REDDING, CA                         1.020   1.074   0.562
+01112  62 RIVERSIDE-SAN BERNARDINO-ONTARIO    1.020   1.074   0.689
+01112  63 SACRAMENTO--ROSEVILLE--ARDEN-ARC    1.025   1.086   0.562
+01112  64 SALINAS, CA                         1.024   1.092   0.562
+01182  72 SAN DIEGO-CARLSBAD, CA              1.022   1.102   0.567
+01112  07 SAN FRANCISCO-OAKLAND-HAYWARD (A    1.075   1.325   0.421
+01112  52 SAN FRANCISCO-OAKLAND-HAYWARD (M    1.062   1.279   0.458
+01112  05 SAN FRANCISCO-OAKLAND-HAYWARD (S    1.075   1.325   0.421
+01112  06 SAN FRANCISCO-OAKLAND-HAYWARD (SAN M1.075   1.325   0.421
+01112  65 SAN JOSE-SUNNYVALE-SANTA CLARA (S   1.041   1.167   0.562
+01112  09 SAN JOSE-SUNNYVALE-SANTA CLARA (S   1.083   1.354   0.388
+01182  73 SAN LUIS OBISPO-PASO ROBLES-ARROYO  1.020   1.080   0.562
+01112  66 SANTA CRUZ-WATSONVILLE, CA          1.026   1.132   0.562
+01182  74 SANTA MARIA-SANTA BARBARA, CA       1.028   1.108   0.562
+01112  67 SANTA ROSA, CA                      1.023   1.111   0.562
+01112  68 STOCKTON-LODI, CA                   1.020   1.074   0.562
+01112  53 VALLEJO-FAIRFIELD, CA               1.055   1.256   0.458
+01112  69 VISALIA-PORTERVILLE, CA             1.020   1.074   0.562
+01112  70 YUBA CITY, CA                       1.020   1.074   0.562
+01112  75 REST OF CALIFORNIA, CA              1.020   1.074   0.562
+04112  01 COLORADO                            0.996   1.018   1.042
+13102  00 CONNECTICUT                         1.021   1.112   1.255
+12202  01 DC + MD/VA SUBURBS                  1.045   1.205   1.261
+12102  01 DELAWARE                            1.007   1.019   1.119
+09102  03 FORT LAUDERDALE, FL                 0.983   1.012   1.797
+09102  04 MIAMI, FL                           0.990   1.029   2.566
+09102  99 REST OF FLORIDA                     0.975   0.952   1.358
+10202  01 ATLANTA, GA                         0.998   0.997   1.088
+10202  99 REST OF GEORGIA                     0.980   0.899   1.073
+01212  01 HAWAII, GUAM                        1.001   1.146   0.614
+02202  00 IDAHO                               0.962   0.902   0.512
+06102  16 CHICAGO, IL                         1.008   1.034   1.925
+06102  12 EAST ST. LOUIS, IL                  0.984   0.936   1.785
+06102  15 SUBURBAN CHICAGO, IL                1.009   1.053   1.565
+06102  99 REST OF ILLINOIS                    0.982   0.919   1.208
+08102  00 INDIANA                             0.969   0.919   0.379
+05102  00 IOWA                                0.969   0.907   0.423
+05202  00 KANSAS                              0.966   0.911   0.615
+15102  00 KENTUCKY                            0.974   0.880   0.819
+07202  01 NEW ORLEANS, LA                     0.987   0.966   1.273
+07202  99 REST OF LOUISIANA                   0.977   0.887   1.199
+14112  03 SOUTHERN MAINE                      0.980   1.007   0.670
+14112  99 REST OF MAINE                       0.970   0.922   0.670
+12302  01 BALTIMORE/SURR. CNTYS, MD           1.023   1.095   1.295
+12302  99 REST OF MARYLAND                    1.009   1.033   1.082
+14212  01 METROPOLITAN BOSTON, MA             1.033   1.179   1.061
+14212  99 REST OF MASSACHUSETTS               1.020   1.067   1.061
+08202  01 DETROIT, MI                         1.000   0.989   1.691
+08202  99 REST OF MICHIGAN                    0.978   0.919   1.018
+06202  00 MINNESOTA                           0.998   1.011   0.362
+07302  00 MISSISSIPPI                         0.961   0.870   0.370
+05302  02 METROPOLITAN KANSAS CITY, MO        0.984   0.963   1.073
+05302  01 METROPOLITAN ST. LOUIS, MO          0.985   0.959   1.053
+05302  99 REST OF MISSOURI                    0.961   0.863   0.993
+03202  01 MONTANA***                          0.965   1.000   1.631
+05402  00 NEBRASKA                            0.970   0.910   0.318
+01312  00 NEVADA***                           1.002   1.017   0.909
+14312  40 NEW HAMPSHIRE                       0.991   1.045   1.050
+12402  01 NORTHERN NJ                         1.041   1.180   0.938
+12402  99 REST OF NEW JERSEY                  1.024   1.123   0.938
+04212  05 NEW MEXICO                          0.982   0.921   1.247
+13202  01 MANHATTAN, NY                       1.052   1.180   1.615
+13202  02 NYC SUBURBS/LONG ISLAND, NY         1.041   1.205   2.149
+13202  03 POUGHKPSIE/N NYC SUBURBS, NY        1.016   1.070   1.313
+13292  04 QUEENS, NY                          1.052   1.200   2.121
+13282  99 REST OF NEW YORK                    0.987   0.950   0.595
+11502  00 NORTH CAROLINA                      0.975   0.931   0.695
+03302  01 NORTH DAKOTA***                     0.978   1.000   0.540
+15202  00 OHIO                                0.990   0.917   1.005
+04312  00 OKLAHOMA                            0.961   0.891   0.954
+02302  01 PORTLAND, OR                        1.010   1.054   0.783
+02302  99 REST OF OREGON                      0.991   0.967   0.783
+12502  01 METROPOLITAN PHILADELPHIA, PA       1.022   1.074   1.379
+12502  99 REST OF PENNSYLVANIA                0.990   0.936   1.033
+09202  20 PUERTO RICO                         0.998   1.007   0.990
+14412  01 RHODE ISLAND                        1.027   1.050   0.999
+11202  01 SOUTH CAROLINA                      0.977   0.912   0.553
+03402  02 SOUTH DAKOTA***                     0.961   1.000   0.389
+10302  35 TENNESSEE                           0.976   0.901   0.526
+04412  31 AUSTIN, TX                          0.994   1.021   0.747
+04412  20 BEAUMONT, TX                        0.985   0.924   0.839
+04412  09 BRAZORIA, TX                        1.020   0.997   0.839
+04412  11 DALLAS, TX                          1.012   1.014   0.768
+04412  28 FORT WORTH, TX                      1.007   0.986   0.747
+04412  15 GALVESTON, TX                       1.020   1.011   0.839
+04412  18 HOUSTON, TX                         1.020   1.012   0.936
+04412  99 REST OF TEXAS                       0.990   0.938   0.796
+03502  09 UTAH                                0.980   0.927   1.165
+14512  50 VERMONT                             0.979   1.015   0.595
+11302  00 VIRGINIA                            0.992   0.986   0.908
+09202  50 VIRGIN ISLANDS                      0.998   1.007   0.990
+02402  02 SEATTLE (KING CNTY), WA             1.027   1.146   0.931
+02402  99 REST OF WASHINGTON                  0.997   1.011   0.902
+11402  16 WEST VIRGINIA                       0.966   0.857   1.296
+06302  00 WISCONSIN                           0.983   0.957   0.347
+03602  21 WYOMING***                          0.983   1.000   0.880
+
+

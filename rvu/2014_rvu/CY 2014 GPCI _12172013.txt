@@ -1,0 +1,90 @@
+10102 00  Alabama                             1.000   0.882   0.543
+02102 01  Alaska**                            1.500   1.087   0.687
+03102 00  Arizona                             1.000   0.989   0.946
+07102 13  Arkansas                            1.000   0.866   0.492
+01182 26  Anaheim/Santa Ana, CA               1.040   1.217   0.792
+01182 18  Los Angeles, CA                     1.042   1.158   0.775
+01112 03  Marin/Napa/Solano, CA               1.055   1.267   0.476
+01112 07  Oakland/Berkeley, CA                1.060   1.257   0.487
+01112 05  San Francisco, CA                   1.076   1.374   0.487
+01112 06  San Mateo, CA                       1.076   1.363   0.466
+01112 09  Santa Clara, CA                     1.083   1.342   0.466
+01182 17  Ventura, CA                         1.032   1.187   0.720
+01112 99  Rest of California                  1.026   1.084   0.603
+01182 99  Rest of California                  1.026   1.084   0.603
+04112 01  Colorado                            1.000   1.008   0.981
+13102 00  Connecticut                         1.024   1.116   1.234
+12202 01  DC + MD/VA Suburbs                  1.050   1.202   1.205
+12102 01  Delaware                            1.012   1.038   0.878
+09102 03  Fort Lauderdale, FL                 1.000   1.041   1.849
+09102 04  Miami, FL                           1.000   1.044   2.653
+09102 99  Rest of Florida                     1.000   0.964   1.434
+10202 01  Atlanta, GA                         1.001   1.010   0.946
+10202 99  Rest of Georgia                     1.000   0.899   0.916
+01212 01  Hawaii/Guam                         1.002   1.158   0.659
+02202 00  Idaho                               1.000   0.896   0.556
+06102 16  Chicago, IL                         1.023   1.044   2.048
+06102 12  East St. Louis, IL                  1.000   0.935   1.910
+06102 15  Suburban Chicago, IL                1.019   1.065   1.671
+06102 99  Rest of Illinois                    1.000   0.909   1.295
+08102 00  Indiana                             1.000   0.922   0.615
+05102 00  Iowa                                1.000   0.892   0.475
+05202 00  Kansas                              1.000   0.899   0.810
+15102 00  Kentucky                            1.000   0.872   0.774
+07202 01  New Orleans, LA                     1.000   0.980   1.156
+07202 99  Rest of Louisiana                   1.000   0.882   0.975
+14112 03  Southern Maine                      1.000   1.016   0.659
+14112 99  Rest of Maine                       1.000   0.911   0.659
+12302 01  Baltimore/Surr. Cntys, MD           1.025   1.097   1.194
+12302 99  Rest of Maryland                    1.013   1.036   0.979
+14212 01  Metropolitan Boston                 1.016   1.156   0.704
+14212 99  Rest of Massachusetts               1.015   1.064   0.704
+08202 01  Detroit, MI                         1.010   1.009   1.571
+08202 99  Rest of Michigan                    1.000   0.922   1.012
+06202 00  Minnesota                           1.000   1.016   0.301
+07302 00  Mississippi                         1.000   0.865   0.687
+05302 02  Metropolitan Kansas City, MO        1.000   0.953   1.129
+05302 01  Metropolitan St Louis, MO           1.000   0.960   1.045
+05302 99  Rest of Missouri                    1.000   0.850   0.985
+03202 01  Montana ***                         1.000   1.000   1.165
+05402 00  Nebraska                            1.000   0.906   0.342
+01312 00  Nevada ***                          1.001   1.055   1.107
+14312 40  New Hampshire                       1.000   1.051   0.867
+12402 01  Northern NJ                         1.042   1.184   1.068
+12402 99  Rest of New Jersey                  1.023   1.126   1.068
+04212 05  New Mexico                          1.000   0.918   1.079
+13202 01  Manhattan, NY                       1.057   1.165   1.518
+13202 02  NYC Suburbs/Long I., NY             1.048   1.211   1.828
+13202 03  Poughkpsie/N NYC Suburbs, NY        1.011   1.070   1.283
+13292 04  Queens, NY                          1.057   1.197   1.836
+13282 99  Rest of New York                    1.000   0.942   0.661
+11502 00  North Carolina                      1.000   0.929   0.732
+03302 01  North Dakota ***                    1.000   1.000   0.536
+15202 00  Ohio                                1.000   0.923   1.117
+04312 00  Oklahoma                            1.000   0.864   0.790
+02302 01  Portland, OR                        1.005   1.047   0.667
+02302 99  Rest of Oregon                      1.000   0.965   0.667
+12502 01  Metropolitan Philadelphia, PA       1.018   1.073   1.444
+12502 99  Rest of Pennsylvania                1.000   0.921   1.055
+09202 20  Puerto Rico                         1.000   0.692   0.271
+14412 01  Rhode Island                        1.020   1.053   0.973
+11202 01  South Carolina                      1.000   0.911   0.618
+03402 02  South Dakota***                     1.000   1.000   0.416
+10302 35  Tennessee                           1.000   0.898   0.524
+04412 31  Austin, TX                          1.000   1.014   0.759
+04412 20  Beaumont, TX                        1.000   0.899   0.939
+04412 09  Brazoria, TX                        1.014   0.989   0.939
+04412 11  Dallas, TX                          1.014   1.013   0.803
+04412 28  Fort Worth, TX                      1.002   0.987   0.799
+04412 15  Galveston, TX                       1.014   1.005   0.970
+04412 18  Houston, TX                         1.014   1.004   0.939
+04412 99  Rest of Texas                       1.000   0.916   0.816
+03502 09  Utah                                1.000   0.919   1.136
+14512 50  Vermont                             1.000   1.006   0.618
+11302 00  Virginia                            1.000   0.980   0.778
+09202 50  Virgin Islands                      1.000   1.004   1.003
+02402 02  Seattle (King Cnty), WA             1.025   1.150   0.688
+02402 99  Rest of Washington                  1.000   1.014   0.668
+11402 16  West Virginia                       1.000   0.832   1.256
+06302 00  Wisconsin                           1.000   0.958   0.557
+03602 21  Wyoming ***                         1.000   1.000   1.226

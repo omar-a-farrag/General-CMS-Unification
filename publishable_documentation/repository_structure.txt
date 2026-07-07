@@ -1,8 +1,12 @@
 Repository Structure
-/publishable_data: The 4 compiled Stata datasets.
+/publishable_data: The 4 final, compressed, and encoded Stata master datasets (Phase 4).
 
-/scripts: The Python/Stata pipeline used to harmonize the raw CMS data.
+/cleaningCode: The sequential Python/Stata extraction and harmonization pipeline.
+    /cms: Part B / Part D claim aggregations, PECOS linkage, and RVU construction.
+    /hcahps: Hospital/HOPD/ASC facility quality metrics and survey harmonization.
+    /mips: QPP scoring integrations and ZIP-level market imputation.
+    /final_cleaning: Terminal crosswalks, merges, and optimization scripts.
 
 /crosswalks: Highly valuable public-good mappings (RBCS taxonomies, Empirical Cost Thresholds, USAN classes).
 
-/docs: Detailed methodology and codebooks.
+/docs: Detailed methodology, data dictionary (Master_Codebook.md), and project specifications.

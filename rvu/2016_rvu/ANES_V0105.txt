@@ -1,0 +1,91 @@
+10102       00    Alabama                                                2108
+02102       01    Alaska                                                 3058
+03102       00    Arizona                                                2183
+07102       13    Arkansas                                               2091
+01182       26    Anaheim/Santa Ana, CA                                  2320
+01182       18    Los Angeles, CA                                        2322
+01112       03    Marin/Napa/Solano, CA                                  2329
+01112       07    Oakland/Berkeley, CA                                   2319
+01112       05    San Francisco, CA                                      2393
+01112       06    San Mateo, CA                                          2382
+01112       09    Santa Clara, CA                                        2389
+01182       17    Ventura, CA                                            2289
+01112       99    Rest of California                                     2227
+01182       99    Rest of California                                     2227
+04112       01    Colorado                                               2215
+13102       00    Connecticut                                            2313
+12202       01    DC + MD/VA Suburbs                                     2395
+12102       01    Delaware                                               2242
+09102       03    Fort Lauderdale, FL                                    2307
+09102       04    Miami, FL                                              2414
+09102       99    Rest of Florida                                        2229
+10202       01    Atlanta, GA                                            2193
+10202       99    Rest of Georgia                                        2152
+01212       01    Hawaii/Guam                                            2207
+02202       00    Idaho                                                  2098
+06102       16    Chicago, IL                                            2378
+06102       12    East St. Louis, IL                                     2298
+06102       15    Suburban Chicago, IL                                   2326
+06102       99    Rest of Illinois                                       2203
+08102       00    Indiana                                                2120
+05102       00    Iowa                                                   2095
+05202       00    Kansas                                                 2120
+15102       00    Kentucky                                               2128
+07202       01    New Orleans, LA                                        2247
+07202       99    Rest of Louisiana                                      2189
+14112       03    Southern Maine                                         2153
+14112       99    Rest of Maine                                          2123
+12302       01    Baltimore/Surr. Cntys, MD                              2297
+12302       99    Rest of Maryland                                       2233
+14212       01    Metropolitan Boston                                    2232
+14212       99    Rest of Massachusetts                                  2199
+08202       01    Detroit, MI                                            2242
+08202       99    Rest of Michigan                                       2166
+06202       00    Minnesota                                              2113
+07302       00    Mississippi                                            2101
+05302       02    Metropolitan Kansas City, MO                           2187
+05302       01    Metropolitan St Louis, MO                              2188
+05302       99    Rest of Missouri                                       2141
+03202       01    Montana                                                2230
+05402       00    Nebraska                                               2081
+01312       00    Nevada                                                 2223
+14312       40    New Hampshire                                          2202
+12402       01    Northern NJ                                            2342
+12402       99    Rest of New Jersey                                     2297
+04212       05    New Mexico                                             2194
+13202       01    Manhattan, NY                                          2450
+13202       02    NYC Suburbs/Long I., NY                                2515
+13202       03    Poughkpsie/N NYC Suburbs, NY                           2308
+13292       04    Queens, NY                                             2517
+13282       99    Rest of New York                                       2148
+11502       00    North Carolina                                         2144
+03302       01    North Dakota                                           2139
+15202       00    Ohio                                                   2171
+04312       00    Oklahoma                                               2135
+02302       01    Portland, OR                                           2185
+02302       99    Rest of Oregon                                         2148
+12502       01    Metropolitan Philadelphia, PA                          2301
+12502       99    Rest of Pennsylvania                                   2174
+09202       20    Puerto Rico                                            2003
+14412       01    Rhode Island                                           2222
+11202       01    South Carolina                                         2131
+03402       02    South Dakota                                           2118
+10302       35    Tennessee                                              2100
+04412       31    Austin, TX                                             2174
+04412       20    Beaumont, TX                                           2160
+04412       09    Brazoria, TX                                           2223
+04412       11    Dallas, TX                                             2202
+04412       28    Fort Worth, TX                                         2175
+04412       15    Galveston, TX                                          2230
+04412       18    Houston, TX                                            2228
+04412       99    Rest of Texas                                          2148
+03502       09    Utah                                                   2196
+14512       50    Vermont                                                2157
+11302       00    Virginia                                               2170
+09202       50    Virgin Islands                                         2185
+02402       02    Seattle (King Cnty), WA                                2226
+02402       99    Rest of Washington                                     2133
+11402       16    West Virginia                                          2182
+06302       00    Wisconsin                                              2125
+03602       21    Wyoming                                                2229
+

@@ -1,0 +1,114 @@
+ContractoLocality                       Locality Name                          2020 Anesthesia Conversion Factor
+ 10112      00                             ALABAMA                                           21.42
+ 02102      01                              ALASKA                                           30.86
+ 03102      00                             ARIZONA                                           21.86
+ 07102      13                             ARKANSAS                                          21.07
+ 01112      54                           BAKERSFIELD                                         22.56
+ 01112      55                              CHICO                                            22.29
+ 01182      71                            EL CENTRO                                          22.32
+ 01112      56                              FRESNO                                           22.29
+ 01112      57                         HANFORD-CORCORAN                                      22.29
+ 01182      18        LOS ANGELES-LONG BEACH-ANAHEIM (LOS ANGELES CNTY)                      23.25
+ 01182      26           LOS ANGELES-LONG BEACH-ANAHEIM (ORANGE CNTY)                        23.25
+ 01112      58                              MADERA                                           22.29
+ 01112      59                              MERCED                                           22.29
+ 01112      60                             MODESTO                                           22.29
+ 01112      51                               NAPA                                            23.2
+ 01112      07    SAN FRANCISCO-OAKLAND-HAYWARD (ALAMEDA/CONTRA COSTA CNTY)                  23.88
+ 01182      17                   OXNARD-THOUSAND OAKS-VENTURA                                22.85
+ 01112      61                             REDDING                                           22.29
+ 01112      62                 RIVERSIDE-SAN BERNARDINO-ONTARIO                              22.63
+ 01112      63               SACRAMENTO--ROSEVILLE--ARDEN-ARCADE                             22.48
+ 01112      64                             SALINAS                                           22.9
+ 01182      72                        SAN DIEGO-CARLSBAD                                     22.68
+ 01112      05        SAN FRANCISCO-OAKLAND-HAYWARD (SAN FRANCISCO CNTY)                     23.88
+ 01112      52            SAN FRANCISCO-OAKLAND-HAYWARD (MARIN CNTY)                         23.7
+ 01112      65         SAN JOSE-SUNNYVALE-SANTA CLARA (SAN BENITO CNTY)                      23.83
+ 01182      73            SAN LUIS OBISPO-PASO ROBLES-ARROYO GRANDE                          22.33
+ 01112      06          SAN FRANCISCO-OAKLAND-HAYWARD (SAN MATEO CNTY)                       23.88
+ 01112      09        SAN JOSE-SUNNYVALE-SANTA CLARA (SANTA CLARA CNTY)                      24.21
+ 01112      66                      SANTA CRUZ-WATSONVILLE                                   22.84
+ 01182      74                    SANTA MARIA-SANTA BARBARA                                  22.72
+ 01112      67                            SANTA ROSA                                         22.77
+ 01112      68                          STOCKTON-LODI                                        22.29
+ 01112      53                        VALLEJO-FAIRFIELD                                      23.2
+ 01112      69                       VISALIA-PORTERVILLE                                     22.29
+ 01112      70                            YUBA CITY                                          22.29
+ 01112      75                        REST OF CALIFORNIA                                     22.29
+ 04112      01                             COLORADO                                          22.19
+ 13102      00                           CONNECTICUT                                         23.22
+ 12202      01                        DC + MD/VA SUBURBS                                     24.19
+ 12102      01                             DELAWARE                                          22.41
+ 09102      03                         FORT LAUDERDALE                                       23.34
+ 09102      04                              MIAMI                                            24.45
+ 09102      99                         REST OF FLORIDA                                       22.55
+ 10212      01                             ATLANTA                                           22.19
+ 10212      99                         REST OF GEORGIA                                       21.81
+ 01212      01                           HAWAII, GUAM                                        22.31
+ 02202      00                              IDAHO                                            21.1
+ 06102      16                             CHICAGO                                           23.72
+ 06102      12                          EAST ST. LOUIS                                       22.97
+ 06102      15                         SUBURBAN CHICAGO                                      23.25
+ 06102      99                         REST OF ILLINOIS                                      22.18
+ 08102      00                             INDIANA                                           21.11
+ 05102      00                               IOWA                                            21.1
+ 05202      00                              KANSAS                                           21.26
+ 15102      00                             KENTUCKY                                          21.53
+ 07202      01                           NEW ORLEANS                                         22.56
+ 07202      99                        REST OF LOUISIANA                                      22.13
+ 14112      03                          SOUTHERN MAINE                                       21.75
+ 14112      99                          REST OF MAINE                                        21.43
+ 12302      01                      BALTIMORE/SURR. CNTYS                                    23.38
+ 12302      99                         REST OF MARYLAND                                      22.6
+ 14212      01                       METROPOLITAN BOSTON                                     23.51
+ 14212      99                      REST OF MASSACHUSETTS                                    22.75
+ 08202      01                             DETROIT                                           23.07
+ 08202      99                         REST OF MICHIGAN                                      21.91
+ 06202      00                            MINNESOTA                                          21.37
+ 07302      00                           MISSISSIPPI                                         21.06
+ 05302      02                     METROPOLITAN KANSAS CITY                                  22.04
+ 05302      01                      METROPOLITAN ST. LOUIS                                   22.05
+ 05302      99                         REST OF MISSOURI                                      21.59
+ 03202      01                            MONTANA***                                         22.61
+ 05402      00                             NEBRASKA                                          20.91
+ 01312      00                            NEVADA***                                          22.44
+ 14312      40                          NEW HAMPSHIRE                                        22.32
+ 12402      01                           NORTHERN NJ                                         23.57
+ 12402      99                        REST OF NEW JERSEY                                     23.11
+ 04212      05                            NEW MEXICO                                         22.17
+ 13202      01                            MANHATTAN                                          24.91
+ 13202      02                     NYC SUBURBS/LONG ISLAND                                   25.62
+ 13202      03                     POUGHKPSIE/N NYC SUBURBS                                  23.53
+ 13292      04                              QUEENS                                           25.76
+ 13282      99                         REST OF NEW YORK                                      21.6
+ 11502      00                          NORTH CAROLINA                                       21.63
+ 03302      01                         NORTH DAKOTA***                                       21.5
+ 15202      00                               OHIO                                            21.98
+ 04312      00                             OKLAHOMA                                          21.63
+ 02302      01                             PORTLAND                                          22.22
+ 02302      99                          REST OF OREGON                                       21.59
+ 12502      01                    METROPOLITAN PHILADELPHIA                                  23.24
+ 12502      99                       REST OF PENNSYLVANIA                                    21.93
+ 09202      20                           PUERTO RICO                                         22.21
+ 14412      01                           RHODE ISLAND                                        22.77
+ 11202      01                          SOUTH CAROLINA                                       21.38
+ 03402      02                         SOUTH DAKOTA***                                       21.35
+ 10312      35                            TENNESSEE                                          21.18
+ 04412      31                              AUSTIN                                           21.86
+ 04412      20                             BEAUMONT                                          21.56
+ 04412      09                             BRAZORIA                                          22.27
+ 04412      11                              DALLAS                                           22.11
+ 04412      28                            FORT WORTH                                         21.88
+ 04412      15                            GALVESTON                                          22.3
+ 04412      18                             HOUSTON                                           22.61
+ 04412      99                          REST OF TEXAS                                        21.6
+ 03502      09                               UTAH                                            21.91
+ 14512      50                             VERMONT                                           21.66
+ 11302      00                             VIRGINIA                                          22.04
+ 09202      50                          VIRGIN ISLANDS                                       22.21
+ 02402      02                       SEATTLE (KING CNTY)                                     23.13
+ 02402      99                        REST OF WASHINGTON                                      22
+ 11402      16                          WEST VIRGINIA                                        22.05
+ 06302      00                            WISCONSIN                                          21.11
+ 03602      21                            WYOMING***                                         22.01
+

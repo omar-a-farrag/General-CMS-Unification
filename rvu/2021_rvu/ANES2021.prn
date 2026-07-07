@@ -1,0 +1,113 @@
+10112       00    ALABAMA                                                2108
+02102       01    ALASKA*                                                2988
+03102       00    ARIZONA                                                2121
+07102       13    ARKANSAS                                               2034
+01112       54    BAKERSFIELD                                            2198
+01112       55    CHICO                                                  2171
+01182       71    EL CENTRO                                              2173
+01112       56    FRESNO                                                 2171
+01112       57    HANFORD-CORCORAN                                       2171
+01182       18    LOS ANGELES-LONG BEACH-ANAHEIM (LOS ANGE               2264
+01182       26    LOS ANGELES-LONG BEACH-ANAHEIM (ORANGE C               2264
+01112       58    MADERA                                                 2171
+01112       59    MERCED                                                 2171
+01112       60    MODESTO                                                2171
+01112       51    NAPA                                                   2239
+01112       07    SAN FRANCISCO-OAKLAND-BERKELEY (ALAMEDA/               2326
+01182       17    OXNARD-THOUSAND OAKS-VENTURA                           2226
+01112       61    REDDING                                                2171
+01112       62    RIVERSIDE-SAN BERNARDINO-ONTARIO                       2210
+01112       63    SACRAMENTO-ROSEVILLE-FOLSOM                            2190
+01112       64    SALINAS                                                2242
+01182       72    SAN DIEGO-CHULA VISTA-CARLSBAD                         2214
+01112       05    SAN FRANCISCO-OAKLAND-BERKELEY (SAN FRAN               2326
+01112       52    SAN FRANCISCO-OAKLAND-BERKELEY (MARIN CN               2316
+01112       65    SAN JOSE-SUNNYVALE-SANTA CLARA (SAN BENI               2356
+01182       73    SAN LUIS OBISPO-PASO ROBLES                            2177
+01112       06    SAN FRANCISCO-OAKLAND-BERKELEY (SAN MATE               2326
+01112       09    SAN JOSE-SUNNYVALE-SANTA CLARA (SANTA CL               2370
+01112       66    SANTA CRUZ-WATSONVILLE                                 2235
+01182       74    SANTA MARIA-SANTA BARBARA                              2220
+01112       67    SANTA ROSA-PETALUMA                                    2228
+01112       68    STOCKTON                                               2171
+01112       53    VALLEJO                                                2239
+01112       69    VISALIA                                                2171
+01112       70    YUBA CITY                                              2171
+01112       75    REST OF CALIFORNIA                                     2171
+04112       01    COLORADO                                               2143
+13102       00    CONNECTICUT                                            2248
+12202       01    DC + MD/VA SUBURBS                                     2366
+12102       01    DELAWARE                                               2162
+09102       03    FORT LAUDERDALE                                        2269
+09102       04    MIAMI                                                  2378
+09102       99    REST OF FLORIDA                                        2193
+10212       01    ATLANTA                                                2143
+10212       99    REST OF GEORGIA                                        2102
+01212       01    HAWAII, GUAM                                           2179
+02202       00    IDAHO                                                  2038
+06102       16    CHICAGO                                                2304
+06102       12    EAST ST. LOUIS                                         2223
+06102       15    SUBURBAN CHICAGO                                       2253
+06102       99    REST OF ILLINOIS                                       2150
+08102       00    INDIANA                                                2052
+05102       00    IOWA                                                   2049
+05202       00    KANSAS                                                 2054
+15102       00    KENTUCKY                                               2089
+07202       01    NEW ORLEANS                                            2201
+07202       99    REST OF LOUISIANA                                      2153
+14112       03    SOUTHERN MAINE                                         2109
+14112       99    REST OF MAINE                                          2076
+12302       01    BALTIMORE/SURR. CNTYS                                  2277
+12302       99    REST OF MARYLAND                                       2196
+14212       01    METROPOLITAN BOSTON                                    2287
+14212       99    REST OF MASSACHUSETTS                                  2200
+08202       01    DETROIT                                                2237
+08202       99    REST OF MICHIGAN                                       2123
+06202       00    MINNESOTA                                              2075
+07302       00    MISSISSIPPI                                            2059
+05302       02    METROPOLITAN KANSAS CITY                               2126
+05302       01    METROPOLITAN ST. LOUIS                                 2133
+05302       99    REST OF MISSOURI                                       2083
+03202       01    MONTANA**                                              2153
+05402       00    NEBRASKA                                               2024
+01312       00    NEVADA**                                               2211
+14312       40    NEW HAMPSHIRE                                          2158
+12402       01    NORTHERN NJ                                            2301
+12402       99    REST OF NEW JERSEY                                     2261
+04212       05    NEW MEXICO                                             2143
+13202       01    MANHATTAN                                              2455
+13202       02    NYC SUBURBS/LONG ISLAND                                2533
+13202       03    POUGHKPSIE/N NYC SUBURBS                               2322
+13292       04    QUEENS                                                 2546
+13282       99    REST OF NEW YORK                                       2108
+11502       00    NORTH CAROLINA                                         2108
+03302       01    NORTH DAKOTA**                                         2081
+15202       00    OHIO                                                   2139
+04312       00    OKLAHOMA                                               2087
+02302       01    PORTLAND                                               2153
+02302       99    REST OF OREGON                                         2077
+12502       01    METROPOLITAN PHILADELPHIA                              2247
+12502       99    REST OF PENNSYLVANIA                                   2121
+09202       20    PUERTO RICO                                            2157
+14412       01    RHODE ISLAND                                           2205
+11202       01    SOUTH CAROLINA                                         2083
+03402       02    SOUTH DAKOTA**                                         2070
+10312       35    TENNESSEE                                              2053
+04412       31    AUSTIN                                                 2115
+04412       20    BEAUMONT                                               2078
+04412       09    BRAZORIA                                               2159
+04412       11    DALLAS                                                 2144
+04412       28    FORT WORTH                                             2121
+04412       15    GALVESTON                                              2160
+04412       18    HOUSTON                                                2207
+04412       99    REST OF TEXAS                                          2086
+03502       09    UTAH                                                   2102
+14512       50    VERMONT                                                2100
+11302       00    VIRGINIA                                               2141
+09202       50    VIRGIN ISLANDS                                         2157
+02402       02    SEATTLE (KING CNTY)                                    2253
+02402       99    REST OF WASHINGTON                                     2127
+11402       16    WEST VIRGINIA                                          2134
+06302       00    WISCONSIN                                              2044
+03602       21    WYOMING**                                              2135
+

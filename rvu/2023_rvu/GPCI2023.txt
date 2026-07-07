@@ -1,0 +1,125 @@
+ADDENDUM E. FINAL CY 2023 GEOGRAPHIC PRACTICE COST INDICES (GPCIs) BY STATE AND MEDICARE LOCALITY
+
+Medicare Admi State  Locality                          Locality Name                          2023 PW GPCI2023 PE GPCI2023 MP GPCI
+10112           AL      00   ALABAMA                                                             1.000       0.878       0.748
+02102           AK      01   ALASKA*                                                             1.500       1.100       0.603
+03102           AZ      00   ARIZONA                                                             1.000       0.963       0.855
+07102           AR      13   ARKANSAS                                                            1.000       0.853       0.492
+01112           CA      54   BAKERSFIELD                                                         1.027       1.079       0.694
+01112           CA      55   CHICO                                                               1.021       1.079       0.579
+01182           CA      71   EL CENTRO                                                           1.021       1.079       0.595
+01112           CA      56   FRESNO                                                              1.021       1.079       0.579
+01112           CA      57   HANFORD-CORCORAN                                                    1.021       1.079       0.579
+01182           CA      18   LOS ANGELES-LONG BEACH-ANAHEIM (LOS ANGELES CNTY)                   1.045       1.185       0.724
+01182           CA      26   LOS ANGELES-LONG BEACH-ANAHEIM (ORANGE CNTY)                        1.045       1.185       0.724
+01112           CA      58   MADERA                                                              1.021       1.079       0.579
+01112           CA      59   MERCED                                                              1.021       1.079       0.579
+01112           CA      60   MODESTO                                                             1.021       1.079       0.579
+01112           CA      51   NAPA                                                                1.051       1.265       0.513
+01112           CA      07   SAN FRANCISCO-OAKLAND-BERKELEY (ALAMEDA/CONTRA COSTA CNTY)          1.082       1.374       0.452
+01182           CA      17   OXNARD-THOUSAND OAKS-VENTURA                                        1.027       1.181       0.689
+01112           CA      61   REDDING                                                             1.021       1.079       0.579
+01112           CA      62   RIVERSIDE-SAN BERNARDINO-ONTARIO                                    1.021       1.079       0.924
+01112           CA      63   SACRAMENTO-ROSEVILLE-FOLSOM                                         1.036       1.119       0.579
+01112           CA      64   SALINAS                                                             1.050       1.149       0.579
+01182           CA      72   SAN DIEGO-CHULA VISTA-CARLSBAD                                      1.032       1.176       0.596
+01112           CA      05   SAN FRANCISCO-OAKLAND-BERKELEY (SAN FRANCISCO CNTY)                 1.082       1.374       0.452
+01112           CA      52   SAN FRANCISCO-OAKLAND-BERKELEY (MARIN CNTY)                         1.082       1.374       0.487
+01112           CA      65   SAN JOSE-SUNNYVALE-SANTA CLARA (SAN BENITO CNTY)                    1.098       1.409       0.579
+01182           CA      73   SAN LUIS OBISPO-PASO ROBLES                                         1.021       1.111       0.579
+01112           CA      06   SAN FRANCISCO-OAKLAND-BERKELEY (SAN MATEO CNTY)                     1.082       1.374       0.452
+01112           CA      09   SAN JOSE-SUNNYVALE-SANTA CLARA (SANTA CLARA CNTY)                   1.098       1.409       0.417
+01112           CA      66   SANTA CRUZ-WATSONVILLE                                              1.031       1.207       0.579
+01182           CA      74   SANTA MARIA-SANTA BARBARA                                           1.031       1.175       0.579
+01112           CA      67   SANTA ROSA-PETALUMA                                                 1.036       1.205       0.579
+01112           CA      68   STOCKTON                                                            1.021       1.079       0.579
+01112           CA      53   VALLEJO                                                             1.051       1.265       0.487
+01112           CA      69   VISALIA                                                             1.021       1.079       0.579
+01112           CA      70   YUBA CITY                                                           1.021       1.079       0.579
+01112           CA      75   REST OF CALIFORNIA                                                  1.021       1.079       0.579
+04112           CO      01   COLORADO                                                            1.005       1.050       0.797
+13102           CT      00   CONNECTICUT                                                         1.030       1.102       1.070
+12202           DC      01   DC + MD/VA SUBURBS                                                  1.056       1.214       1.231
+12102           DE      01   DELAWARE                                                            1.007       1.007       0.938
+09102           FL      03   FORT LAUDERDALE                                                     1.000       0.999       1.815
+09102           FL      04   MIAMI                                                               1.000       1.025       2.564
+09102           FL      99   REST OF FLORIDA                                                     1.000       0.940       1.451
+10212           GA      01   ATLANTA                                                             1.000       0.998       1.016
+10212           GA      99   REST OF GEORGIA                                                     1.000       0.881       1.015
+01212           HI      01   HAWAII, GUAM                                                        1.003       1.146       0.618
+02202           ID      00   IDAHO                                                               1.000       0.893       0.439
+06102           IL      16   CHICAGO                                                             1.009       1.033       1.945
+06102           IL      12   EAST ST. LOUIS                                                      1.000       0.930       1.723
+06102           IL      15   SUBURBAN CHICAGO                                                    1.007       1.055       1.530
+06102           IL      99   REST OF ILLINOIS                                                    1.000       0.912       1.282
+08102           IN      00   INDIANA                                                             1.000       0.911       0.475
+05102           IA      00   IOWA                                                                1.000       0.910       0.441
+05202           KS      00   KANSAS                                                              1.000       0.907       0.499
+15102           KY      00   KENTUCKY                                                            1.000       0.873       0.870
+07202           LA      01   NEW ORLEANS                                                         1.000       0.931       1.342
+07202           LA      99   REST OF LOUISIANA                                                   1.000       0.876       1.144
+14112           ME      03   SOUTHERN MAINE                                                      1.000       1.005       0.654
+14112           ME      99   REST OF MAINE                                                       1.000       0.905       0.651
+12302           MD      01   BALTIMORE/SURR. CNTYS                                               1.024       1.087       1.311
+12302           MD      99   REST OF MARYLAND                                                    1.011       1.027       1.022
+14212           MA      01   METROPOLITAN BOSTON                                                 1.045       1.200       0.868
+14212           MA      99   REST OF MASSACHUSETTS                                               1.022       1.061       0.819
+08202           MI      01   DETROIT                                                             1.000       0.992       1.670
+08202           MI      99   REST OF MICHIGAN                                                    1.000       0.911       1.076
+06202           MN      00   MINNESOTA                                                           1.000       1.019       0.326
+07302           MS      00   MISSISSIPPI                                                         1.000       0.847       0.720
+05302           MO      02   METROPOLITAN KANSAS CITY                                            1.000       0.952       0.941
+05302           MO      01   METROPOLITAN ST. LOUIS                                              1.000       0.964       0.941
+05302           MO      99   REST OF MISSOURI                                                    1.000       0.855       0.901
+03202           MT      01   MONTANA**                                                           1.000       1.000       0.978
+05402           NE      00   NEBRASKA                                                            1.000       0.913       0.269
+01312           NV      00   NEVADA**                                                            1.000       1.000       1.098
+14312           NH      40   NEW HAMPSHIRE                                                       1.000       1.036       0.907
+12402           NJ      01   NORTHERN NJ                                                         1.056       1.186       0.996
+12402           NJ      99   REST OF NEW JERSEY                                                  1.039       1.124       1.014
+04212           NM      05   NEW MEXICO                                                          1.000       0.902       1.169
+13202           NY      01   MANHATTAN                                                           1.061       1.184       1.843
+13202           NY      02   NYC SUBURBS/LONG ISLAND                                             1.056       1.212       2.307
+13202           NY      03   POUGHKPSIE/N NYC SUBURBS                                            1.036       1.105       1.458
+13292           NY      04   QUEENS                                                              1.061       1.212       2.061
+13282           NY      99   REST OF NEW YORK                                                    1.000       0.952       0.742
+11502           NC      00   NORTH CAROLINA                                                      1.000       0.927       0.742
+03302           ND      01   NORTH DAKOTA**                                                      1.000       1.000       0.474
+15202           OH      00   OHIO                                                                1.000       0.912       1.063
+04312           OK      00   OKLAHOMA                                                            1.000       0.886       0.798
+02302           OR      01   PORTLAND                                                            1.018       1.083       0.612
+02302           OR      99   REST OF OREGON                                                      1.000       0.966       0.589
+12502           PA      01   METROPOLITAN PHILADELPHIA                                           1.023       1.068       1.188
+12502           PA      99   REST OF PENNSYLVANIA                                                1.000       0.933       0.906
+09202           PR      20   PUERTO RICO                                                         1.000       1.000       1.000
+14412           RI      01   RHODE ISLAND                                                        1.023       1.044       0.915
+11202           SC      01   SOUTH CAROLINA                                                      1.000       0.908       0.756
+03402           SD      02   SOUTH DAKOTA**                                                      1.000       1.000       0.364
+10312           TN      35   TENNESSEE                                                           1.000       0.894       0.518
+04412           TX      31   AUSTIN                                                              1.000       1.053       0.727
+04412           TX      20   BEAUMONT                                                            1.000       0.924       0.749
+04412           TX      09   BRAZORIA                                                            1.023       1.014       0.673
+04412           TX      11   DALLAS                                                              1.017       1.017       0.711
+04412           TX      28   FORT WORTH                                                          1.013       0.996       0.721
+04412           TX      15   GALVESTON                                                           1.023       1.013       0.703
+04412           TX      18   HOUSTON                                                             1.023       1.016       1.154
+04412           TX      99   REST OF TEXAS                                                       1.000       0.950       0.759
+03502           UT      09   UTAH                                                                1.000       0.926       0.865
+14512           VT      50   VERMONT                                                             1.000       0.997       0.543
+11302           VA      00   VIRGINIA                                                            1.000       0.990       0.826
+09202           VI      50   VIRGIN ISLANDS                                                      1.000       1.000       1.000
+02402           WA      02   SEATTLE (KING CNTY)                                                 1.039       1.207       0.815
+02402           WA      99   REST OF WASHINGTON                                                  1.003       1.027       0.773
+11402           WV      16   WEST VIRGINIA                                                       1.000       0.860       1.266
+06302           WI      00   WISCONSIN                                                           1.000       0.950       0.314
+03602           WY      21   WYOMING**                                                           1.000       1.000       0.790
+MAC Assignments as of October 26, 2022
+
+*Work GPCI reflects a 1.5 floor in Alaska established by the MIPPA.
+**PE GPCI reflects a 1.0 floor for frontier states established by the ACA.
+
+Note: The 1.0 Work GPCI floor required by Section 101 of the Consolidated Appropriations Act, 2021 [December 27, 2020] extended the Work GPCI floor through December 31, 2023.
+   Therefore, the Work GPCIs for 2022 and 2023 reflect the 1.0 floor, and the Work GPCIs for 2024 do not reflect a 1.0 floor.
+
+
+
