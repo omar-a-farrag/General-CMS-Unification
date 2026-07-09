@@ -1,0 +1,33 @@
+Variable_Name,Data_Type,Stata_Format,Variable_Label
+asc_id,str6,%9s,
+year,int,%8.0g,
+asc_1,float,%9.0g,ASC-1: Patient Burn Rate
+asc_10,float,%9.0g,ASC_10
+asc_2,float,%9.0g,ASC-2: Patient Fall Rate
+asc_3,float,%9.0g,ASC-3: Wrong Site/Side/Patient/Procedure/Implant Rate
+asc_4,float,%9.0g,ASC-4: All-Cause Hospital Transfer or Admission Rate
+asc_5,float,%9.0g,ASC_5
+asc_9,float,%9.0g,ASC_9
+city,str20,%20s,
+zipcode,str5,%9s,
+asc_12,float,%9.0g,ASC_12
+asc_13,float,%9.0g,ASC_13
+asc_14,float,%9.0g,ASC_14
+oas_rating_9_10,byte,%8.0g,ASC OAS CAHPS: Rating 9 or 10 (%)
+oas_rating_linear,byte,%8.0g,ASC OAS CAHPS: Linear Mean Rating
+oas_recmnd_dy,byte,%8.0g,ASC OAS CAHPS: Definitely Recommend (%)
+oas_recmnd_linear,byte,%8.0g,ASC OAS CAHPS: Linear Mean Recommend
+asc_17,float,%9.0g,ASC_17
+asc_20,float,%8.0g,ASC_20
+asc_19,float,%9.0g,ASC_19
+fac_mips_final_score,double,%10.0g,(mean) mips_final_score
+fac_mips_quality_score,double,%10.0g,(mean) mips_quality_score
+fac_mips_ia_score,double,%10.0g,(mean) mips_ia_score
+fac_mips_pi_score,double,%10.0g,(mean) mips_pi_score
+fac_mips_cost_score,double,%10.0g,(mean) mips_cost_score
+mips_merge_status_fac_asc,byte,%28.0g,Matching result from merge
+zip_markup_ratio,float,%9.0g,
+zip_markup_diff,float,%9.0g,
+hsanum,long,%12.0g,
+hrrnum,int,%8.0g,
+state,byte,%8.0g,

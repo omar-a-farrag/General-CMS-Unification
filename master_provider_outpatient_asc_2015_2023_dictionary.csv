@@ -1,0 +1,236 @@
+Variable_Name,Data_Type,Stata_Format,Variable_Label
+npi,str10,%10s,Rndrng_NPI
+last_name,str70,%70s,Rndrng_Prvdr_Last_Org_Name
+first_name,str20,%20s,Rndrng_Prvdr_First_Name
+city,str40,%40s,Rndrng_Prvdr_City
+cms_zip,str5,%9s,Rndrng_Prvdr_Zip5
+tot_benes,long,%12.0g,Tot_Benes
+tot_srvcs,float,%9.0g,Tot_Srvcs
+tot_sbmtd_chrg,float,%9.0g,Tot_Sbmtd_Chrg
+tot_alowd_amt,float,%9.0g,Tot_Mdcr_Alowd_Amt
+tot_pymt_amt,float,%9.0g,Tot_Mdcr_Pymt_Amt
+drug_sprsn_ind,str1,%9s,Drug_Sprsn_Ind
+drug_tot_hcpcs_cds,int,%8.0g,Drug_Tot_HCPCS_Cds
+drug_tot_benes,long,%12.0g,Drug_Tot_Benes
+drug_tot_srvcs,float,%9.0g,Drug_Tot_Srvcs
+drug_sbmtd_chrg,float,%9.0g,Drug_Sbmtd_Chrg
+drug_mdcr_alowd_amt,float,%9.0g,Drug_Mdcr_Alowd_Amt
+drug_mdcr_pymt_amt,float,%9.0g,Drug_Mdcr_Pymt_Amt
+drug_mdcr_stdzd_amt,float,%9.0g,Drug_Mdcr_Stdzd_Amt
+med_sprsn_ind,str1,%9s,Med_Sprsn_Ind
+med_tot_hcpcs_cds,int,%8.0g,Med_Tot_HCPCS_Cds
+med_tot_benes,long,%12.0g,Med_Tot_Benes
+med_tot_srvcs,float,%9.0g,Med_Tot_Srvcs
+med_sbmtd_chrg,float,%9.0g,Med_Sbmtd_Chrg
+med_mdcr_alowd_amt,float,%9.0g,Med_Mdcr_Alowd_Amt
+med_mdcr_pymt_amt,float,%9.0g,Med_Mdcr_Pymt_Amt
+med_mdcr_stdzd_amt,float,%9.0g,Med_Mdcr_Stdzd_Amt
+bene_avg_age,byte,%8.0g,Bene_Avg_Age
+bene_age_lt_65_cnt,long,%12.0g,Bene_Age_LT_65_Cnt
+bene_age_65_74_cnt,long,%12.0g,Bene_Age_65_74_Cnt
+bene_age_75_84_cnt,long,%12.0g,Bene_Age_75_84_Cnt
+bene_age_gt_84_cnt,long,%12.0g,Bene_Age_GT_84_Cnt
+bene_feml_cnt,long,%12.0g,Bene_Feml_Cnt
+bene_male_cnt,long,%12.0g,Bene_Male_Cnt
+bene_race_wht_cnt,long,%12.0g,Bene_Race_Wht_Cnt
+bene_race_black_cnt,long,%12.0g,Bene_Race_Black_Cnt
+bene_race_api_cnt,long,%12.0g,Bene_Race_API_Cnt
+bene_race_hspnc_cnt,long,%12.0g,Bene_Race_Hspnc_Cnt
+bene_race_natind_cnt,int,%8.0g,Bene_Race_NatInd_Cnt
+bene_race_othr_cnt,long,%12.0g,Bene_Race_Othr_Cnt
+bene_dual_cnt,long,%12.0g,Bene_Dual_Cnt
+bene_ndual_cnt,long,%12.0g,Bene_Ndual_Cnt
+bene_cc_bh_adhd_othcd_v1_pct,byte,%8.0g,Bene_CC_BH_ADHD_OthCD_V1_Pct
+bene_cc_bh_alcohol_drug_v1_pct,byte,%8.0g,Bene_CC_BH_Alcohol_Drug_V1_Pct
+bene_cc_bh_tobacco_v1_pct,byte,%8.0g,Bene_CC_BH_Tobacco_V1_Pct
+bene_cc_bh_alz_nonalzdem_v2_pct,byte,%8.0g,Bene_CC_BH_Alz_NonAlzdem_V2_Pct
+bene_cc_bh_anxiety_v1_pct,byte,%8.0g,Bene_CC_BH_Anxiety_V1_Pct
+bene_cc_bh_bipolar_v1_pct,byte,%8.0g,Bene_CC_BH_Bipolar_V1_Pct
+bene_cc_bh_mood_v2_pct,byte,%8.0g,Bene_CC_BH_Mood_V2_Pct
+bene_cc_bh_pd_v1_pct,byte,%8.0g,Bene_CC_BH_PD_V1_Pct
+bene_cc_bh_ptsd_v1_pct,byte,%8.0g,Bene_CC_BH_PTSD_V1_Pct
+bene_cc_bh_schizo_othpsy_v1_pct,byte,%8.0g,Bene_CC_BH_Schizo_OthPsy_V1_Pct
+bene_cc_ph_asthma_v2_pct,byte,%8.0g,Bene_CC_PH_Asthma_V2_Pct
+bene_cc_ph_afib_v2_pct,byte,%8.0g,Bene_CC_PH_Afib_V2_Pct
+bene_cc_ph_cancer6_v2_pct,byte,%8.0g,Bene_CC_PH_Cancer6_V2_Pct
+bene_cc_ph_ckd_v2_pct,byte,%8.0g,Bene_CC_PH_CKD_V2_Pct
+bene_cc_ph_copd_v2_pct,byte,%8.0g,Bene_CC_PH_COPD_V2_Pct
+bene_cc_ph_hf_nonihd_v2_pct,byte,%8.0g,Bene_CC_PH_HF_NonIHD_V2_Pct
+bene_cc_ph_hyperlipidemia_v2_pct,byte,%8.0g,Bene_CC_PH_Hyperlipidemia_V2_Pct
+bene_cc_ph_hypertension_v2_pct,byte,%8.0g,Bene_CC_PH_Hypertension_V2_Pct
+bene_cc_ph_ischemicheart_v2_pct,byte,%8.0g,Bene_CC_PH_IschemicHeart_V2_Pct
+bene_cc_ph_osteoporosis_v2_pct,byte,%8.0g,Bene_CC_PH_Osteoporosis_V2_Pct
+bene_cc_ph_parkinson_v2_pct,byte,%8.0g,Bene_CC_PH_Parkinson_V2_Pct
+bene_cc_ph_arthritis_v2_pct,byte,%8.0g,Bene_CC_PH_Arthritis_V2_Pct
+bene_cc_ph_stroke_tia_v2_pct,byte,%8.0g,Bene_CC_PH_Stroke_TIA_V2_Pct
+bene_avg_risk_scre,float,%9.0g,Bene_Avg_Risk_Scre
+year,int,%8.0g,
+bene_cc_depr,float,%9.0g,
+bene_cc_diab,float,%9.0g,
+partd_clms_total,long,%8.0g,
+partd_cst_total,float,%9.0g,
+partd_clms_brand,long,%8.0g,
+partd_clms_opioid_oxycodone,int,%8.0g,
+partd_clms_opioid_hydrocodone,int,%8.0g,
+partd_clms_opioid_fentanyl,int,%8.0g,
+partd_clms_opioid_hydromorphone,int,%8.0g,
+partd_clms_opioid_morphine,int,%8.0g,
+partd_clms_opioid_methadone,int,%8.0g,
+partd_clms_opioid_oxymorphone,int,%8.0g,
+partd_clms_opioid_tramadol,int,%8.0g,
+partd_clms_opioid_buprenorphine,int,%8.0g,
+partd_clms_opioid_codeine,int,%8.0g,
+partd_clms_hr_ketorolac,int,%8.0g,
+partd_clms_hr_carisoprodol,int,%8.0g,
+partd_clms_hr_alprazolam,int,%8.0g,
+partd_clms_hr_diazepam,int,%8.0g,
+partd_clms_high_cost,int,%8.0g,
+partb_srvc_total,float,%9.0g,
+partb_cst_total,float,%9.0g,
+partb_rvu_work,float,%9.0g,
+partb_rvu_fac_total,float,%9.0g,
+partb_rvu_nonfac_total,float,%9.0g,
+partb_srvc_img_72141,int,%8.0g,
+partb_srvc_img_72148,int,%8.0g,
+partb_srvc_img_70450,int,%8.0g,
+partb_srvc_img_71250,int,%8.0g,
+partb_srvc_img_74176,int,%8.0g,
+partb_srvc_img_93306,int,%8.0g,
+partb_srvc_hv_g0438,int,%8.0g,partb_srvc_hv_G0438
+partb_srvc_hv_g0439,int,%8.0g,partb_srvc_hv_G0439
+partb_srvc_hv_g0202,int,%8.0g,partb_srvc_hv_G0202
+partb_srvc_hv_g0105,int,%8.0g,partb_srvc_hv_G0105
+partb_srvc_hv_g0121,int,%8.0g,partb_srvc_hv_G0121
+partb_srvc_lv_20610,int,%8.0g,
+partb_srvc_lv_77080,int,%8.0g,
+partb_srvc_lv_80305,float,%8.0g,
+partb_srvc_lv_93000,int,%8.0g,
+partb_srvc_em_99212,float,%8.0g,
+partb_srvc_em_99213,float,%8.0g,
+partb_srvc_em_99214,float,%8.0g,
+partb_srvc_em_99215,float,%8.0g,
+partb_srvc_rbcs_imaging,float,%8.0g,
+partb_srvc_rbcs_procedures,byte,%8.0g,
+partb_srvc_rbcs_tests,byte,%8.0g,
+partb_srvc_rbcs_em,byte,%8.0g,
+partd_generic_rate,float,%9.0g,
+partd_high_cost_rate,float,%9.0g,
+partd_clms_opioid_all,int,%9.0g,
+partd_opioid_rate,float,%9.0g,
+partb_srvc_low_value_all,float,%9.0g,
+partb_low_value_rate,float,%9.0g,
+partb_srvc_img_adv_all,int,%9.0g,
+partb_imaging_adv_rate,float,%9.0g,
+partd_clms_opioid_strong,int,%9.0g,
+partd_opioid_strong_rate,float,%9.0g,
+partb_srvc_em_total,float,%9.0g,
+partb_srvc_em_high,float,%9.0g,
+partb_em_upcode_rate,float,%9.0g,
+partb_imaging_cond_rate,float,%9.0g,
+grad_year,int,%10.0g,
+all_secondary_specialties,str81,%81s,
+group_pac_id,str10,%10s,
+num_group_members,str4,%4s,
+affil_zip,str9,%9s,
+quality_participation,str1,%1s,
+ehr_participation,str1,%1s,
+is_male,byte,%9.0g,
+is_female,byte,%9.0g,
+grad_pre_1980,byte,%9.0g,
+grad_1980s,byte,%9.0g,
+grad_1990s,byte,%9.0g,
+grad_2000s,byte,%9.0g,
+grad_2010s,byte,%9.0g,
+grad_2020s,byte,%9.0g,
+ccn,str6,%6s,
+fac_mean_generic_rate,float,%9.0g,(mean) partd_generic_rate
+fac_mean_highcost_rate,float,%9.0g,(mean) partd_high_cost_rate
+fac_mean_opioid_rate,float,%9.0g,(mean) partd_opioid_rate
+fac_mean_opioid_strong_rate,float,%9.0g,(mean) partd_opioid_strong_rate
+fac_mean_low_value_rate,float,%9.0g,(mean) partb_low_value_rate
+fac_mean_img_adv_rate,float,%9.0g,(mean) partb_imaging_adv_rate
+fac_mean_img_cond_rate,float,%9.0g,(mean) partb_imaging_cond_rate
+fac_mean_em_upcode_rate,float,%9.0g,(mean) partb_em_upcode_rate
+fac_avg_risk_score,float,%9.0g,(mean) bene_avg_risk_scre
+fac_prop_male_docs,float,%9.0g,(mean) is_male
+fac_prop_female_docs,float,%9.0g,(mean) is_female
+fac_prop_grad_pre1980,float,%9.0g,(mean) grad_pre_1980
+fac_prop_grad_1980s,float,%9.0g,(mean) grad_1980s
+fac_prop_grad_1990s,float,%9.0g,(mean) grad_1990s
+fac_prop_grad_2000s,float,%9.0g,(mean) grad_2000s
+fac_prop_grad_2010s,float,%9.0g,(mean) grad_2010s
+fac_prop_grad_2020s,float,%9.0g,(mean) grad_2020s
+fac_tot_benes,long,%12.0g,(sum) tot_benes
+fac_tot_srvcs,double,%9.0g,(sum) tot_srvcs
+fac_tot_chrg,double,%9.0g,(sum) tot_sbmtd_chrg
+fac_bene_feml,long,%12.0g,(sum) bene_feml_cnt
+fac_bene_male,long,%12.0g,(sum) bene_male_cnt
+fac_bene_black,long,%12.0g,(sum) bene_race_black_cnt
+fac_bene_hspnc,long,%12.0g,(sum) bene_race_hspnc_cnt
+fac_bene_dual,long,%12.0g,(sum) bene_dual_cnt
+fac_cc_depression,long,%9.0g,(sum) bene_cc_depr
+fac_cc_diabetes,long,%9.0g,(sum) bene_cc_diab
+fac_doc_count,long,%8.0g,(sum) partd_clms_total
+fac_partd_clms_total,long,%8.0g,(sum) partd_clms_total
+fac_partd_clms_opioid_all,long,%9.0g,(sum) partd_clms_opioid_all
+fac_partb_srvc_total,double,%9.0g,(sum) partb_srvc_total
+fac_partb_srvc_rbcs_imaging,double,%8.0g,(sum) partb_srvc_rbcs_imaging
+fac_partb_srvc_em_total,double,%9.0g,(sum) partb_srvc_em_total
+fac_total_work_rvu,double,%9.0g,(sum) partb_rvu_work
+fac_total_fac_rvu,double,%9.0g,(sum) partb_rvu_fac_total
+fac_total_nonfac_rvu,double,%9.0g,(sum) partb_rvu_nonfac_total
+fac_wgt_generic_rate,float,%9.0g,
+fac_wgt_highcost_rate,float,%9.0g,
+fac_wgt_opioid_rate,float,%9.0g,
+fac_wgt_opioid_strong_rate,float,%9.0g,
+fac_wgt_low_value_rate,float,%9.0g,
+fac_wgt_img_adv_rate,float,%9.0g,
+fac_wgt_img_cond_rate,float,%9.0g,
+fac_wgt_em_upcode_rate,float,%9.0g,
+zip_asc_id,double,%10.0g,(mean) asc_id
+zip_asc_1,float,%9.0g,(mean) asc_1
+zip_asc_10,float,%9.0g,(mean) asc_10
+zip_asc_2,float,%9.0g,(mean) asc_2
+zip_asc_3,float,%9.0g,(mean) asc_3
+zip_asc_4,float,%9.0g,(mean) asc_4
+zip_asc_5,float,%9.0g,(mean) asc_5
+zip_asc_9,float,%9.0g,(mean) asc_9
+zip_asc_12,float,%9.0g,(mean) asc_12
+zip_asc_13,float,%9.0g,(mean) asc_13
+zip_asc_14,float,%9.0g,(mean) asc_14
+zip_asc_17,float,%9.0g,(mean) asc_17
+zip_asc_20,float,%8.0g,(mean) asc_20
+zip_asc_19,float,%9.0g,(mean) asc_19
+zip_oas_rating_9_10,float,%8.0g,(mean) oas_rating_9_10
+zip_oas_rating_linear,float,%8.0g,(mean) oas_rating_linear
+zip_oas_recmnd_dy,float,%8.0g,(mean) oas_recmnd_dy
+zip_oas_recmnd_linear,float,%8.0g,(mean) oas_recmnd_linear
+mips_final_score,double,%10.0g,(max) mips_final_score
+mips_quality_score,double,%10.0g,(max) mips_quality_score
+mips_pi_score,double,%10.0g,(max) mips_pi_score
+mips_ia_score,byte,%10.0g,(max) mips_ia_score
+mips_cost_score,double,%10.0g,(max) mips_cost_score
+mips_merge_status_asc,byte,%23.0g,Matching result from merge
+fac_mips_final_score,double,%10.0g,(mean) mips_final_score
+fac_mips_quality_score,double,%10.0g,(mean) mips_quality_score
+fac_mips_ia_score,double,%10.0g,(mean) mips_ia_score
+fac_mips_pi_score,double,%10.0g,(mean) mips_pi_score
+fac_mips_cost_score,double,%10.0g,(mean) mips_cost_score
+provider_markup_ratio,float,%9.0g,
+provider_markup_diff,float,%9.0g,
+zip_markup_ratio,float,%9.0g,
+zip_markup_diff,float,%9.0g,
+hsanum,long,%12.0g,
+hrrnum,int,%8.0g,
+cms_specialty,int,%55.0g,Rndrng_Prvdr_Type
+affil_primary_spec,byte,%55.0g,
+credential,byte,%8.0g,
+cms_state,byte,%8.0g,Rndrng_Prvdr_State_Abrvtn
+affil_state,byte,%8.0g,
+entity_type,byte,%8.0g,Rndrng_Prvdr_Ent_Cd
+gender,byte,%8.0g,
+accepts_assignment,byte,%8.0g,
+secondary_specialty_1,byte,%55.0g,
+secondary_specialty_2,byte,%55.0g,
+secondary_specialty_3,byte,%36.0g,
+secondary_specialty_4,byte,%34.0g,
